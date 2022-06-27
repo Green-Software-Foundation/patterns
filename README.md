@@ -2,26 +2,6 @@
 
 # Principles of Green Software Engineering
 
-## Scope
-The original Principles of Green Software Engineering located at https://principles.green was created in 2019. As the field of GSE has evolved the need to update the principles has also evolved.
-
-Specifically there is a requirement to extend knowledge in the sections on carbon, electricity, carbon intensity and embodied carbon and add sections on neutralisations as well as update the measurement section to discuss the SCI.
-
-Taking this training will give you enough information to:
-- Understand and contribute to discussions on the Software Carbon Intensity (SCI) Specification.
-- Understand which features might reduce carbon emissions of your software system.
-- Communicate with others regarding Green software, share a language and a dictionary.
-- Defend criticism of sustainability.
-
-## Characteristics of this training
-
-- We assume the reader has no experience at all in sustainability
-- We assume the reader has an entry level understanding of computing. 
-- This training is generic, for everyone, any field, and sector, any technology. This is the 101 training everyone takes, future trainings might be created which are more specific e.g. cloud, but this training doesn't exclude anyone. It's for everyone, which means by necessity it has to be higher level and more generic.
-
-
-## Proposed differences to V1
-
 ## Scope 
 
 > To be added
