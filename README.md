@@ -7,7 +7,7 @@
 > To be added
 
 ## Appointments
-Chair Sarah Hsu - Goldman Sacs
+Chair Sarah Hsu - Goldman Sachs
 
 ## Copyright
 Opensource WG projects are copyrighted under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/).
