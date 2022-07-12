@@ -5,7 +5,7 @@
 Choose servers that are the right size for the task at hand.
 
 ## Tags
-Cloud
+Cloud, Compute, Cloud Engineer, Small
 
 ## Problem
 
