@@ -13,6 +13,9 @@ To use the patterns, head to https://patterns.greensoftware.foundation and searc
 
 ## Components of a Green Software Pattern
 * **Title**: Title of the pattern
+* **Version**: Designation of iteration on the pattern. This will initially be assigned by the patterns working group
+* **Submitted By**: The name and optional contact information (email and/or social) of the person(s) submitting the pattern
+* **Published Date**: The date this version of the pattern is published. This will be provided by the patterns working group upon apporval
 * **Intent**: Subtitle describing what this pattern is expected to do
 * **Tags**: Pre-defined list of tags which might apply to the pattern (e.g. Cloud, Web)
 * **Problem**: What is the problem this pattern is solving
@@ -22,6 +25,7 @@ To use the patterns, head to https://patterns.greensoftware.foundation and searc
 * **Pros & Cons**: Discussion section for pros and cons of this pattern
 
 ## Stages of a Green Software Pattern
+
 ### Discussion
 Anyone (member or non-members) can discuss patterns via the GitHub Issues tab of the repository. There will be an issue template to suggest new patterns or suggest changes to existing patterns. Once they are ready then can go ahead and create a PR to add a pattern to the database.
 
@@ -52,6 +56,12 @@ Every quarter the dev branch is merged to the main branch and this triggers a co
 
 This is done in batches every quarter to reduce the noise to the rest of the Foundation.
 
+## Internal Review Timelines
+The working group will regularly review submitted patterns along the following timeline:
+
+* Initial Review: 1 week
+* SME Review: 2 weeks (plus additional iteration time based on feedback)
+* Team Consensus: 2 weeks
 
 ## Appointments
 Chair Bill Johnson - Microsoft
@@ -64,19 +74,4 @@ No Patent License. No patent licenses are granted for the Draft Deliverables or 
 
 ## License
 The Green Software Patterns projects are licensed under the MIT License - see the [License.md](license/innovation-wg-license.md)file for details 
-
-## Dataset
-CDLA-Permissive-1.0
-
-## Collaborating With the Working Group
-
-1. Create a [new Issue](https://github.com/Green-Software-Foundation/green-software-patterns/issues/new)
-2. Discuss Issue with Working Group --> Create PR if required
-3. PR to be submitted against the **DEV feature branch**
-4. PR discussed with the Working Group. If agreed, the Working Group Chair will merge into **DEV Feature branch**
- 
-<figure>
-	<img src="images/single-trunk-branch.svg" alt="GSF Single-Trunk Based Branch Flow">
-	<figcaption></figcaption>
-</figure>
 
