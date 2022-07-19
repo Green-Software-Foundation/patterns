@@ -1,5 +1,14 @@
 # Rightsizing oversized VMs
 
+## Version
+TBD
+
+## Submitted By
+Bill Johnson
+
+## Published Date
+TBD
+
 ## Intent
 
 Choose servers that are the right size for the task at hand.
