@@ -2,7 +2,7 @@
 name: Meeting Template
 about: To track patterns project meeting agenda, minutes and attendance
 title: YYYY MM DD - Green Software Patterns Agenda
-labels: Agenda
+labels: Meeting
 assignees: ''
 
 ---
@@ -30,6 +30,13 @@ Any untracked attendees will be added by the GSF team below:
 - [ ] Convene & Roll Call (5mins)
 - [ ] Review Meeting Notices (see above)
 - [ ] Approve Past Meeting Minutes
+
+- [ ] Review Pull Requests
+- [ ] Review Pull Request XXXX
+
+- [ ] Discuss Issues
+- [ ] Discuss Issue XXXXX
+
 - [ ] Agenda item 1
 - [ ] Agenda item 2
 - [ ] ...
