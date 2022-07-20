@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Suggested Tags
 
 Please use the tags within this section for your proposed pattern. New tags must be proposed through the defined proposal process and be approved by the working group. 
