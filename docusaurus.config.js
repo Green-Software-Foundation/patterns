@@ -18,6 +18,7 @@ const config = {
   organizationName: "Green-Software-Foundation",
   // Change to GitHub repo name.
   projectName: "green-software-patterns",
+  deploymentBranch: "gh-pages",
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
