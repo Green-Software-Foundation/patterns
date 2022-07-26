@@ -24,13 +24,15 @@ Minimise the size of data transmitted by only sending properties or values deeme
 ## SCI Impact
 `SCI = (E * I) + M per R`
 
-Concerning the SCI equation. Reducing the distance will impact one part:
+Concerning the SCI equation. Reducing the size of data will impact one part:
 
 - `E`: We reduce the total electricity required by reducing network traffic. 
+- `M`: By reducing the total size of data stored, we reduce the total embodied carbon.
 
 ## Assumptions
 Suppose we choose to transfer data  (e.g. payloads) to the client side as it is because some properties or values may be needed later. A better solution would be to consider curating the data set, ensuring only necessary properties are sent across the network so the overall network traffic is reduced. And in many use cases, certain properties or values can be correlated later. 
 
+Another consideration worth noting is the choice between different data formats, e.g. XML v.s. Protobuf, where the latter is much more compact, will affect the overall network traffic. 
 
 ## Pros & Cons
 - **PRO**: It may reduce cloud bills because minimising the size of the data transmitted will cost less. 
