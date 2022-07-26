@@ -27,7 +27,7 @@ For the following:
 6. Every quarter, `GSF/green-software-patterns/dev` will be merged to `GSF/green-software-patterns/main` which will trigger a consistency review allowing anyone in the Foundation 2 weeks to comment or object. GSF-wide consensus is required for the patterns to be published.
 
 
-### All Other Change Requests
+### All Other Change Requests & Feedback
 1. Submit a Public Issue using the Issue Template
 2. The Issue will be looked at by a Chair and approved.
 3. The Contributor is assigned an "Approved Reviewer" who will help shepherd the feature into the GSF Repository
