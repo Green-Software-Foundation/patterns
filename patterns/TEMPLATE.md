@@ -26,7 +26,8 @@ TBD
 
 ## SCI Impact
 
-`SCI = (E * I) + M per R`
+`SCI = (E * I) + M per R`  
+[Sofware Carbon Intensity Spec](https://github.com/Green-Software-Foundation/software_carbon_intensity)
 
 [PATTERN_SCI_IMPACT]
 
