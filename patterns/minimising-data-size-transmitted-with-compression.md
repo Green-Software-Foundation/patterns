@@ -1,16 +1,16 @@
-# Minimising the size of data transmitted
+# Minimising the size of data transmitted with compression
 
 ## Version
 1.0
 
 ## Submitted By
-Sarah Hsu
+Sarah Hsu (@greenhsu123)
 
 ## Published Date
 TBD
 
 ## Intent
-Minimising the size of data transmitted
+Minimising the size of data transmitted with compression. 
 
 ## Tags
 Cloud, Networking, Cloud Engineer, Small
@@ -24,9 +24,10 @@ Minimise the size of data transmitted by compressing files or payloads.
 ## SCI Impact
 `SCI = (E * I) + M per R`
 
-Concerning the SCI equation. Reducing the distance will impact one part:
+Concerning the SCI equation. Reducing the distance will impact two parts:
 
-- `E`: We reduce the total electricity required by reducing network traffic. 
+- `E`: We reduce the total electricity required by reducing network traffic. However, we should be wary that there may be a slight increase in E due to compressing and de-compressing data. 
+- `I`: We may also have a slight increase in location-based marginal carbon emissions due to compressing and de-compressing data at different locations.
 
 
 ## Assumptions

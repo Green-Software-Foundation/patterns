@@ -4,20 +4,19 @@
 1.0
 
 ## Submitted By
-Sarah Hsu
+Sarah Hsu (@greenhsu123)
 
 ## Published Date
 TBD
 
 ## Intent
-Caching static data instead of transferring ot
+Caching static data instead of transferring it over the network
 
 ## Tags
 Cloud, Networking, Cloud Engineer, Small
 
 ## Problem
-From an energy-efficiency perspective, it's better to reduce network traffic by
-more efficient to read the data locally than accessing it remotely over the network. 
+From an energy-efficiency perspective, it's better to reduce network traffic by reading the data locally than by accessing it remotely over the network. 
 
 It's better to shorten the distance a network packet travels so that less energy is required to transmit it. Similarly, from an embodied carbon perspective, we are more efficient with hardware when a network packet traverses through less computing equipment. 
 

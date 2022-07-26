@@ -4,7 +4,7 @@
 1.0
 
 ## Submitted By
-Sarah Hsu
+Sarah Hsu (@greenhsu123)
 
 ## Published Date
 TBD
