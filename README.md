@@ -14,10 +14,10 @@ To use the patterns, head to https://patterns.greensoftware.foundation and searc
 ## Components of a Green Software Pattern
 * **Title**: Title of the pattern
 * **Version**: Designation of iteration on the pattern. This will initially be assigned by the patterns working group
-* **Submitted By**: The name of the person(s) submitting the pattern
+* **Submitted By**: The name of the person(s) submitting the pattern and their github username
 * **Published Date**: The date this version of the pattern is published. This will be provided by the patterns working group upon apporval
 * **Intent**: Subtitle describing what this pattern is expected to do
-* **Tags**: Pre-defined list of tags which might apply to the pattern (e.g. Cloud, Web)
+* **Tags**: Pre-defined markdown list of tags which might apply to the pattern (e.g. Cloud, Web)
 * **Problem**: What is the problem this pattern is solving
 * **Solution**: How will this patter solve the problem
 * **SCI Impact**: How will this pattern affect an SCI score of an application and why
