@@ -4,7 +4,7 @@
 1.0
 
 ## Submitted By
-Bill Johnson
+Bill Johnson (@dubrie)
 
 ## Published Date
 TBD
@@ -14,7 +14,13 @@ TBD
 Choose servers that are the right size for the task at hand.
 
 ## Tags
-Cloud, Compute, Cloud Engineer, Small
+---
+tags:
+ - cloud
+ - compute
+ - role-cloud-engineer
+ - size-small
+---
 
 ## Problem
 
