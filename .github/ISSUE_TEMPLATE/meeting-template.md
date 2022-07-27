@@ -36,7 +36,7 @@ Any untracked attendees will be added by the GSF team below:
 - [ ] Discuss Issue XXXXX
 - [ ] Agenda item 1
 - [ ] Agenda item 2
-- [ ] ...
+- [ ] Agree next meeting date?
 - [ ] AOB, Q&A & Adjourn (5mins)
 
 ## Decisions Made
