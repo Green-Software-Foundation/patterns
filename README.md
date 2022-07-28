@@ -42,7 +42,7 @@ This needs an explicit approval from the initial reviewer before the pattern can
 ### SME Review
 One or more subject matter experts in the GSF are asked to review the pattern and give their feedback. E.g. If the pattern is in the machine-learning catalog we ask a machine learning expert to review.
 
-This needs an explicit approval from the initial reviewer before the pattern can move to the next stage.
+This needs an explicit approval from the SME reviewer before the pattern can move to the next stage.
 
 
 ### Team Consensus
