@@ -39,7 +39,7 @@ Select a pre-configured server that better matches the utilization requirements 
 With respect to the SCI equation. Rightsizing oversized VMs will impact two parts:
 
 - `M`: By reducing the total number of servers required to run a process, we reduce the total embodied carbon, the `M` of the equation.
-- `E`: Rightsizing oversized VMs will **increase** the total server utilization. The more a server is utilized, the more efficient it becomes at turning energy into useful operations, as per the [energy proportionality](https://principles.green/principles/energy-proportionality/) principle. Therefore rightsizing VMs should reduce the energy consumption of your processes, and consequently, the `E` number should decrease.
+- `E`: Rightsizing oversized VMs will **increase** the total server utilization. The more a server is utilized, the more efficient it becomes at turning energy into useful operations. Therefore rightsizing VMs should reduce the energy consumption of your processes, and consequently, the `E` number should decrease.
 
 ## Assumptions
 
