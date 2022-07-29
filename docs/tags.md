@@ -1,10 +1,10 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 # Suggested Tags
 
-Please use the tags within this section for your proposed pattern. New tags must be proposed through the defined proposal process and be approved by the working group. 
+Please use the tags within this section for your proposed pattern. New tags must be proposed through the defined proposal process and be approved by the working group.
 
 ## Technology
 Which technology does this pattern align to?  
