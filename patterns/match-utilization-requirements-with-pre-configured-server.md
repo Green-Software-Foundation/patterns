@@ -1,4 +1,4 @@
-# RMatch Utilization Requirements With Pre-Configured Servers
+# Match Utilization Requirements With Pre-Configured Servers
 
 ## Version
 1.0
@@ -28,7 +28,7 @@ It's better to have one VM running at a higher utilization than two running at l
 
 ## Solution
 
-Select a pre-configured server that better matches the utilization requirements of the process.
+Rightsize your machine by selecting a pre-configured server that better matches the utilization requirements of the process.
 
 ## SCI Impact
 
