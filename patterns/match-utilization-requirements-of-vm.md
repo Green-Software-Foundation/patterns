@@ -1,4 +1,4 @@
-# Rightsizing oversized VMs
+# Match Utilization Requirements of Virtual Machines (VMs)
 
 ## Version
 1.0
@@ -28,7 +28,7 @@ It's better to have one VM running at a higher utilization than two running at l
 
 ## Solution
 
-Change the number of resources allocated to a VM to match the utilization requirements of the VM. For example, adding a vCPU if the VM is running high CPU utilization or removing memory if the server is not using all of its allocated memory.
+Rightsize your VMs by changing the number of resources allocated to a VM to match the utilization requirements of the VM. For example, adding a vCPU if the VM is running high CPU utilization or removing memory if the server is not using all of its allocated memory.
 
 ## SCI Impact
 
