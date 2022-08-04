@@ -30,8 +30,6 @@ It's better to have one VM running at a higher utilization than two running at l
 
 Change the number of resources allocated to a VM to match the utilization requirements of the VM. For example, adding a vCPU if the VM is running high CPU utilization or removing memory if the server is not using all of its allocated memory.
 
-Select a pre-configured server that better matches the utilization requirements of the process.
-
 ## SCI Impact
 
 `SCI = (E * I) + M per R`
