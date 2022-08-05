@@ -34,7 +34,7 @@ to capture the impact of Region shifting, the following image shows variation of
 
 ## Assumptions
 * the workloads can be scheduled to several Regions or Locations.
-* the necessary Data travel is low to communicat with the workload in the distant region --> suitable for HPC worklaods, as they are compute extensive and require low data input.
+* the necessary Data travel is low to communicate with the workload in the distant region --> suitable for HPC worklaods, as they are compute extensive and require low data input.
 
 
 ## Pros & Cons
