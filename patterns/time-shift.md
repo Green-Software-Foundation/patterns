@@ -27,7 +27,7 @@ Regarding the SCI equation. Reducing the distance will impact:
 
 - `I`: The goal is to reduce SCI by reducing (I), and in practice, schedule recurrent Jobs when I is low.
 
-to capture the impact of time shifting, the following image shows variation of Electricity Carbon Intensity during a day, from one the Electricity providers, [ElectricityMap](https://app.electricitymaps.com/map).
+To capture the impact of time shifting, the following image shows variation of Electricity Carbon Intensity during a day, from one the Electricity providers, [ElectricityMap](https://app.electricitymaps.com/map).
 
 ![zez](./media/time-shift.png)
 
@@ -35,8 +35,8 @@ to capture the impact of time shifting, the following image shows variation of E
 
 
 ## Assumptions
-the recurrent Job to be time shifted, has a flexible time window for scheduling, which allows variation on time to reduce (I). 
+The recurrent Job to be time shifted, has a flexible time window for scheduling, which allows variation on time to reduce (I). 
 
 ## Pros & Cons
 - **PRO**: Applications / workloads can benefit from time shifting at the Platform Operating level, without requiring change to their code.
-- **CON**: scheduling constraints for batchs or Crons, with several dependencies. 
+- **CON**: Scheduling constraints for batchs or Crons, with several dependencies. 
