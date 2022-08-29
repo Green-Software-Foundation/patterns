@@ -1,4 +1,4 @@
-# Delete unused storage resources
+# Delete Unused Storage Resources
 
 ## Version
 1.0
@@ -9,23 +9,16 @@ Sarah Hsu (@greenhsu123)
 ## Published Date
 TBD
 
-## Intent
-Delete unused storage resources.
+## Tag Category
+Cloud
 
 ## Tags
----
-tags:
- - cloud
- - storage
- - role-cloud-engineer
- - size-small
----
+Storage, Cloud Engineer, Small
 
 ## Problem
 From an embodied carbon perspective, it's better to delete unused storage resources, so we are efficient with hardware and that the storage layer is optimised for the task. 
 
 ## Solution
-
 Delete any unused storage resource.
 
 ## SCI Impact
@@ -37,6 +30,6 @@ Concerning the SCI equation. Deleting storage volumes will impact one part:
 ## Assumptions
 If we choose not to delete *ALL* storage resources because they might be needed in the future, then storing them permanently will take up a lot of unnecessary storage resources. A better solution would be removing idle resources, so no hardware is wasted. 
 
-## Pros & Cons
-- **PRO**: It may reduce cloud bills, as reducing idle storage resources will cost less. 
-- **CON**: We may lose access to data that might be needed in the future
+## Considerations
+- It may reduce cloud bills, as reducing idle storage resources will cost less. 
+- We may lose access to data that might be needed in the future
