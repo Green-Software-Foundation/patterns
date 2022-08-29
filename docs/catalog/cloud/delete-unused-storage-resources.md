@@ -15,7 +15,7 @@ Cloud
 ## Tags
 Storage, Cloud Engineer, Small
 
-## Problem
+## Description
 From an embodied carbon perspective, it's better to delete unused storage resources, so we are efficient with hardware and that the storage layer is optimised for the task. 
 
 ## Solution
