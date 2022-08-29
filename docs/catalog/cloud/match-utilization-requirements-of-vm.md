@@ -9,20 +9,13 @@ Bill Johnson (@dubrie)
 ## Published Date
 TBD
 
-## Intent
-
-Choose servers that are the right size for the task at hand.
+## Tag Category
+Cloud
 
 ## Tags
----
-tags:
- - cloud
- - compute
- - role-cloud-engineer
- - size-small
----
+Compute, Cloud Engineer, Small
 
-## Problem
+## Description
 
 It's better to have one VM running at a higher utilization than two running at low utilization rates. This is both from an energy proportionality angle. 2 servers running at low utilization rates will consume more energy than one server running at a high rate of utilization. But also, from an embodied carbon angle, the unused capacity on the underutilized server could be more efficiently used for another task or process.
 
@@ -43,7 +36,6 @@ With respect to the SCI equation. Rightsizing oversized VMs will impact two part
 
 If we chose an oversized VM because *occasionally* there is a burst of work, a peak load, then undersizing them will reduce the headroom available to handle the peak traffic. A better solution would be to consider an auto-scaling architecture that would automatically scale the number of VM.
 
-## Pros & Cons
-
-- **PRO**: It may reduce your cloud bill as reducing the spec of your VMs will cost less.
-- **CON**: If you do not have an auto-scaling architecture, there is less overhead for handling spikes in load.
+## Considerations
+- It may reduce your cloud bill as reducing the spec of your VMs will cost less.
+- If you do not have an auto-scaling architecture, there is less overhead for handling spikes in load.
