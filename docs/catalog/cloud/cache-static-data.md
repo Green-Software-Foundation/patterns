@@ -1,4 +1,4 @@
-# Cache static data
+# Cache Static Data
 
 ## Version
 1.0
