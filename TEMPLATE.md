@@ -1,6 +1,9 @@
-# [PATTERN_TITLE]
+# [PATTERN_TITLE_ACTION_ON_RESOURCE]
 
-Tags:
+Tag Category:
+ - [PATTERN_TAG_CATEGORY]
+
+Tags: 
  - [PATTERN_TAGS]
 
 ## Version
@@ -12,13 +15,9 @@ Tags:
 ## Published Date
 TBD
 
-## Intent
+## Description
 
-[PATTERN_INTENT]
-
-## Problem
-
-[PATTERN_PROBLEM]
+[PATTERN_PROBLEM_DESCRIPTION]
 
 ## Solution
 
@@ -40,11 +39,6 @@ TBD
 
 [PATTERN_ASSUMPTIONS]
 
-## Pros & Cons
+## CONSIDERATIONS
 
-- **PROs**: 
-[PATTERN_PROS_LIST]
-
-- **CONs**: 
-
-[PATTERN_CONS_LIST]
+[PATTERN_CONSIDERATIONS]
