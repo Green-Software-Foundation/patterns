@@ -15,7 +15,7 @@ Cloud
 ## Tags
 Networking, Cloud Engineer, Small
 
-## Problem
+## Description
 From an energy-efficiency perspective, it's better to shorten the distance a network packet travels so that less energy is required to transmit it. Similarly, from an embodied-carbon perspective, when a network packet traverses through less computing equipment, we are more efficient with hardware. 
 
 ## Solution
