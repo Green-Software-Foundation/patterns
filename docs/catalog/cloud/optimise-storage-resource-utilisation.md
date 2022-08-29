@@ -1,4 +1,4 @@
-# Move storage resources from underutilised storage resources
+# Optimize Storage Utilization
 
 ## Version
 1.0
@@ -9,20 +9,13 @@ Sarah Hsu (@greenhsu123)
 ## Published Date
 TBD
 
-## Intent
-Move storage resources from underutilised storage resources.
+## Tag Category
+Cloud 
 
 ## Tags
----
-tags:
- - cloud
- - storage
- - role-cloud-engineer
- - role-software-engineer
- - size-small
----
+Storage, Cloud Engineer, Software Engineer, Small
 
-## Problem
+## Description
 From both an embodied carbon angle and an energy proportionality angle, it's better to maximise storage utilisation so the storage layer is optimised for the task. 
 
 From the embodied carbon angle, the unused capacity of underutilised storage could be more efficiently used by another task or process. From the energy proportionality angle, two storage running at low utilisation rates will consume more energy than one storage running at a high utilisation rate.
@@ -42,6 +35,6 @@ Concerning the SCI equation. Moving storage resources will impact two parts:
 If we choose oversized storage resources *occasionally* because there may be a burst of workload, then undersized them will reduce the headroom available to handle the peak. A better solution would be to consider an auto-scaling architecture that automatically scales the number of storage resources.
 
 
-## Pros & Cons
-- **PRO**: It may reduce cloud bills, as using less storage volumes will cost less. 
-- **CON**: If auto-scaling architecture is absent, there is more overhead for handling spikes in load.
+## Considerations
+- It may reduce cloud bills, as using less storage volumes will cost less. 
+- If auto-scaling architecture is absent, there is more overhead for handling spikes in load.
