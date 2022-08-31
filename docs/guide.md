@@ -102,7 +102,7 @@ TODO
 
 ## How granular should my pattern be?
 
-We prefer smaller atomic patterns larger patterns. A helpful way to approach a pattern is defining a specific`Action` to take on a specific `Resource`. For example, `Write efficient code` would be rejected as too generic since there is no specific action to take on a specific resource. Whereas `Cache Static Data` provides a specific action of Caching to a specific resource of Static Data.  
+We prefer smaller atomic patterns larger patterns. A helpful way to approach a pattern is defining a specific `Action` to take on a specific `Resource`. For example, `Write efficient code` would be rejected as too generic since there is no specific action to take on a specific resource. Whereas `Cache Static Data` provides a specific action of Caching to a specific resource of Static Data.  
 
 ### Least number of solutions per pattern
 
