@@ -2,7 +2,7 @@
 name: New Pattern request
 about: Suggest a new pattern for consideration
 title: ''
-labels: ''
+labels: 'Proposed Pattern'
 assignees: ''
 
 ---
