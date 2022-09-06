@@ -18,7 +18,7 @@ Cloud, Deployment, Kubernetes ; for Cloud Engineers; Medium complexity
 The carbon emissions of a software system depends on the power consumed by that sotware, but also on the Carbon intensity of the Electricity it is powered on. For this reason, running energy-efficient software on Carbon intensive Electtricity grid, might be inefficient to reduce its global carbon emissions. 
 
 ## Solution
-Enable Carbon Aware time scheduling, for recurrent Jobs on Kubernetes, such as ML Training Jobs, Batchs, etc. --> which are implemented as CronJobs
+Enable Carbon Aware time scheduling, for recurrent Jobs on Kubernetes, such as ML Training Jobs, Batchs, etc. --> which are implemented [as CronJobs](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/)
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
