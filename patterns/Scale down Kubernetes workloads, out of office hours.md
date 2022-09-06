@@ -9,7 +9,7 @@ Yassine El Ghali (@yelghali)
 TBD
 
 ## Intent
-For Business Applications running on Kubernetes: Scale down (to Zero or a minimum value), out of office hours (night & weekends), to reduce their carbon emissions
+For Business Applications running on Kubernetes : Scale down (to Zero or a minimum value), out of office hours (night & weekends), to reduce their carbon emissions
 
 ## Tags
 Cloud, Deployment, Kubernetes ; for Cloud Engineers; Medium complexity 
@@ -38,5 +38,5 @@ Regarding the SCI equation. Reducing the distance will impact:
 The Business Application has predictible traffic (usage), which allows to scale up & down based on Time. 
 
 ## Pros & Cons
-- **PRO**: Reduces Carbon emissions & Costs
+- **PRO**: Reduces Carbon emissions & Costs, without requiring application code change.
 - **CON**: Requires an understanding of the applications usage patterns (Technical Governance & Inventory management); 
