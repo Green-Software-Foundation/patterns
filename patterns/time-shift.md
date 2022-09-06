@@ -9,7 +9,7 @@ Yassine El Ghali (@yelghali)
 TBD
 
 ## Intent
-Schedule recurrent workloads(CronJobs) running on Kubernetes, based on location-based marginal carbon emissions (aka Electricity Carbon Intensity), to reduce  their carbon emissions
+Schedule recurrent workloads([CronJobs](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/)) running on Kubernetes, based on location-based marginal carbon emissions (aka Electricity Carbon Intensity), to reduce  their carbon emissions
 
 ## Tags
 Cloud, Deployment, Kubernetes ; for Cloud Engineers; Medium complexity 
