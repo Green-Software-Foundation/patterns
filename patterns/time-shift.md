@@ -25,7 +25,7 @@ Enable Carbon Aware time scheduling, for recurrent Jobs on Kubernetes, such as M
 
 Regarding the SCI equation. Reducing the distance will impact:
 
-- `I`: The goal is to reduce SCI by reducing (I), and in practice, schedule CronJobs when I is low.
+- `I`: The goal is to reduce SCI by reducing (I), and in practice, schedule CronJobs when (I) is low.
 
 To capture the impact of time shifting, the following image shows variation of Electricity Carbon Intensity during a day, from one the Electricity data providers, [ElectricityMap](https://app.electricitymaps.com/map).
 
