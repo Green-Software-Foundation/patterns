@@ -1,4 +1,4 @@
-# Time based scale down: Scale down Kubernetes workloads out of office hours
+# Scale down Kubernetes applications, out of office hours
 ## Version
 1.0
 
@@ -9,19 +9,21 @@ Yassine El Ghali (@yelghali)
 TBD
 
 ## Intent
-For Business Applications running on Kubernetes (Deployments, StatefulSets): Scale down (to Zero or a minimum value), out of office hours (night & weekends), to reduce  their carbon emissions
+For Business Applications running on Kubernetes: Scale down (to Zero or a minimum value), out of office hours (night & weekends), to reduce their carbon emissions
 
 ## Tags
 Cloud, Deployment, Kubernetes ; for Cloud Engineers; Medium complexity 
 
 ## Problem
-In order to reduce carbon emissions (and costs), Dev&Test environments (Kubernetes clusters) can shut down node(VMs) out of office hours (e.g at night & during weekends). --> thereby, optimization is implemented at the cluster level.
+In order to reduce carbon emissions (and costs), Dev&Test environments (Kubernetes clusters) can shut down nodes (VMs) out of office hours (e.g at night & during weekends). --> thereby, optimization is implemented at the cluster level.
 
 
 For production clusters, where nodes need to stay up and running: optimization needs to be implemented at the application level (Deployment, StatefulSet)
 
 ## Solution
- Scale down Kubernetes workloads (Deployments, StatefulSets) based on time (out of office hours)
+ Scale down Kubernetes applications  (Deployments, StatefulSets) based on time (out of office hours). 
+
+ The scaled down Kubernetes resources can be selected using Labels & Annotations. 
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
@@ -37,4 +39,4 @@ The Business Application has predictible traffic (usage), which allows to scale 
 
 ## Pros & Cons
 - **PRO**: Reduces Carbon emissions & Costs
-- **CON**: Requires an understanding of the applications usage patterns;  
+- **CON**: Requires an understanding of the applications usage patterns (Technical Governance & Inventory management); 
