@@ -1,4 +1,4 @@
-# Reduce carbon emissions of recurrent Tasks/Jobs, by scheduling them when Electricity Carbon Intensity is low
+# Reduce carbon emissions of Kubernetes CronJobs, by scheduling them when Electricity Carbon Intensity is low
 ## Version
 1.0
 
@@ -9,23 +9,23 @@ Yassine El Ghali (@yelghali)
 TBD
 
 ## Intent
-Schedule recurrent workloads, based on location-based marginal carbon emissions (aka Electricity Carbon Intensity), to reduce  their carbon emissions
+Schedule recurrent workloads(CronJobs) running on Kubernetes, based on location-based marginal carbon emissions (aka Electricity Carbon Intensity), to reduce  their carbon emissions
 
 ## Tags
-Cloud, Deployment, Compute, DevOps ; for Cloud Engineers; Medium complexity 
+Cloud, Deployment, Kubernetes ; for Cloud Engineers; Medium complexity 
 
 ## Problem
 The carbon emissions of a software system depends on the power consumed by that sotware, but also on the Carbon intensity of the Electricity it is powered on. For this reason, running energy-efficient software on Carbon intensive Electtricity grid, might be inefficient to reduce its global carbon emissions. 
 
 ## Solution
-Enable Carbon Aware time scheduling, for recurrent Jobs suchs as Crons, such as ML Training Jobs, Batchs, etc.
+Enable Carbon Aware time scheduling, for recurrent Jobs on Kubernetes, such as ML Training Jobs, Batchs, etc. --> which are implemented as CronJobs
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
 
 Regarding the SCI equation. Reducing the distance will impact:
 
-- `I`: The goal is to reduce SCI by reducing (I), and in practice, schedule recurrent Jobs when I is low.
+- `I`: The goal is to reduce SCI by reducing (I), and in practice, schedule CronJobs when I is low.
 
 To capture the impact of time shifting, the following image shows variation of Electricity Carbon Intensity during a day, from one the Electricity data providers, [ElectricityMap](https://app.electricitymaps.com/map).
 
@@ -35,8 +35,8 @@ To capture the impact of time shifting, the following image shows variation of E
 
 
 ## Assumptions
-The recurrent Job to be time shifted, has a flexible time window for scheduling, which allows variation on time to reduce (I). 
+The CronJob to be time shifted, has a flexible time window for scheduling, which allows variation on time to reduce (I). 
 
 ## Pros & Cons
-- **PRO**: Applications / workloads can benefit from time shifting at the Platform Operating level, without requiring change to their code.
-- **CON**: Scheduling constraints for batchs or Crons, with several dependencies. 
+- **PRO**: CronJob based workloads, can benefit from time shifting at the Platform Operating level, without requiring change to their code.
+- **CON**: Scheduling constraints for CronJobs, with several dependencies. 
