@@ -1,4 +1,4 @@
-# Reduce carbon emissions of Kubernetes "CronJobs", by scheduling them when Electricity Carbon Intensity is low
+# Time-shift Kubernetes "CronJobs", by scheduling them when Electricity Carbon Intensity is low
 ## Version
 1.0
 
