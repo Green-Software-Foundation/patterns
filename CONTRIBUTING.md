@@ -9,6 +9,7 @@ Welcome to the GSF Patterns Working Group, and thank you for contributing to thi
 - [GSF Member Contribution Guide](#gsf-member-contribution-guide)
   - [Table of Contents](#table-of-contents)
   - [Summary Steps](#summary-steps)
+  - [Become A Subject Matter Expert](#become-a-subject-matter-expert)
   - [Public Issues](#public-issues)
 
 ## Summary Steps
@@ -35,6 +36,9 @@ For the following:
 5. Open a Draft PR from `member/dev` into `GSF/green-software-patterns/dev` using the PR Template
 6. Once development is over, the Approved Reviewer pushes the PR into the "Ready for Review" state
 7. If the Chair accepts the PR, it merges into `GSF/green-software-patterns/dev`
+
+## Become A Subject Matter Expert
+We are looking for new subject matter experts (SMEs) to help provide feedback and guidance for submitted patterns. If you would like to become a SME for Green Software Patterns, please [fill out the request form](https://docs.google.com/forms/d/e/1FAIpQLSdNxIGsD-02GS5oDy53YgswzmIN7PDFUDW6bcDMRHTnAtTNjg/viewform) and one of our leads will contact you. You can see the list of available areas in the [Suggested Tags](https://patterns.greensoftware.foundation/tags) section of the website.
 
 ## Public Issues
 
