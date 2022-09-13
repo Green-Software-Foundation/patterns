@@ -10,8 +10,8 @@ import Image from "@theme/IdealImage";
 ## Subject Matter Experts
 
 <TeamMembers>
-    <TeamMember github="greenhsu123">@greenhsu123</TeamMember>
-    <TeamMember github="dubrie">@dubrie</TeamMember>
-    <TeamMember github="alex-kroll">@alex-kroll</TeamMember>
-    <TeamMember github="bderusha">@bderusha</TeamMember>
+    <TeamMember github="greenhsu123">Sarah Hsu</TeamMember>
+    <TeamMember github="dubrie">Bill Johnson</TeamMember>
+    <TeamMember github="alex-kroll">Alexander Kroll</TeamMember>
+    <TeamMember github="bderusha">Bill DeRusha</TeamMember>
 </TeamMembers>
