@@ -1,19 +1,17 @@
+---
+version: 1.0
+submitted_by: greenhsu123
+published_date: tbd
+category: cloud
+tags: 
+ - networking
+ - role:cloud-engineer
+ - size:small
+---
+
 # Cache Static Data
 
-## Version
-1.0
-
-## Submitted By
-Sarah Hsu (@greenhsu123)
-
-## Published Date
-TBD
-
-## Tag Category
-Cloud
-
-## Tags
-Networking, Cloud Engineer, Small
+<PatternComponent></PatternComponent>
 
 ## Description
 From an energy-efficiency perspective, it's better to reduce network traffic by reading the data locally through a cache than by accessing it remotely over the network. 
