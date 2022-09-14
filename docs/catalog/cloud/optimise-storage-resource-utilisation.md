@@ -1,19 +1,16 @@
+---
+version: 1.0
+submitted_by: greenhsu123
+published_date: tbd
+category: cloud
+tags: 
+ - storage
+ - role:cloud-engineer
+ - role:software-engineer
+ - size:small
+---
+
 # Optimize Storage Utilization
-
-## Version
-1.0
-
-## Submitted By
-Sarah Hsu (@greenhsu123)
-
-## Published Date
-TBD
-
-## Tag Category
-Cloud 
-
-## Tags
-Storage, Cloud Engineer, Software Engineer, Small
 
 ## Description
 From both an embodied carbon angle and an energy proportionality angle, it's better to maximise storage utilisation so the storage layer is optimised for the task. 
@@ -38,3 +35,5 @@ If we choose oversized storage resources *occasionally* because there may be a b
 ## Considerations
 - It may reduce cloud bills, as using less storage volumes will cost less. 
 - If auto-scaling architecture is absent, there is more overhead for handling spikes in load.
+
+## References

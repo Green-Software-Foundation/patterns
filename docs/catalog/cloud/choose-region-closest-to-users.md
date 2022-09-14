@@ -1,19 +1,15 @@
+---
+version: 1.0
+submitted_by: greenhsu123
+published_date: tbd
+category: cloud
+tags: 
+ - networking
+ - role:cloud-engineer
+ - size:small
+---
+
 # Choose A Region That Is Closest To Users
-
-## Version
-1.0
-
-## Submitted By
-Sarah Hsu (@greenhsu123)
-
-## Published Date
-TBD
-
-## Tag Category
-Cloud
-
-## Tags
-Networking, Cloud Engineer, Small
 
 ## Description
 From an energy-efficiency perspective, it's better to shorten the distance a network packet travels so that less energy is required to transmit it. Similarly, from an embodied-carbon perspective, when a network packet traverses through less computing equipment, we are more efficient with hardware. 
@@ -36,3 +32,5 @@ Suppose we choose a region that is further away from our users to deploy our app
 ## Considerations
 - It may reduce cloud bills because shortening the path that a network packet travel will cost less. 
 - If the closer region to your users is missing some features, there may be an overhead to finding a workaround in the meantime. 
+
+## References

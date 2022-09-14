@@ -1,6 +1,6 @@
 ---
 version: 1.0
-submitted_by: @[PATTERN_AUTHOR_GITHUB_ALIAS]
+submitted_by: [PATTERN_AUTHOR_GITHUB_ALIAS]
 published_date: TBD
 category: [PATTERN_TAG_CATEGORY]
 tags: 

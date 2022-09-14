@@ -37,3 +37,6 @@ Suppose we transfer all the data of an application across the network as often a
 ## Considerations
 - It may reduce cloud bills because shortening the path that a network packet travel will cost less. 
 - If data is not static anymore, there is more overhead to re-architect the application to deal with the new data requirement
+
+## References
+

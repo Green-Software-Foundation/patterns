@@ -1,19 +1,15 @@
+---
+version: 1.0
+submitted_by: greenhsu123
+published_date: tbd
+category: cloud
+tags: 
+ - storage
+ - role:cloud-engineer
+ - size:small
+---
+
 # Set Storage Retention Policies
-
-## Version
-1.0
-
-## Submitted By
-Sarah Hsu (@greenhsu123)
-
-## Published Date
-TBD
-
-## Tag Category
-Cloud
-
-## Tags
-Storage, Cloud Engineer, Small
 
 ## Description
 From an embodied carbon perspective, it's better to have an automated mechanism to delete unused storage resources so we are efficient with hardware and that the storage layer is optimised for the task. 
@@ -34,3 +30,5 @@ If we choose not to delete *ALL* storage resources because they might be needed 
 ## Considerations
 - It may reduce cloud bills, as reducing idle storage resources will cost less. 
 - If a retention policy on the storage resources is undefined, there is more overhead for manually deleting idle resources. 
+
+## References

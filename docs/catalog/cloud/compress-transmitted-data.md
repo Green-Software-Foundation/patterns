@@ -1,19 +1,15 @@
+---
+version: 1.0
+submitted_by: greenhsu123
+published_date: tbd
+category: cloud
+tags: 
+ - networking
+ - role:cloud-engineer
+ - size:small
+---
+
 # Compress Transmitted Data
-
-## Version
-1.0
-
-## Submitted By
-Sarah Hsu (@greenhsu123)
-
-## Published Date
-TBD
-
-## Tag Category
-Cloud
-
-## Tags
-Networking, Cloud Engineer, Small
 
 ## Description
 From an energy-efficiency perspective, it's better to minimise the size of the data transmitted so that less energy is required because the network traffic is reduced. 
@@ -37,3 +33,7 @@ Suppose we choose to transfer data (e.g. files or payloads) to the client side b
 ## Considerations
 - It may reduce cloud bills because minimising the size of the data transmitted will cost less. 
 - If a compressed asset cannot be dealt with, there is more overhead to resend the asset in the correct format. 
+
+## References
+
+

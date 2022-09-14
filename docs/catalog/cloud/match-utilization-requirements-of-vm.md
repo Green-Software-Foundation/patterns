@@ -1,19 +1,15 @@
+---
+version: 1.0
+submitted_by: dubrie
+published_date: tbd
+category: cloud
+tags: 
+ - compute
+ - role:cloud-engineer
+ - size:small
+---
+
 # Match Utilization Requirements of Virtual Machines (VMs)
-
-## Version
-1.0
-
-## Submitted By
-Bill Johnson (@dubrie)
-
-## Published Date
-TBD
-
-## Tag Category
-Cloud
-
-## Tags
-Compute, Cloud Engineer, Small
 
 ## Description
 
@@ -39,3 +35,5 @@ If we chose an oversized VM because *occasionally* there is a burst of work, a p
 ## Considerations
 - It may reduce your cloud bill as reducing the spec of your VMs will cost less.
 - If you do not have an auto-scaling architecture, there is less overhead for handling spikes in load.
+
+## References
