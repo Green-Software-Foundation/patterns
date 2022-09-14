@@ -1,19 +1,13 @@
-# [PATTERN_TITLE_ACTION_ON_RESOURCE]
-
-Tag Category:
- - [PATTERN_TAG_CATEGORY]
-
-Tags: 
+---
+version: 1.0
+submitted_by: @[PATTERN_AUTHOR_GITHUB_ALIAS]
+published_date: TBD
+category: [PATTERN_TAG_CATEGORY]
+tags: 
  - [PATTERN_TAGS]
+---
 
-## Version
-1.0
-
-## Submitted By
-[PATTERN_AUTHOR_REALNAME] (@[PATTERN_AUTHOR_GITHUB_ALIAS])
-
-## Published Date
-TBD
+# [PATTERN_TITLE_ACTION_ON_RESOURCE]
 
 ## Description
 
@@ -42,3 +36,7 @@ TBD
 ## Considerations
 
 [PATTERN_CONSIDERATIONS]
+
+## References
+
+[PATTERN_REFERENCES]
