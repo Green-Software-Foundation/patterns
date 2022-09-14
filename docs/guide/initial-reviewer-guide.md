@@ -11,6 +11,8 @@ Does this pattern align to the mission of the Green Software Foundation of reduc
 ### Alignment to Green Software Pattern Template
 Does this pattern align to the [Pattern Template](https://github.com/Green-Software-Foundation/green-software-patterns/blob/dev/TEMPLATE.md) for Green Software Patterns? This includes all sections being present, tags supported on our [Tags list](https://patterns.greensoftware.foundation/tags/), valid author and github alias, clearly defined assumptions and considerations, relevance to SCI has been called out. The Pattern Title should follow the form of a specific `Action` on a specific `Resource`. For example, "Write efficient code" is not a good title since there is no specific action to take on a specific resource. A title of "Cache Static Data"  provides a specific action of Caching to a specific resource of Static Data.
 
+Our documentation system uses "front matter" which requires a specific format for metadata and this section should be included at the top of each submitted pattern. The front matter content and structure can be seen on the [Pattern Template](https://github.com/Green-Software-Foundation/green-software-patterns/blob/dev/TEMPLATE.md) and should include all fields listed there. 
+
 ### Pull Request Set To Merge In Dev Branch
 We require that all new patterns are submitted against the `dev` branch in the repository. If the pull request is set to merge to any other branch of the repository, the submitter should update it to merge to `dev`.
 
