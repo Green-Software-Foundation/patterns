@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgsf_docusaurus_template=self.webpackChunkgsf_docusaurus_template||[]).push([[4121],{8070:e=>{e.exports=JSON.parse('[{"label":"networking","permalink":"/tags/networking","count":1},{"label":"role:cloud-engineer","permalink":"/tags/role-cloud-engineer","count":1},{"label":"size:small","permalink":"/tags/size-small","count":1}]')}}]);
