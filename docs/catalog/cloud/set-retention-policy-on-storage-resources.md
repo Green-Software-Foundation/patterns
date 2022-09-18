@@ -32,3 +32,4 @@ If we choose not to delete *ALL* storage resources because they might be needed 
 - If a retention policy on the storage resources is undefined, there is more overhead for manually deleting idle resources. 
 
 ## References
+- [Hardware Efficiency Principle](https://learn.greensoftware.foundation/practitioner/hardware-efficiency)

@@ -35,5 +35,6 @@ Suppose we choose to transfer data (e.g. files or payloads) to the client side b
 - If a compressed asset cannot be dealt with, there is more overhead to resend the asset in the correct format. 
 
 ## References
+- [Energy Efficiency Principle](https://learn.greensoftware.foundation/practitioner/energy-efficiency)
 
 

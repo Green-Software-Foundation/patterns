@@ -13,7 +13,7 @@ tags:
 
 ## Description
 
-It's better to have one VM running at a higher utilization than two running at low utilization rates. This is both from an energy proportionality angle. 2 servers running at low utilization rates will consume more energy than one server running at a high rate of utilization. But also, from an embodied carbon angle, the unused capacity on the underutilized server could be more efficiently used for another task or process.
+It's better to have one VM running at a higher utilization than two running at low utilization rates. From an energy proportionality angle, two servers running at low utilization rates will consume more energy than one server running at a high rate of utilization. But also, from an embodied carbon angle, the unused capacity on the underutilized server could be more efficiently used for another task or process.
 
 ## Solution
 
@@ -38,3 +38,5 @@ If we chose an oversized VM because *occasionally* there is a burst of work, a p
 - If you do not have an auto-scaling architecture, there is less overhead for handling spikes in load.
 
 ## References
+- [Hardware Efficiency Principle](https://learn.greensoftware.foundation/practitioner/hardware-efficiency)
+- [Energy Efficiency Principle](https://learn.greensoftware.foundation/practitioner/energy-efficiency)

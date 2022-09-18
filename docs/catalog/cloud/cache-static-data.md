@@ -39,4 +39,6 @@ Suppose we transfer all the data of an application across the network as often a
 - If data is not static anymore, there is more overhead to re-architect the application to deal with the new data requirement
 
 ## References
+- [Hardware Efficiency Principle](https://learn.greensoftware.foundation/practitioner/hardware-efficiency)
+- [Energy Efficiency Principle](https://learn.greensoftware.foundation/practitioner/energy-efficiency)
 

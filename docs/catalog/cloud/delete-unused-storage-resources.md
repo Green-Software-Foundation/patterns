@@ -31,3 +31,4 @@ If we choose not to delete *ALL* storage resources because they might be needed 
 - We may lose access to data that might be needed in the future
 
 ## References
+- [Hardware Efficiency Principle](https://learn.greensoftware.foundation/practitioner/hardware-efficiency)

@@ -34,3 +34,5 @@ Suppose we choose a region that is further away from our users to deploy our app
 - If the closer region to your users is missing some features, there may be an overhead to finding a workaround in the meantime. 
 
 ## References
+- [Hardware Efficiency Principle](https://learn.greensoftware.foundation/practitioner/hardware-efficiency)
+- [Energy Efficiency Principle](https://learn.greensoftware.foundation/practitioner/energy-efficiency)

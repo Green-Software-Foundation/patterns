@@ -35,3 +35,4 @@ Another consideration worth noting is the choice between different data formats,
 - If we minimise the dataset by taking away properties or values, there may be overhead to corelate the missing properties or values.s
 
 ## References
+- [Energy Efficiency Principle](https://learn.greensoftware.foundation/practitioner/energy-efficiency)

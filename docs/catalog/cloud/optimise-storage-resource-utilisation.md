@@ -37,3 +37,5 @@ If we choose oversized storage resources *occasionally* because there may be a b
 - If auto-scaling architecture is absent, there is more overhead for handling spikes in load.
 
 ## References
+- [Hardware Efficiency Principle](https://learn.greensoftware.foundation/practitioner/hardware-efficiency)
+- [Energy Efficiency Principle](https://learn.greensoftware.foundation/practitioner/energy-efficiency)
