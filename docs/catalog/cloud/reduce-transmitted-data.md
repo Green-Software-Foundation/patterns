@@ -1,21 +1,17 @@
-# Minimising the size of data transmitted with reduction
+---
+version: 1.0
+submitted_by: greenhsu123
+published_date: tbd
+category: cloud
+tags: 
+ - networking
+ - role:cloud-engineer
+ - size:small
+---
 
-## Version
-1.0
+# Reduce Transmitted Data
 
-## Submitted By
-Sarah Hsu (@greenhsu123)
-
-## Published Date
-TBD
-
-## Intent
-Minimising the size of data transmitted with reduction 
-
-## Tags
-Cloud, Networking, Cloud Engineer, Small
-
-## Problem
+## Description
 From an energy-efficiency perspective, it's better to minimise the size of the data transmitted so that less energy is required because the network traffic is reduced. 
 
 ## Solution
@@ -34,6 +30,9 @@ Suppose we choose to transfer data  (e.g. payloads) to the client side as it is 
 
 Another consideration worth noting is the choice between different data formats, e.g. XML v.s. Protobuf, where the latter is much more compact, will affect the overall network traffic. 
 
-## Pros & Cons
-- **PRO**: It may reduce cloud bills because minimising the size of the data transmitted will cost less. 
-- **CON**: If we minimise the dataset by taking away properties or values, there may be overhead to corelate the missing properties or values.s
+## Considerations
+- It may reduce cloud bills because minimising the size of the data transmitted will cost less. 
+- If we minimise the dataset by taking away properties or values, there may be overhead to corelate the missing properties or values.s
+
+## References
+- [Energy Efficiency Principle](https://learn.greensoftware.foundation/practitioner/energy-efficiency)

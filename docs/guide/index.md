@@ -12,13 +12,13 @@ A green software pattern if applied correctly will reduce the emissions of your 
 * **Version**: Designation of iteration on the pattern. This will initially be assigned by the patterns working group
 * **Submitted By**: The name of the person(s) submitting the pattern
 * **Published Date**: The date this version of the pattern is published. This will be provided by the patterns working group upon approval
-* **Intent**: Subtitle describing what this pattern is expected to do
-* **Tags**: A [pre-defined list of tags](/docs/tags.md) which might apply to the pattern (e.g. Cloud, Web).
-* **Problem**: What is the problem this pattern is solving
+* **Tag Category**: Select the most appropriate category from: Artificial Intelligence, Cloud, or Web which might apply to this pattern
+* **Tags**: A [pre-defined list of additional tags](/tags/) which might apply to the pattern (e.g. Machine Learning, Gaming, Mobile).
+* **Description**: A full description of what problem this pattern is solving
 * **Solution**: How will this patter solve the problem
 * **SCI Impact**: How will this pattern affect an SCI score of an application and why
 * **Assumptions**: What are the assumptions being made
-* **Pros & Cons**: Discussion section for pros and cons of this pattern
+* **Considerations**: Discussion section anything that should be taken into consideration when implementing this pattern 
 
 ## How to **propose** a new pattern or a change to a pattern?
 
@@ -35,7 +35,7 @@ You will need experience with GitHub and Pull Requests in order to submit a chan
 All changes follow a series of approval stages that starts with a PULL REQUEST made to the `dev` branch.
 
 Fork the repository
-Checkout the `dev` branch make the changes that you see fit (editing an existing pattern or creating a markdown file for a new pattern)
+Checkout the `dev` branch make the changes that you see fit. You can edit an existing pattern or creating a new markdown file for a new pattern. For any new patterns, please follow the Pattern Template provided in root of the [GitHub repository](https://github.com/Green-Software-Foundation/green-software-patterns)  
 Create a PULL REQUEST to merge your changes in with the official repository, remember it should be against the `dev` branch.
 
 This starts an approval process.
@@ -49,11 +49,11 @@ Anyone (member or non-members) can discuss patterns via the GitHub Issues tab of
 Anyone (member or non-members) can create a PR matching the template for Green Software Patterns to be merged into the dev branch. This starts an internal process of review.
 
 ### Initial Review
-An initial review by one member of the patterns project. The goal of this stage is just to make sure the pattern meets core requirements for what a pattern should contain, is it the right format, syntax etc…?
+An initial review by one member of the patterns project. The goal of this stage is just to make sure the pattern meets core requirements for what a pattern should contain, is it the right format, syntax etc…?  
 
-The initial reviewer will also decide what subject matter experts are required to review this pattern.
+The initial reviewer will also decide what subject matter experts are required to review this pattern.  
 
-This needs an explicit approval from the initial reviewer before the pattern can move to the next stage.
+This needs an explicit approval from the initial reviewer before the pattern can move to the next stage.  
 
 ### SME Review
 One or more subject matter experts in the GSF are asked to review the pattern and give their feedback. E.g. If the pattern is in the machine-learning catalog we ask a machine learning expert to review.
@@ -81,10 +81,18 @@ The working group will regularly review submitted patterns along the following t
 ## Roles and Responsibilities
 
 ### What are the expectations for an Internal Reviewer?
-TODO
+- Determine the if the submitted pattern aligns to green software and is clearly written
+- Ensure the submitted pattern provides enough detail for the Subject Matter Expert to effectively evaluate
+- Ensure the submitted pattern follows the defined pattern template
+- Provide clear feedback to the submitter if any of these areas are missing or not up to the defined standard 
+- Assign the pattern to a relevant Subject Matter Expert for further review
 
 ### What are the expectations for a Subject Matter Experts review?
-TODO
+- Determine if this pattern already exists in the catalog
+- Ensure there is appropriate level of detail for this pattern to be implemented
+- Determine the efficacy and accuracy of the submitted pattern
+- Explore splitting or combining patterns as necessary to meet the defined level of depth for a pattern 
+- Provide clear feedback to the submitter if any of these areas are missing or not up to the defined standard 
 
 ### What are the expectations on the Team to reach consensus?
 TODO
@@ -94,7 +102,7 @@ TODO
 
 ## How granular should my pattern be?
 
-Prefer smaller atomic patterns larger patterns.
+We prefer smaller atomic patterns larger patterns. A helpful way to approach a pattern is defining a specific `Action` to take on a specific `Resource`. For example, `Write efficient code` would be rejected as too generic since there is no specific action to take on a specific resource. Whereas `Cache Static Data` provides a specific action of Caching to a specific resource of Static Data.  
 
 ### Least number of solutions per pattern
 
@@ -109,3 +117,7 @@ If your pattern touches on multiple components of the SCI equation simultaneousl
 If decomposing your pattern allows the sub patterns to impact smaller areas of the SCI equation then that's a good signal to break down your pattern into smaller patterns.
 
 For instance if your pattern affects, `E`, `I` and `M` but it could be broken down further into two smaller patterns one that impacts only `E` and the other that impacts `M` and `I`. Then break down the pattern until breaking it down further doesn't create any more changes to the SCI impact section.
+
+## Available Guides
+- [Initial Reviewer Guide](initial-reviewer-guide.md)
+- [Subject Matter Expert Reviewer Guide](sme-reviewer-guide.md)

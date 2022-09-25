@@ -1,24 +1,17 @@
-# [PATTERN_TITLE]
-
-Tags:
+---
+version: 1.0
+submitted_by: [PATTERN_AUTHOR_GITHUB_ALIAS]
+published_date: TBD
+category: [PATTERN_TAG_CATEGORY]
+tags: 
  - [PATTERN_TAGS]
+---
 
-## Version
-1.0
+# [PATTERN_TITLE_ACTION_ON_RESOURCE]
 
-## Submitted By
-[PATTERN_AUTHOR_REALNAME] (@[PATTERN_AUTHOR_GITHUB_ALIAS])
+## Description
 
-## Published Date
-TBD
-
-## Intent
-
-[PATTERN_INTENT]
-
-## Problem
-
-[PATTERN_PROBLEM]
+[PATTERN_PROBLEM_DESCRIPTION]
 
 ## Solution
 
@@ -40,11 +33,10 @@ TBD
 
 [PATTERN_ASSUMPTIONS]
 
-## Pros & Cons
+## Considerations
 
-- **PROs**: 
-[PATTERN_PROS_LIST]
+[PATTERN_CONSIDERATIONS]
 
-- **CONs**: 
+## References
 
-[PATTERN_CONS_LIST]
+[PATTERN_REFERENCES]

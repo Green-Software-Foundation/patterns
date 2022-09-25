@@ -1,21 +1,17 @@
-# Choosing a region that is the closest to users when transferring data
+---
+version: 1.0
+submitted_by: greenhsu123
+published_date: tbd
+category: cloud
+tags: 
+ - networking
+ - role:cloud-engineer
+ - size:small
+---
 
-## Version
-1.0
+# Choose A Region That Is Closest To Users
 
-## Submitted By
-Sarah Hsu (@greenhsu123)
-
-## Published Date
-TBD
-
-## Intent
-Choosing a region that is the closest to users when transferring data
-
-## Tags
-Cloud, Networking, Cloud Engineer, Small
-
-## Problem
+## Description
 From an energy-efficiency perspective, it's better to shorten the distance a network packet travels so that less energy is required to transmit it. Similarly, from an embodied-carbon perspective, when a network packet traverses through less computing equipment, we are more efficient with hardware. 
 
 ## Solution
@@ -33,6 +29,10 @@ Concerning the SCI equation. Reducing the distance will impact two parts:
 ## Assumptions
 Suppose we choose a region that is further away from our users to deploy our applications because the region is more popular and may be first in line to receive new features or updates. A better solution would be to consider choosing a region closer to our users, so the data we transmit doesn't need to travel as far. 
 
-## Pros & Cons
-- **PRO**: It may reduce cloud bills because shortening the path that a network packet travel will cost less. 
-- **CON**: If the closer region to your users is missing some features, there may be an overhead to finding a workaround in the meantime. 
+## Considerations
+- It may reduce cloud bills because shortening the path that a network packet travel will cost less. 
+- If the closer region to your users is missing some features, there may be an overhead to finding a workaround in the meantime. 
+
+## References
+- [Hardware Efficiency Principle](https://learn.greensoftware.foundation/practitioner/hardware-efficiency)
+- [Energy Efficiency Principle](https://learn.greensoftware.foundation/practitioner/energy-efficiency)

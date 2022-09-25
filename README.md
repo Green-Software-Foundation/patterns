@@ -14,15 +14,15 @@ To use the patterns, head to https://patterns.greensoftware.foundation and searc
 ## Components of a Green Software Pattern
 * **Title**: Title of the pattern
 * **Version**: Designation of iteration on the pattern. This will initially be assigned by the patterns working group
-* **Submitted By**: The name of the person(s) submitting the pattern and their github username
-* **Published Date**: The date this version of the pattern is published. This will be provided by the patterns working group upon apporval
-* **Intent**: Subtitle describing what this pattern is expected to do
-* **Tags**: Pre-defined markdown list of tags which might apply to the pattern (e.g. Cloud, Web)
-* **Problem**: What is the problem this pattern is solving
+* **Submitted By**: The name of the person(s) submitting the pattern
+* **Published Date**: The date this version of the pattern is published. This will be provided by the patterns working group upon approval
+* **Tag Category**: Select the most appropriate category from: Artificial Intelligence, Cloud, or Web which might apply to this pattern
+* **Tags**: A [pre-defined list of additional tags](/docs/tags.md) which might apply to the pattern (e.g. Machine Learning, Gaming, Mobile).
+* **Description**: A full description of what problem this pattern is solving
 * **Solution**: How will this patter solve the problem
 * **SCI Impact**: How will this pattern affect an SCI score of an application and why
 * **Assumptions**: What are the assumptions being made
-* **Pros & Cons**: Discussion section for pros and cons of this pattern
+* **Considerations**: Discussion section anything that should be taken into consideration when implementing this pattern 
 
 ## Stages of a Green Software Pattern
 
