@@ -27,7 +27,7 @@ Which technology does this pattern align to?
 * Monitoring (@greenhsu123, @yelghali, @dubrie, @alex-kroll, @marcoshidalgonunes, @faneder, @ravikp)
 * Networking (@danielvaughn, @alex-kroll, @muztaghata)
 * Operating Systems (@alex-kroll, @marcoshidalgonunes)
-* Programming Language (@yelghali, @tmcclell, @danielvaughn, @alex-kroll, @marcoshidalgonunes, @faneder, @benlogan, @ravikp)
+* Programming Language (@tmcclell, @danielvaughn, @alex-kroll, @marcoshidalgonunes, @faneder, @benlogan, @ravikp)
 * Reliability/Availability (@greenhsu123, @yelghali, @tmcclell, @dubrie, @alex-kroll, @marcoshidalgonunes, @ravikp)
 * Security (@alex-kroll, @ravikp)
 * Serverless (@yelghali, @tmcclell, @danielvaughn, @alex-kroll, @srini1978)
