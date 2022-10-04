@@ -25,7 +25,7 @@ Validate which image format is supports the use case of the web application the 
 ## SCI Impact
 
 `SCI = (E * I) + M per R`  
-[Sofware Carbon Intensity Spec](https://github.com/Green-Software-Foundation/software_carbon_intensity)
+[Sofware Carbon Intensity Spec](grnsft.org/sci)
 
 Concerning the SCI equation, optimizing peak CPU utilization will impact two parts:
 
