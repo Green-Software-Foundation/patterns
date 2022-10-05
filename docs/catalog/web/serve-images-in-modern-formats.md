@@ -1,25 +1,26 @@
 ---
 version: 1.0
-submitted_by: dubrie
+submitted_by: markus-ntt-seidl
 published_date: TBD
 category: web
 tags: 
  - image
  - size:small
+ - role:web-developer
 ---
 
 # Serve images in Moden Formats
 
 ## Description
 
-Images are one of the main parts of modern Websites and used almost on every website. Modern Image formats can help to reduce bandwith, storage and computing requirements on the displaying device.
+Images are one of the main parts of modern Websites and used almost on every website. Modern image formats can help to reduce bandwidth, storage and computing requirements on the displaying device.
 
-There are serveral new image formats to choose from, for example WebP and AVIF. All Formats provide better compression ratio, increased quality and more features as traditional formats.
+There are serveral new image formats to choose from, for example WebP and AVIF. All new formats provide better compression ratio, increased quality and more features as traditional formats.
 
 
 ## Solution
 
-Validate which image format is supports the use case of the web application the best. Convert images to modern image formats and deliver them to the displaying devices. 
+Validate which image format supports the use case of the web application the best. Convert images to modern image formats and deliver them to the displaying devices. 
 
 
 ## SCI Impact
@@ -32,7 +33,7 @@ Concerning the SCI equation, optimizing peak CPU utilization will impact two par
 - `E`: Reducing the amount of emissions by reducing time spent on transfering and processing images
 
 ## Assumptions
-- The ability to use modern webbrowsers with supportes modern image formats
+- The ability to use modern webbrowsers which supports modern image formats
 
 ## Considerations
 - Consider minification to reduce emissions on other resources
