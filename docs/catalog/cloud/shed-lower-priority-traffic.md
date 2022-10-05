@@ -7,6 +7,10 @@ tags:
  - compute
  - monitoring
  - reliability-availability
+ - role:cloud-engineer
+ - role:software-engineer
+ - role:reliability-engineer
+ - size:large
 ---
 
 # Shed Lower Priority Traffic
