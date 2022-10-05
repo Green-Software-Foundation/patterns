@@ -1,12 +1,13 @@
 ---
 version: 1.0
-submitted_by: dubrie
+submitted_by: markus-ntt-seidl
 published_date: TBD
 category: web
 tags: 
  - text
  - compression
  - size:small
+ - role:web-developer
 ---
 
 # Enable Text Compression
