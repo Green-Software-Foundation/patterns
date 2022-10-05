@@ -6,6 +6,10 @@ category: cloud
 tags: 
  - compute
  - monitoring
+ - role:cloud-engineer
+ - role:software-engineer
+ - role:reliability-engineer
+ - size:medium
 ---
 
 # Optimize peak CPU utilization
