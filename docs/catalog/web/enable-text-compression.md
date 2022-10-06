@@ -29,7 +29,7 @@ Enable all supported compression formats on the server, this allows clients to u
 `SCI = (E * I) + M per R`  
 [Sofware Carbon Intensity Spec](grnsft.org/sci)
 
-Concerning the SCI equation, optimizing peak CPU utilization will impact two parts:
+Concerning the SCI equation, the compression will impact the equation as follows:
 
 - `E`: Reducing the amount of emissions by reducing time spent on transfering and processing text files.
 
