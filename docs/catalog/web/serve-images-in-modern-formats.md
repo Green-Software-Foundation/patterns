@@ -1,6 +1,6 @@
 ---
 version: 1.0
-submitted_by: markus-ntt-seidl
+submitted_by: markus-ntt-seidl, navveenb
 published_date: TBD
 category: web
 tags: 
@@ -15,7 +15,9 @@ tags:
 
 Images are one of the main parts of modern websites and used almost on every website. Modern image formats can help to reduce bandwidth, storage and computing requirements on the displaying device.
 
-There are serveral new image formats to choose from, for example WebP and AVIF. All new formats provide better compression ratio, increased quality and more features as traditional formats.
+There are serveral new image formats to choose from, for example WebP and AVIF. All new formats provide better compression ratio, increased quality and more features as traditional formats. 
+
+For example WebP offers around 30% smaller files sizes as JPEG without a quality gap.
 
 
 ## Solution
