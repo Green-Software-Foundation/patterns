@@ -13,14 +13,14 @@ tags:
 
 ## Description
 
-Images are one of the main parts of modern Websites and used almost on every website. Modern image formats can help to reduce bandwidth, storage and computing requirements on the displaying device.
+Images are one of the main parts of modern websites and used almost on every website. Modern image formats can help to reduce bandwidth, storage and computing requirements on the displaying device.
 
 There are serveral new image formats to choose from, for example WebP and AVIF. All new formats provide better compression ratio, increased quality and more features as traditional formats.
 
 
 ## Solution
 
-Validate which image format supports the use case of the web application the best. Convert images to modern image formats and deliver them to the displaying devices. 
+Test which image format give the best compression ratio, visual quality and device coverage for the website use cases. Use the best image format to serve the images on the website.
 
 
 ## SCI Impact
