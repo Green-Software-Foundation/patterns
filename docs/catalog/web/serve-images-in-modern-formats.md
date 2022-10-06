@@ -30,7 +30,7 @@ Test which image format give the best compression ratio, visual quality and devi
 `SCI = (E * I) + M per R`  
 [Sofware Carbon Intensity Spec](grnsft.org/sci)
 
-Concerning the SCI equation, optimizing peak CPU utilization will impact two parts:
+Concerning the SCI equation, the new image formats will impact the equation as follows:
 
 - `E`: Reducing the amount of emissions by reducing time spent on transfering and processing images
 
