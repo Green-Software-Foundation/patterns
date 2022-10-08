@@ -35,7 +35,7 @@ Which technology does this pattern align to?
 * [User Experience](/tags/user-experience)
 * [User Interface](/tags/user-interface)
 * [Virtual Reality](/tags/virtual-reality)
-* [Web](web)
+* [Web](/tags/web)
 
 
 ## Role
