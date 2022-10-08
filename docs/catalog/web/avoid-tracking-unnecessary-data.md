@@ -7,6 +7,7 @@ tags:
  - storage
  - role:web-developer
  - role:software-engineer
+ - size:small
 ---
 
 # Avoid Tracking Unnecessary Data
