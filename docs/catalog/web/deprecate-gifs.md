@@ -6,6 +6,7 @@ category:
 tags:
  - size:small
  - role:web-developer
+ - web
 ---
 
 # Deprecate GIFs for animated content
@@ -31,6 +32,7 @@ The conversion will impact the SCI as follows:
 - `E`: Reduced energy consumption by reducing download size and increased page performance
 
 ## Assumptions
+- Web browser supports the new format
 
 
 ## Considerations
