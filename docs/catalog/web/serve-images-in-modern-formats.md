@@ -4,7 +4,7 @@ submitted_by: markus-ntt-seidl, navveenb
 published_date: TBD
 category: web
 tags: 
- - image
+ - web
  - size:small
  - role:web-developer
 ---
