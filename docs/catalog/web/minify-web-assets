@@ -9,7 +9,7 @@ tags:
  - size:small
 ---
 
-# Minify web assets to reduce web page size and load time
+# Minify web assets
 
 ## Description
 A web page comprises various assets, such as CSS, JavaScript, and third-party libraries like jQuery, Bootstrap etc. Minification removes unnecessary or redundant data without affecting how the resource is processed by the web browser.
