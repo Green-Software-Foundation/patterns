@@ -9,7 +9,7 @@ tags:
  - size:small
 ---
 
-# Leverage modern image formats which offer size reduction with/without much impact on quality.
+# Leverage modern image formats
 
 ## Description
 A high-resolution image can have a significant file size. The image needs to be transferred across the network and rendered on the device, which adds to the carbon footprint of your application.  Also, formats like WebP offers file sizes that are around 30% smaller than standard formats like JPEG without a quality gap..
