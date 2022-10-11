@@ -9,7 +9,7 @@ tags:
  - size:small
 ---
 
-# Evaluate and leverage pre-trained model and transfer learning for AI/ML development. 
+# Leverage pre-trained model and transfer learning for AI/ML development 
 
 ## Description
 Training an AI model has a significant carbon footprint. As part of your AI/ML process, you should evaluate using a pre-trained model and use transfer learning to avoid training a new model from scratch. 
