@@ -37,6 +37,7 @@ Suppose we transfer all the data of an application across the network as often a
 ## Considerations
 - It may reduce cloud bills because shortening the path that a network packet travel will cost less. 
 - If data is not static anymore, there is more overhead to re-architect the application to deal with the new data requirement
+- It is assumed that local in-Memory cache of the server(s) is used to implement this pattern. If any external cache infrastructure is leveraged, then SCI score may not reduce considerably as we have to account for the E and M values of the external infrastructure in the equation. 
 
 ## References
 - [Hardware Efficiency Principle](https://learn.greensoftware.foundation/practitioner/hardware-efficiency)
