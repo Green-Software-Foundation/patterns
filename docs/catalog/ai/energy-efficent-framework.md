@@ -9,7 +9,7 @@ tags:
  - size:small
 ---
 
-# Evaluate and select an energy-efficient AI/ML framework
+# Select an energy-efficient AI/ML framework
 
 ## Description
 Training an AI model have a significant carbon footprint.The underlying framework used for the development, training and deployment of AI/Model needs to be evaluated and considered for energy efficient AI/ML process.
