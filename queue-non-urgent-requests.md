@@ -4,6 +4,7 @@ submitted_by: greenhsu123
 published_date: TBD
 category: cloud
 tags: 
+ - cloud
  - role:cloud-engineer
  - size:small
 ---
@@ -23,17 +24,17 @@ Utilise a message queue, so requests that do not require immediate processing ar
 `SCI = (E * I) + M per R`  
 [Sofware Carbon Intensity Spec](https://github.com/Green-Software-Foundation/software_carbon_intensity)
 
-Concerning the SCI equation, optimising peak CPU utilisation will impact two parts:
+Concerning the SCI equation, queuing non-urgent requests will impact two parts:
 
-- `E`: By reducing the total number of computing equipment required, we reduce the total embodied carbon.
-- `M`: By reducing the total number of idle resources, we reduce the total electricity required.
+- `M`: By reducing the total number of computing equipment required, we reduce the total embodied carbon.
+- `E`: By reducing the total number of idle resources, we reduce the total electricity required.
 
 ## Assumptions
 - There is an assumption that the components in your system can communicate with a message queue asynchronously. If your component is the producer, it can add requests to the queue without waiting for the previous sent to be processed. If your component is the consumer, it will only process requests when they are available. We assume that no components in the system ever stalled while waiting for another. 
 
 
 ## Considerations
-- Decoupling components of your system can introduce unnecessary complexity as well as managing a message queue for your system can introduce unnecessary overhead, so careful consideration should be taken to evaluate if a message queue is suited for your system 
+- Decoupling components of your system can introduce unnecessary complexity as well as managing a message queue for your system can introduce unnecessary overhead, so careful consideration should be taken to evaluate if a message queue is suited for your system
 
 
 ## References
