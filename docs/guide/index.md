@@ -28,7 +28,7 @@ A green software pattern if applied correctly will reduce the emissions of your 
 
 Whether you are proposing a new pattern or a change to an existing pattern. The first step is to discuss the change with others.
 
-Open a GitHub issue https://github.com/Green-Software-Foundation/green-software-patterns/issues to discuss your changes.
+Open a [GitHub issue](https://github.com/Green-Software-Foundation/green-software-patterns/issues) to discuss your changes.
 
 Use the appropriate GitHub issue template for the change you would like to make.
 
