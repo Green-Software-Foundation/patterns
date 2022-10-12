@@ -22,6 +22,7 @@ Rightsize your machine by selecting a pre-configured server that better matches 
 ## SCI Impact
 
 `SCI = (E * I) + M per R`
+[Sofware Carbon Intensity Spec](https://grnsft.org/sci)
 
 With respect to the SCI equation. Rightsizing oversized VMs will impact two parts:
 

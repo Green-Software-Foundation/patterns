@@ -19,6 +19,7 @@ Delete any unused storage resource.
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+[Sofware Carbon Intensity Spec](https://grnsft.org/sci)
 
 Concerning the SCI equation. Deleting storage volumes will impact one part:
 - `M`: By reducing the total number of storage volumes required, we reduce the total embodied carbon.

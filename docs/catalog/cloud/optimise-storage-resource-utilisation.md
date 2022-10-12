@@ -22,6 +22,7 @@ Move storage resources away from underutilised storage resources.
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+[Sofware Carbon Intensity Spec](https://grnsft.org/sci)
 
 Concerning the SCI equation. Moving storage resources will impact two parts:
 

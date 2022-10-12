@@ -19,6 +19,7 @@ Choose a region that is the closest to the majority of where the network packets
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+[Sofware Carbon Intensity Spec](https://grnsft.org/sci)
 
 Concerning the SCI equation. Reducing the distance will impact two parts:
 
