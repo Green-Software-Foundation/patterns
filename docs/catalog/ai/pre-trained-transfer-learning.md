@@ -4,8 +4,8 @@ submitted_by: navveenb
 published_date: tbd
 category: ai
 tags: 
- - ai-model
- - role:ai-developer
+ - ai
+ - role:data-scientist
  - size:small
 ---
 
