@@ -19,6 +19,7 @@ Minimise the size of data transmitted by compressing files or payloads.
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+[Sofware Carbon Intensity Spec](https://grnsft.org/sci)
 
 Concerning the SCI equation. Reducing the distance will impact two parts:
 

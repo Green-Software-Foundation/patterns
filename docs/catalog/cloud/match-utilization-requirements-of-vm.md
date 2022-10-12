@@ -22,6 +22,7 @@ Rightsize your VMs by changing the number of resources allocated to a VM to matc
 ## SCI Impact
 
 `SCI = (E * I) + M per R`
+[Sofware Carbon Intensity Spec](https://grnsft.org/sci)
 
 With respect to the SCI equation. Rightsizing oversized VMs will impact two parts:
 

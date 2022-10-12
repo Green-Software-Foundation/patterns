@@ -19,6 +19,7 @@ Set a retention policy on storage resources to automate the deletion of unused s
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+[Sofware Carbon Intensity Spec](https://grnsft.org/sci)
 
 Concerning the SCI equation. Setting retention policy will impact one part:
 

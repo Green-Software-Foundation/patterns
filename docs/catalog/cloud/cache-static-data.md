@@ -23,6 +23,7 @@ Caching static data, such as images or audio, instead of transferring it over th
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+[Sofware Carbon Intensity Spec](https://grnsft.org/sci)
 
 Concerning the SCI equation. Reducing the distance will impact two parts:
 
