@@ -4,8 +4,8 @@ submitted_by: navveenb
 published_date: tbd
 category: ai
 tags: 
- - ai-infrastructure
- - role:ai-operations
+ - ai
+ - role:data-scientist
  - size:small
 ---
 
