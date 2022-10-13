@@ -26,7 +26,7 @@ The main strategy is that the web browser can download the image in a size that 
 `SCI = (E * I) + M per R`  
 [Sofware Carbon Intensity Spec](https://grnsft.org/sci)
 
-[PATTERN_SCI_IMPACT]
+Concerning the SCI equation, optimizing the image sizes will impact two parts:
 
 - `E`: Reduces the processing and memory requirements to display the page and therefore the energy requirements, but increases the processing time once for every image to convert it into every size needed
 - `M`: Increases the storage requirements to chache or store all needed image sizes
