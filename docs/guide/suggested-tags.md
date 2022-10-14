@@ -12,7 +12,7 @@ Which technology does this pattern align to?
 * Alerting
 * Artificial Intelligence
 * Augmented Reality
-* Cloud
+* [Cloud](/tags/cloud)
 * [Compute](/tags/compute)
 * Content Delivery/CDN
 * Database
@@ -24,11 +24,11 @@ Which technology does this pattern align to?
 * Logging
 * Machine Learning
 * Mobile
-* Monitoring
+* [Monitoring](/tags/monitoring)
 * [Networking](/tags/networking)
 * Operating Systems
 * Programming Language
-* Reliability/Availability
+* [Reliability/Availability](/tags/reliability-availability/)
 * Security
 * Serverless
 * [Storage](/tags/storage)
