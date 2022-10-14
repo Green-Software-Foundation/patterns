@@ -42,7 +42,7 @@ Which technology does this pattern align to?
 Which traditional role would implement this pattern?  
 
 * [Cloud Engineer](/tags/role-cloud-engineer)
-* Data Scientist
+* [Data Scientist](/tags/data-scientist)
 * Database Administrator
 * UX/Graphic Designer
 * Hardware Engineer
