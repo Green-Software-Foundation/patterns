@@ -7,7 +7,6 @@ tags:
  - Cloud
  - Reliability/Availability
  - Monitoring
- -
 ---
 
 # Match your service level objectives to business needs
