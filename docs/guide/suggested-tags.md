@@ -10,7 +10,7 @@ Please use the tags within this section for your proposed pattern. New tags must
 Which technology does this pattern align to?  
 
 * Alerting
-* Artificial Intelligence
+* [Artificial Intelligence](/tags/ai)
 * Augmented Reality
 * [Cloud](/tags/cloud)
 * [Compute](/tags/compute)
@@ -22,7 +22,7 @@ Which technology does this pattern align to?
 * Internet of Things
 * Kubernetes
 * Logging
-* Machine Learning
+* [Machine Learning](/tags/machine-learning)
 * Mobile
 * [Monitoring](/tags/monitoring)
 * [Networking](/tags/networking)
