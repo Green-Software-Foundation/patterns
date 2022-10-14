@@ -12,13 +12,15 @@ tags:
  - size:medium
 ---
 
-# Optimize peak CPU utilization
+# Optimize Peak CPU Utilization
 
 ## Description
 
 CPU usage and utilization varies throughout the day, sometimes wildly for different computational requirements. The larger the variance between the average and peak CPU utilization values, the more resources need to be provisioned in stand-by mode to absorb those spikes in traffic. 
 
 ## Solution
+
+Optimizing peak CPU utilization can take many different forms but the key is to understand the processes utilizing your CPU and what actions drive increases and decreases. For example, loading a users full profile could potentially require dozens of database queries, data processing threads, and UI rendering that can drive CPU usage up. Adding caching layers, reducing the amount of data being transmitted and rendered, or queuing non-urgent requests up for later processing are good examples of ways to optimize cpu utilization and flatten out some of the spikes your system may see.  
 
 From an energy efficiency perspective, optimizing and reducing the peak CPU utilization values for your system reduces the overall energy required to support traffic and can make your system hardware requirements more predictable overall. 
 
@@ -31,7 +33,7 @@ From a hardware efficiency perspective, optimizing and reducing the peak CPU uti
 
 Concerning the SCI equation, optimizing peak CPU utilization will impact two parts:
 
-- `E`: Reduced peak CPU utilization will reduce the amount of energy needed to support the systems traffic from the reduce CPU requirements
+- `E`: Reduced peak CPU utilization will reduce the amount of energy needed to support the systems traffic from the reduced CPU requirements
 - `M`: Reduced peak CPU utilization will reduce the amount of resources needed which will decrease the amount of embodied carbon required to support the system.
 
 ## Assumptions
@@ -39,8 +41,6 @@ Concerning the SCI equation, optimizing peak CPU utilization will impact two par
 
 ## Considerations
 - There is no optimal CPU utilization value provided in this pattern, that should be determined from the system and its specific requirements
-- Reducing spikes in CPU utilization could be achieved by adding more hardware to better load balance. This pattern intends for the software practioner to  find efficiencies within the system that don't involve introducing more hardware and therefore additional embodied carbon.
+- Reducing spikes in CPU utilization could be achieved by adding more hardware to better load balance. This pattern intends for the software practioner to find efficiencies within the system that don't involve introducing more hardware and therefore additional embodied carbon.
  
 ## References
-https://github.com/Green-Software-Foundation/green-software-patterns/issues/42
-[erns/issues/42](https://github.com/Green-Software-Foundation/green-software-patterns/issues/42)
