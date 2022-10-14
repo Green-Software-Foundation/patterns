@@ -5,6 +5,7 @@ published_date: tbd
 category: ai
 tags: 
  - ai
+ - machine-learning
  - role:data-scientist
  - size:small
 ---
