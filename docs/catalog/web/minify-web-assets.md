@@ -21,7 +21,7 @@ Minify web assets to reduce page size and network bandwidth while delivering the
 `SCI = (E * I) + M per R`
 
 For the SCI equation, minifying web assets will impact the following::
-- 'E': Minifying  web assets would reduce the size of the web page and lead to reduction in network bytes during transfer of content. The browser/device would takes less energy to render the content. This should reduce the energy consumption of your web page, and consequently, the E number should decrease.
+- 'E': Minifying  web assets would reduce the size of the web page and lead to reduction in network bytes during transfer of content. The browser/device would take less energy to render the content. This should reduce the energy consumption of your web page, and consequently, the E number should decrease.
 
 ## Assumptions
 None 
