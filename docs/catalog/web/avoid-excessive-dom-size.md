@@ -2,7 +2,7 @@
 version: 1.0
 submitted_by: markus-ntt-seidl
 published_date: TBD
-category: 
+category: web
 tags: 
  - size:medium
  - role:web-developer
