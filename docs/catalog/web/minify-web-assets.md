@@ -4,7 +4,7 @@ submitted_by: navveenb
 published_date: tbd
 category: web
 tags: 
- - web-assets
+ - web
  - role:web-developer
  - size:small
 ---
@@ -12,7 +12,7 @@ tags:
 # Minify web assets
 
 ## Description
-A web page comprises various assets, such as CSS, JavaScript, and third-party libraries like jQuery, Bootstrap etc. Minification removes unnecessary or redundant data without affecting how the resource is processed by the web browser.
+A web page comprises various assets, such as HTML, CSS, JavaScript, and third-party libraries like jQuery, Bootstrap etc. Minification removes unnecessary or redundant data without affecting how the resource is processed by the web browser.
 
 ## Solution
 Minify web assets to reduce page size and network bandwidth while delivering the content. At scale, even a small reduction in size can have a significant impact.
