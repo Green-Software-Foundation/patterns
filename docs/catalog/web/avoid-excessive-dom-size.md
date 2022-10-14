@@ -19,7 +19,9 @@ The greater the amount of nodes that are defined in HTML the greater the time is
 
 ## Solution
 
-Keep the necessary HTML as small as possible and strip unneeded elements from it. Use advanced strategies of the frontend framework used to reduce the DOM size additionally.
+Keep the necessary HTML as small as possible and strip unneeded elements from it. Use advanced strategies of the frontend framework used to reduce the DOM size additionally. When rendering large lists, for example, use these techniques:
+* Angular: Use [virtual scrolling](https://material.angular.io/cdk/scrolling/overview#virtual-scrolling) with the component dev kit
+* React: Use "windowing" libraries like [react-window](https://react-window.vercel.app/#/examples/list/fixed-size) 
 
 
 ## SCI Impact
