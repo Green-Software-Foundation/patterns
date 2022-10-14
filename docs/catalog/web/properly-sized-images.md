@@ -29,7 +29,7 @@ The main strategy is that the web browser can download the image in a size that 
 Concerning the SCI equation, optimizing the image sizes will impact two parts:
 
 - `E`: Reduces the processing and memory requirements to display the page and therefore the energy requirements, but increases the processing time once for every image to convert it into every size needed
-- `M`: Increases the storage requirements to chache or store all needed image sizes
+- `M`: Increases the storage requirements to cache or store all needed image sizes
 
 ## Assumptions
 
