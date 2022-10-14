@@ -9,39 +9,39 @@ Please use the tags within this section for your proposed pattern. New tags must
 ## Technology
 Which technology does this pattern align to?  
 
-* [Alerting](/tags/alerting)
-* [Artificial Intelligence](/tags/artificial-intelligence)
-* [Augmented Reality](/tags/augmented-reality)
-* [Cloud](/tags/cloud)
+* Alerting
+* Artificial Intelligence
+* Augmented Reality
+* Cloud
 * [Compute](/tags/compute)
-* [Content Delivery/CDN](/tags/content-delivery)
-* [Database](/tags/database)
-* [Deployment](/tags/deployment)
-* [DevOps](/tags/devops)
-* [Gaming](/tags/gaming)
-* [Internet of Things](/tags/internet-of-things)
-* [Kubernetes](/tags/kubernetes)
-* [Logging](/tags/logging)
-* [Machine Learning](/tags/machine-learning)
-* [Mobile](/tags/mobile)
-* [Monitoring](/tags/monitoring)
+* Content Delivery/CDN
+* Database
+* Deployment
+* DevOps
+* Gaming
+* Internet of Things
+* Kubernetes
+* Logging
+* Machine Learning
+* Mobile
+* Monitoring
 * [Networking](/tags/networking)
-* [Operating Systems](/tags/operating-systems)
-* [Programming Language](/tags/programming-language)
-* [Reliability/Availability](/tags/reliability)
-* [Security](/tags/security)
-* [Serverless](/tags/serverless)
+* Operating Systems
+* Programming Language
+* Reliability/Availability
+* Security
+* Serverless
 * [Storage](/tags/storage)
-* [User Experience](/tags/user-experience)
-* [User Interface](/tags/user-interface)
-* [Virtual Reality](/tags/virtual-reality)
+* User Experience
+* User Interface
+* Virtual Reality
 * [Web](/tags/web)
 
 
 ## Role
 Which traditional role would implement this pattern?  
 
-* Cloud Engineer
+* [Cloud Engineer](/tags/role-cloud-engineer)
 * Data Scientist
 * Database Administrator
 * UX/Graphic Designer
@@ -50,15 +50,15 @@ Which traditional role would implement this pattern?
 * Project Manager
 * Program Manager
 * Reliability Engineer
-* Software Engineer
-* Web Developer
+* [Software Engineer](/tags/role-software-engineer)
+* [Web Developer](/tags/role-web-developer)
 
 
 
 ## Complexity
 How complex is this pattern to implement?  
 
-* Small
-* Medium
+* [Small](/tags/size-small)
+* [Medium](/tags/size-medium)
 * Large
 * Undetermined
