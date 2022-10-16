@@ -15,7 +15,7 @@ tags:
 In order to reduce carbon emissions (and costs), Dev&Test environments (Kubernetes clusters) can turn off nodes (VMs) out of office hours (e.g at night & during weekends). --> thereby, optimization is implemented at the cluster level.
 
 
-For production clusters, where nodes need to stay up and running: optimization needs to be implemented at the application level (Deployment, StatefulSet)
+For production clusters, where nodes need to stay up and running: optimization needs to be implemented at the application level (Deployment, StatefulSet).
 
 ## Solution
  Scale down Kubernetes applications (Deployments, StatefulSets) based on time (out of office hours). Turning off an application means scaling its pods to zero.
@@ -35,8 +35,7 @@ The Business Application has predictible traffic (usage), which allows to scale 
 
 ## Considerations
 - **PRO**: Reduces Carbon emissions & Costs, without requiring application code change.
-- **CON**: Requires an understanding of the applications usage patterns (Technical Governance & Inventory management); 
+- **CON**: Requires an understanding of the applications usage patterns (Technical Governance & Inventory management).
 
 ## References
-- [Hardware Efficiency Principle](https://learn.greensoftware.foundation/practitioner/hardware-efficiency)
 - [Energy Efficiency Principle](https://learn.greensoftware.foundation/practitioner/energy-efficiency)
