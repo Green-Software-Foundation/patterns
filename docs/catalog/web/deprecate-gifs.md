@@ -2,7 +2,7 @@
 version: 1.0
 submitted_by: markus-ntt-seidl
 published_date: TBD
-category: 
+category: web
 tags:
  - size:small
  - role:web-developer
@@ -25,7 +25,7 @@ Even higher compression ratios can be achieved by inspecting the content of the 
 ## SCI Impact
 
 `SCI = (E * I) + M per R`  
-[Sofware Carbon Intensity Spec](https://grnsft.org/sci)
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 The conversion will impact the SCI as follows:
 
