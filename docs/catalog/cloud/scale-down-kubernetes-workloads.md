@@ -9,7 +9,7 @@ tags:
  - size:small
 ---
 
-# Scale down Kubernetes applications, out of office hours
+# Scale down kubernetes applications when not in use
 
 ## Description
 In order to reduce carbon emissions and costs, Dev&Test Kubernetes clusters can turn off nodes (VMs) out of office hours (e.g at night & during weekends). --> thereby, optimization is implemented at the cluster level.
@@ -24,7 +24,7 @@ The scaled down Kubernetes resources can be selected using Labels or Annotations
 ## SCI Impact
 `SCI = (E * I) + M per R`
 
-Regarding the SCI equation. Reducing the distance will impact:
+Regarding the SCI equation. scaling down the pods to zero will impact:
 
 - `E`: The goal is to "reduce demand", aka the number of pods running out of office hours, which reduces overall application consumed Power.
 
@@ -33,8 +33,6 @@ Regarding the SCI equation. Reducing the distance will impact:
 The Business Application has predictible traffic (usage), which allows to scale up & down based on Time. 
 
 ## Considerations
-- **PRO**: Reduces Carbon emissions & Costs, without requiring application code change.
-- **CON**: Requires an understanding of the applications usage patterns (Technical Governance & Inventory management).
+- This pattern does not require application code changes.
+- This pattern requires an understanding of the application usage patterns including technical governance and inventory management.
 
-## References
-- [Energy Efficiency Principle](https://learn.greensoftware.foundation/practitioner/energy-efficiency)
