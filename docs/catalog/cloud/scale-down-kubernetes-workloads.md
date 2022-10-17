@@ -26,7 +26,7 @@ The scaled down Kubernetes resources can be selected using Labels or Annotations
 
 Regarding the SCI equation. scaling down the pods to zero will impact:
 
-- `E`: The goal is to "reduce demand", aka the number of pods running out of office hours, which reduces overall application consumed Power.
+- `E`: The goal is to "reduce demand", aka the number of pods running out of office hours, which reduces overall consumed power by the application.
 
 
 ## Assumptions
