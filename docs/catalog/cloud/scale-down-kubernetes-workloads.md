@@ -12,7 +12,7 @@ tags:
 # Scale down kubernetes applications when not in use
 
 ## Description
-In order to reduce carbon emissions and costs, Dev&Test Kubernetes clusters can turn off nodes (VMs) out of office hours (e.g at night & during weekends). --> thereby, optimization is implemented at the cluster level.
+In order to reduce carbon emissions and costs, Dev&Test Kubernetes clusters can turn off nodes (VMs) out of office hours (e.g at night & during weekends). => thereby, optimization is implemented at the cluster level.
 
 For production clusters, where nodes need to stay up and running: optimization needs to be implemented at the application level (Deployment, StatefulSet).
 
