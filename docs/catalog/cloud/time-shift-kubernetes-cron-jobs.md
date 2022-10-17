@@ -26,7 +26,7 @@ Regarding the SCI equation. Reducing the distance will impact:
 
 To capture the impact of time shifting, the following image shows variation of Electricity Carbon Intensity during a day, from one the Electricity data providers, [ElectricityMap](https://app.electricitymaps.com/map).
 
-![zez](./media/time-shift.png)
+![zez](/src/images/time-shift.png)
 
 
 ## Assumptions
