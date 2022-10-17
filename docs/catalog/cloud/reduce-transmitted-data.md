@@ -18,8 +18,9 @@ From an energy-efficiency perspective, it's better to minimise the size of the d
 Minimise the size of data transmitted by only sending properties or values deemed necessary. 
 
 ## SCI Impact
+
 `SCI = (E * I) + M per R`
-[Sofware Carbon Intensity Spec](https://grnsft.org/sci)
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 Concerning the SCI equation. Reducing the size of data will impact one part:
 

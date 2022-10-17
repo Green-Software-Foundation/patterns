@@ -22,8 +22,9 @@ It's better to shorten the distance a network packet travels so that less energy
 Caching static data, such as images or audio, instead of transferring it over the network. 
 
 ## SCI Impact
+
 `SCI = (E * I) + M per R`
-[Sofware Carbon Intensity Spec](https://grnsft.org/sci)
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 Concerning the SCI equation. Reducing the distance will impact two parts:
 

@@ -21,8 +21,8 @@ From an energy efficiency perspective, avoiding critical request chains reduces 
 
 ## SCI Impact
 
-`SCI = (E * I) + M per R`  
-[Sofware Carbon Intensity Spec](https://grnsft.org/sci)
+`SCI = (E * I) + M per R`
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 Concerning the SCI equation, avoiding chaining critical requests will impact:
 

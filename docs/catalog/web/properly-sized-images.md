@@ -23,8 +23,8 @@ The main strategy is that the web browser can download the image in a size that 
 
 ## SCI Impact
 
-`SCI = (E * I) + M per R`  
-[Sofware Carbon Intensity Spec](https://grnsft.org/sci)
+`SCI = (E * I) + M per R`
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 Concerning the SCI equation, optimizing the image sizes will impact two parts:
 

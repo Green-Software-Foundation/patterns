@@ -26,8 +26,8 @@ Keep the necessary HTML as small as possible and strip unneeded elements from it
 
 ## SCI Impact
 
-`SCI = (E * I) + M per R`  
-[Sofware Carbon Intensity Spec](https://grnsft.org/sci)
+`SCI = (E * I) + M per R`
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 Concerning the SCI equation, optimizing the DOM size will impact as follows:
 
