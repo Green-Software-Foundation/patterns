@@ -22,7 +22,7 @@ Utilise a message queue, so requests that do not require immediate processing ar
 ## SCI Impact
 
 `SCI = (E * I) + M per R`  
-[Software Carbon Intensity Spec](https://github.com/Green-Software-Foundation/software_carbon_intensity)
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 Concerning the SCI equation, queuing non-urgent requests will impact two parts:
 
