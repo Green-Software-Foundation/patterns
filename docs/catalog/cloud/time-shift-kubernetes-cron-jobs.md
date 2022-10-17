@@ -30,11 +30,9 @@ To capture the impact of time shifting, the following image shows variation of E
 
 
 ## Assumptions
-The CronJob to be time shifted, has a flexible time window for scheduling, which allows variation on time to reduce (I). 
+The CronJob to be time shifted, needs to have flexibility on when it needs to be finished, which allows variation on time to reduce (I). 
 
 ## Considerations
-- **PRO**: CronJob based workloads, can benefit from time shifting at the Platform Operating level, without requiring change to their code.
-- **CON**: Scheduling constraints for CronJobs, with several dependencies. 
+- This pattern does not require an application code change and can be handled at the platform operating level.
+- When cron jobs have scheduling constraints or dependencies, it can be difficult to change their timing.
 
-## References
-- [Carbon Awareness](https://learn.greensoftware.foundation/practitioner/carbon-awareness)
