@@ -21,7 +21,8 @@ Adjust your solution design to the service level your actual end users require.
 
 ## SCI Impact
 
-`SCI = (E * I) + M per R`  
+`SCI = (E * I) + M per R`
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 - `E`: We reduce the total electricity required by reducing the number of infrastructure components running.
 - `M`: Depending on the solution used it might also reduce the number of physical infrastructure components used.

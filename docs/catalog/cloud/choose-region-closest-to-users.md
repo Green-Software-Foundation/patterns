@@ -18,8 +18,9 @@ From an energy-efficiency perspective, it's better to shorten the distance a net
 Choose a region that is the closest to the majority of where the network packets are going. 
 
 ## SCI Impact
+
 `SCI = (E * I) + M per R`
-[Sofware Carbon Intensity Spec](https://grnsft.org/sci)
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 Concerning the SCI equation. Reducing the distance will impact two parts:
 

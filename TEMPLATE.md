@@ -20,7 +20,7 @@ tags:
 ## SCI Impact
 
 `SCI = (E * I) + M per R`  
-[Sofware Carbon Intensity Spec](https://grnsft.org/sci)
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 [PATTERN_SCI_IMPACT]
 

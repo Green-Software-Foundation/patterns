@@ -18,8 +18,9 @@ From an embodied carbon perspective, it's better to have an automated mechanism 
 Set a retention policy on storage resources to automate the deletion of unused storage resources. 
 
 ## SCI Impact
+
 `SCI = (E * I) + M per R`
-[Sofware Carbon Intensity Spec](https://grnsft.org/sci)
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 Concerning the SCI equation. Setting retention policy will impact one part:
 
