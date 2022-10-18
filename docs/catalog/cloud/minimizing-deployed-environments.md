@@ -1,6 +1,6 @@
 ---
 version: 1.0
-submitted_by: @camcash17
+submitted_by: camcash17
 published_date: TBD
 category: cloud
 tags: 
