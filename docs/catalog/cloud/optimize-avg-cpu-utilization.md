@@ -29,7 +29,7 @@ From a hardware efficiency perspective, optimizing and reducing the average CPU 
 ## SCI Impact
 
 `SCI = (E * I) + M per R`  
-[Sofware Carbon Intensity Spec](https://github.com/Green-Software-Foundation/software_carbon_intensity)
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 Concerning the SCI equation, optimizing average CPU utilization will impact two parts:
 
