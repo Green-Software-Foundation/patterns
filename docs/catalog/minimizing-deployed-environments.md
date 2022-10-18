@@ -5,22 +5,20 @@ published_date: TBD
 category: cloud
 tags: 
  - cloud
- - environments
- - production
- - development
- - performance
- - qa
+ - deployment
 ---
 
 # Minimising the total number of deployed environments
 
 ## Description
 
-From an energy-efficiency perspective, it's better to minimise the amount of deployed environments for an application so that less energy is required because there is less resources provisioned.
+In a given application, there may be a need to utilize multiple enivornments in the application workflow. Typically, a development environment is used for for regular updates, staging or testing enviroments are used to make sure there are no issues before code reaches a production environment where users may have access.
+
+Each added environment has an increasing energy impact, which in turn creates more emissions. Understanding the necessity of each enviroment and it's environmental impact is a good practice.
 
 ## Solution
 
-Minimise the amount of deployed environments, perhaps considering the necessity of a QA or Performance testing environment.
+From an energy-efficiency perspective, it's better to minimise the amount of deployed environments for an application so that less energy is required because there is less resources provisioned.
 
 ## SCI Impact
 
