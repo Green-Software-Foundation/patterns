@@ -13,7 +13,7 @@ tags:
 
 ## Description
 
-Cascading Style Sheets (CSS) allow HTML content to be styled in a very exact way. Because of that the CSS files are itself very complex and need complex parsing and processing. The browser needs to download all specified CSS files, process all definitions inside these files, apply it to the DOM and calculate the layout for rendering. Each added CSS definition increases the amount of time and processing power needed in this process.
+Cascading Style Sheets (CSS) allow HTML content to be styled in a very exact way. In order to have this flexibility, the CSS files are itself very complex and need energy intensive parsing and processing. The browser needs to download all specified CSS files, process all definitions inside these files, apply it to the DOM and calculate the layout for rendering. Each added CSS definition increases the amount of time and processing power needed in this process.
 
 ## Solution
 
