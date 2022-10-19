@@ -15,15 +15,16 @@ tags:
 
 Displaying a web page requires that the browser has downloaded all necessary files needed. Not only does the amount of request determine how much CO2 is used, but also the file sizes of each request.
 
-To use the least amount of CO2 it is more efficient to download a larger, completly necessary, resource instead of multiple tiny resources. 
+To use the least amount of CO2 it is more efficient to download a larger, completely necessary, resource instead of multiple tiny resources. 
 
 ## Solution
 
-Reduce the required and necessary resources to the minimum file size possible, consider:
+Reduce the required and necessary resources to the minimum file size possible. Consider applying one or more of the following patterns:
 * Minifying their content if the resource is of type HTML, JavaScript or CSS (TODO Link to pattern)
 * Using new image formats (TODO Link to pattern)
 * Loading images on demand (TODO Link to defer pattern)
 * Size images properly (TODO link to pattern)
+* Deprecate GIFs for newer animation formats (TODO link to pattern)
 
 ## SCI Impact
 
