@@ -9,7 +9,7 @@ tags:
  - size:small
 ---
 
-# Compress Transmitted Data
+# Compress transmitted data
 
 ## Description
 From an energy-efficiency perspective, it's better to minimise the size of the data transmitted so that less energy is required because the network traffic is reduced. 
@@ -22,9 +22,9 @@ Minimise the size of data transmitted by compressing files or payloads.
 `SCI = (E * I) + M per R`
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-Concerning the SCI equation. Reducing the distance will impact two parts:
+Reducing the distance will impact SCI as follows:
 
-- `E`: We reduce the total electricity required by reducing network traffic. However, we should be wary that there may be a slight increase in E due to compressing and de-compressing data. 
+- `E`: We reduce the total electricity required by reducing network traffic. However, we should be wary that there may be a slight increase in energy consumed due to compressing and de-compressing data. 
 - `I`: We may also have a slight increase in location-based marginal carbon emissions due to compressing and de-compressing data at different locations.
 
 
