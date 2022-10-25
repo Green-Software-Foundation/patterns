@@ -6,6 +6,7 @@ category: ai
 tags: 
  - ai
  - machine-learning
+ - serverless
  - role:data-scientist
  - size:small
 ---
