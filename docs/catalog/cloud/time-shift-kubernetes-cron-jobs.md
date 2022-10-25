@@ -21,7 +21,7 @@ Kubernetes recurrent Jobs (such as ML Training Jobs, Batchs, etc.) are implement
 
 To capture the impact of time shifting, the following image shows variation of electricity carbon intensity during a day, from one the electricity data providers, [ElectricityMap](https://app.electricitymaps.com/map).
 
-![zez](/static/src/images/time-shift.png)
+![zez](/src/images/time-shift.png)
 
 
 ## SCI Impact
