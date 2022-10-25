@@ -9,7 +9,7 @@ tags:
  - role:web-developer
 ---
 
-# Enable Text Compression
+# Enable text compression
 
 ## Description
 
