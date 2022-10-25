@@ -8,31 +8,31 @@ tags:
  - deployment
 ---
 
-# Minimising the total number of deployed environments
+# Minimise the total number of deployed environments
 
 ## Description
 
-In a given application, there may be a need to utilize multiple enivornments in the application workflow. Typically, a development environment is used for for regular updates, staging or testing enviroments are used to make sure there are no issues before code reaches a production environment where users may have access.
+In a given application, there may be a need to utilise multiple enivornments in the application workflow. Typically, a development environment is used for regular updates, while staging or testing enviroments are used to make sure there are no issues before code reaches a production environment where users may have access.
 
-Each added environment has an increasing energy impact, which in turn creates more emissions. Understanding the necessity of each enviroment and it's environmental impact is a good practice.
+Each added environment has an increasing energy impact, which in turn creates more emissions. As such, it is important to understand the necessity of each enviroment and it's environmental impact.
 
 ## Solution
 
-From an energy-efficiency perspective, it's better to minimise the amount of deployed environments for an application so that less energy is required because there is less resources provisioned.
+From an energy-efficiency perspective, it's better to minimise the amount of deployed environments for an application so that less resources are provisioned and less energy is required.
 
 ## SCI Impact
 
 `SCI = (E * I) + M per R`  
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-Concerning the SCI equation. Reducing the amount of deployed environments will impact two parts:
+Reducing the amount of deployed environments will impact SCI as follows:
 
 - `E`: We reduce the total electricity required by reducing provisioned resources.
-- `M`: By reducing the amount of nodes running on underlying machines, we reduce the total embodied carbon.
+- `M`: By reducing the amount of nodes running on underlying machines, the total embodied carbon is lower.
 
 ## Assumptions
 
-Suppose we choose to remove a deployed Performance environment for an application. Another existing environment like `QA` could be repurposed for both Quality Assurance and Performance testing to save and optimize existing resources.
+Suppose we choose to remove a deployed performance environment for an application. Another existing environment like `QA` could be repurposed for both quality assurance and performance testing to save and optimize existing resources.
 
 ## Considerations
 
