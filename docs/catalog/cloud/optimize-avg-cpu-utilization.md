@@ -12,7 +12,7 @@ tags:
  - size:medium
 ---
 
-# Optimize Average CPU Utilization
+# Optimize average CPU utilization
 
 ## Description
 
