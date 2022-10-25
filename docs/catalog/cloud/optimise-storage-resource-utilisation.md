@@ -10,7 +10,7 @@ tags:
  - size:small
 ---
 
-# Optimize Storage Utilization
+# Optimize storage utilization
 
 ## Description
 From both an embodied carbon angle and an energy proportionality angle, it's better to maximise storage utilisation so the storage layer is optimised for the task. 

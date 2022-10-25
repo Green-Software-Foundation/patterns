@@ -9,7 +9,7 @@ tags:
  - size:small
 ---
 
-# Match Utilization Requirements With Pre-Configured Servers
+# Match utilization requirements with pre-configured servers
 
 ## Description
 

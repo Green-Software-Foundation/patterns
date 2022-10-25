@@ -9,7 +9,7 @@ tags:
  - size:small
 ---
 
-# Match Utilization Requirements of Virtual Machines (VMs)
+# Match utilization requirements of virtual machines (VMs)
 
 ## Description
 

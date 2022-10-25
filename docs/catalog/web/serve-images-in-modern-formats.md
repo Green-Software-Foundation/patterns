@@ -9,7 +9,7 @@ tags:
  - role:web-developer
 ---
 
-# Serve images in Moden Formats
+# Serve images in moden formats
 
 ## Description
 

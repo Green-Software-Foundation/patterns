@@ -9,7 +9,7 @@ tags:
  - size:small
 ---
 
-# Cache Static Data
+# Cache static data
 
 <PatternComponent></PatternComponent>
 
