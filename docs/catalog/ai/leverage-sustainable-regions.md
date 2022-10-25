@@ -24,7 +24,7 @@ Use a cloud region which has a lower carbon intensity value for running your ML 
 ## SCI Impact
 `SCI = (E * I) + M per R`
 
-For the SCI equation, using a sustainable region for ML training would impact the following:
+For the SCI equation, using a lower carbon intensity region for ML training would impact the following:
 - 'E': Having a carbon free region for ML training, would reduce the carbon emissions of ML applications, decreasing the E number.
 
 ## Assumptions
