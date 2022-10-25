@@ -10,7 +10,7 @@ tags:
  - size:small
 ---
 
-# Energy-efficient AI at the Edge.
+# Run AI models at the edge.
 
 ## Description
 Data computation for ML workloads and ML inference is a significant contributor to the carbon footprint of the ML application. Also, if the ML model is running on the cloud, the data needs to be transferred and processed on the cloud to the required format that can be used by the ML model for inference.  
