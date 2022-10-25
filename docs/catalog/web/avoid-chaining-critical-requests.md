@@ -9,7 +9,7 @@ tags:
  - size:medium
 ---
 
-# Avoid Chaining Critical Requests
+# Avoid chaining critical requests
 
 ## Description
 
