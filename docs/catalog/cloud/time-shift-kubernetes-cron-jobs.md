@@ -28,7 +28,7 @@ To capture the impact of time shifting, the following image shows variation of e
 `SCI = (E * I) + M per R`
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-Regarding the SCI equation. Time shifting will impact:
+Regarding the SCI equation, Time shifting will impact:
 
 - `I`: The goal is to reduce SCI by reducing carbon intensity.
 
