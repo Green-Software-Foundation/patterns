@@ -12,7 +12,7 @@ tags:
  - size:medium
 ---
 
-# Optimize Peak CPU Utilization
+# Optimize peak CPU utilization
 
 ## Description
 
