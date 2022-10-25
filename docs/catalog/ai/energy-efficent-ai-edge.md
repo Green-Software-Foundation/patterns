@@ -31,7 +31,7 @@ For the SCI equation, energy-efficient AI at the edge would impact the following
 None 
 
 ## Considerations
-None
+Consider the operational and embodied emissions of the edge devices as part of your overall solution and how it can reduce the carbon impact of your overall application.
 
 ## References
 - [Green AI for IIoT: Energy Efficient Intelligent Edge Computing for Industrial Internet of Things](https://ieeexplore.ieee.org/document/9520303)
