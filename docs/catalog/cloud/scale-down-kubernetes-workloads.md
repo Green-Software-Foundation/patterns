@@ -23,6 +23,7 @@ The scaled down Kubernetes resources can be selected using Labels or Annotations
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 Regarding the SCI equation. scaling down the pods to zero will impact:
 
