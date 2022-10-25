@@ -8,17 +8,17 @@ tags:
  - deployment
 ---
 
-# Minimise the total number of deployed environments
+# Minimize the total number of deployed environments
 
 ## Description
 
-In a given application, there may be a need to utilise multiple enivornments in the application workflow. Typically, a development environment is used for regular updates, while staging or testing enviroments are used to make sure there are no issues before code reaches a production environment where users may have access.
+In a given application, there may be a need to utilize multiple enivornments in the application workflow. Typically, a development environment is used for regular updates, while staging or testing enviroments are used to make sure there are no issues before code reaches a production environment where users may have access.
 
 Each added environment has an increasing energy impact, which in turn creates more emissions. As such, it is important to understand the necessity of each enviroment and it's environmental impact.
 
 ## Solution
 
-From an energy-efficiency perspective, it's better to minimise the amount of deployed environments for an application so that less resources are provisioned and less energy is required.
+From an energy-efficiency perspective, it's better to minimize the amount of deployed environments for an application so that less resources are provisioned and less energy is required.
 
 ## SCI Impact
 
