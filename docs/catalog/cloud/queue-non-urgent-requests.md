@@ -9,25 +9,25 @@ tags:
  - size:small
 ---
 
-# Queuing non-urgent processing requests
+# Queue non-urgent processing requests
 
 ## Description
 
-All systems have periods of peak and low load. From a hardware-efficiency perspective, we are more efficient with hardware if we minimise the impact of requests spikes with an implementation that allows an even utilisation of components. From an energy-efficiency perspective, we are more efficient with energy if we ensure that idle resources are kept to a minimum. 
+All systems have periods of peak and low load. From a hardware-efficiency perspective, we are more efficient with hardware if we minimise the impact of request spikes with an implementation that allows an even utilization of components. From an energy-efficiency perspective, we are more efficient with energy if we ensure that idle resources are kept to a minimum. 
 
 ## Solution
 
-Utilise a message queue, so requests that do not require immediate processing are queued. 
+Utilize a message queue, so requests that do not require immediate processing are queued. 
 
 ## SCI Impact
 
 `SCI = (E * I) + M per R`  
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-Concerning the SCI equation, queuing non-urgent requests will impact two parts:
+Queuing non-urgent requests will impact SCI as follows:
 
-- `M`: By reducing the total number of computing equipment required, we reduce the total embodied carbon.
-- `E`: By reducing the total number of idle resources, we reduce the total electricity required.
+- `M`: By reducing the total number of computing equipment required, the total embodied carbon is lower.
+- `E`: By reducing the total number of idle resources, less total electricity is required.
 
 ## Assumptions
 - There is an assumption that the components in your system can communicate with a message queue asynchronously. If your component is the producer, it can add requests to the queue without waiting for the previous sent to be processed. If your component is the consumer, it will only process requests when they are available. We assume that no components in the system ever stalled while waiting for another. 
