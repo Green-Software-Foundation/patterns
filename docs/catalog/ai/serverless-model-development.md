@@ -32,10 +32,10 @@ For the SCI equation, adopting serverless architecture for AI/ML workload proces
 - 'M':  Having a serverless architecture for the AI/ML development process would lead to effective resource hardware/resource utilization as the resources would be provisioned only when required and consequently, the M number should decrease.
 
 ## Assumptions
-None 
+None
 
 ## Considerations
-None
+Evaluate and consider what AI/ML workloads can be moved to serverless. Consider if your application can afford cold start during serverless resource initialization. 
 
 ## References
 - [Serverless Pipeline on Google Cloud](https://cloud.google.com/blog/products/ai-machine-learning/serverless-machine-learning-pipelines-on-google-cloud)
