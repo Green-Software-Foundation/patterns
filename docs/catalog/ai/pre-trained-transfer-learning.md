@@ -21,6 +21,7 @@ Evaluate and select pre-trained models and use transfer learning to avoid traini
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 For the SCI equation, going with a pre-trained model would impact the following:
 - 'E': Having a pre-trained model would reduce the energy consumption for your AI/ML training as you don’t need to train the entire model from scratch and consequently, the E number should decrease.
