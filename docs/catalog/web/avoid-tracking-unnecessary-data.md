@@ -10,7 +10,7 @@ tags:
  - size:small
 ---
 
-# Avoid Tracking Unnecessary Data
+# Avoid tracking unnecessary data
 
 ## Description
 
