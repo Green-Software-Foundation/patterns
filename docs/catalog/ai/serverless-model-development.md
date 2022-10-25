@@ -25,6 +25,7 @@ Adopt a serverless architecture for maximum resource utilization for your entire
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 For the SCI equation, adopting serverless architecture for AI/ML workload process would impact the following:
 
