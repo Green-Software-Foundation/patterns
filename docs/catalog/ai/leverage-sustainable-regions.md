@@ -37,3 +37,4 @@ None
 - [Faster, cheaper, greener? Pick the Google Cloud region that’s right for you](https://cloud.google.com/blog/topics/sustainability/google-cloud-region-picker-helps-you-make-the-green-choice)
 - [Amazon’s sustainability regions](https://sustainability.aboutamazon.com/around-the-globe?energyType=true)
 - [Azure sustainability](https://azure.microsoft.com/en-us/explore/global-infrastructure/sustainability/)
+- [Google Cloud sustainability regions](https://cloud.google.com/sustainability/region-carbon)
