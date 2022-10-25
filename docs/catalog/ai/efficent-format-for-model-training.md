@@ -31,7 +31,7 @@ For the SCI equation, efficient file formats for ML development would impact the
 None 
 
 ## Considerations
-None
+Evaluate and consider the most energy efficient formats required for your application.
 
 ## References
 - [Apache Parquet](https://parquet.apache.org/)
