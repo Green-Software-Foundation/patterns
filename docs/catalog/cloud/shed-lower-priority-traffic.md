@@ -13,7 +13,7 @@ tags:
  - size:large
 ---
 
-# Shed Lower Priority Traffic
+# Shed lower priority traffic
 
 ## Description
 
@@ -28,8 +28,8 @@ From a hardware efficiency perspective, shedding lower priority traffic during h
 
 ## SCI Impact
 
-`SCI = (E * I) + M per R`  
-[Sofware Carbon Intensity Spec](https://github.com/Green-Software-Foundation/software_carbon_intensity)
+`SCI = (E * I) + M per R`
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 Concerning the SCI equation, optimizing peak CPU utilization will impact two parts:
 
