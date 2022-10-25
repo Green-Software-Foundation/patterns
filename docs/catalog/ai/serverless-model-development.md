@@ -28,7 +28,8 @@ Adopt a serverless architecture for maximum resource utilization for your entire
 
 For the SCI equation, adopting serverless architecture for AI/ML workload process would impact the following:
 
-- 'E':  Having a serverless architecture for the AI/ML development process provdies efficient resource utilization and reduces the energy consumption of the compute resources and consequently, the E number should decrease.
+- 'E':  Having a serverless architecture for the AI/ML development process provides efficient resource utilization and reduces the energy consumption of the compute resources and consequently, the E number should decrease.
+- 'M':  Having a serverless architecture for the AI/ML development process would lead to effective resource hardware/resource utilization as the resources would be provisioned only when required and consequently, the M number should decrease.
 
 ## Assumptions
 None 
