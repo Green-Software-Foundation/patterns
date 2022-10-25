@@ -23,8 +23,8 @@ Evaluate and select pre-trained models and use transfer learning to avoid traini
 `SCI = (E * I) + M per R`
 
 For the SCI equation, going with a pre-trained model would impact the following:
-- 'E': Having a pre-trained model would reduce the energy consumption for your AI/ML training as you don’t need to train the entire model from scratch and consequently, the E number should decrease.
-- 'M': Transfer learning does not require as many servers, as you don’t need to train the entire model from scratch. By reducing the total number of servers required to run a process, we reduce the total embodied carbon, the M of the equation.
+- `E`: Having a pre-trained model reduces energy consumption for your AI/ML development as you don’t need to train the entire model from scratch.
+- `M`: Transfer learning does not require as many servers as you don’t need to train the entire model from scratch. By reducing the total number of servers required to run a process, the total embodied carbon is lower.
 
 ## Assumptions
 None 
