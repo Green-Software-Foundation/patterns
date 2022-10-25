@@ -13,18 +13,19 @@ tags:
 # Select an energy-efficient AI/ML framework
 
 ## Description
-Training an AI model have a significant carbon footprint.The underlying framework used for the development, training and deployment of AI/Model needs to be evaluated and considered for energy efficient AI/ML process.
-Typically, AI/ML frameworks that is build on energy-efficient languages like C/C++ offer better energy efficiency as compared to other programming languages.
+Training an AI model implies a significant carbon footprint. The underlying framework used for the development, training and deployment of AI/ML needs to be evaluated and considered to ensure the process is as energy efficient as possible.
+
+Typically, AI/ML frameworks built on languages like C/C++ are more energy efficient than those built on other programming languages.
 
 
 ## Solution
-Evaluate and select energy efficient framework/module for AI/ML development, training and inference. 
+Evaluate and select an energy-efficient framework/module for AI/ML development, training and inference. 
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
 
-For the SCI equation, selecting an energy-efficient AI/ML would impact the following:
-- 'E': Having an energy efficient framework would reduce the energy consumption for your AI/ML training and inference and consequently, the E number should decrease.
+Selecting an energy-efficient AI/ML would impact SCI as follows:
+- `E`: Having an energy-efficient framework reduces energy consumption for AI/ML training and inference and consequently.
 
 ## Assumptions
 None 
