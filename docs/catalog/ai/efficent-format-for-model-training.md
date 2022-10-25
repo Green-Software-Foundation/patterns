@@ -22,6 +22,7 @@ Use efficient file formats for building your ML models. For instance, column-ori
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 For the SCI equation, efficient file formats for ML development would impact the following:
 - 'E': Having an efficient file format for ML development, would provide efficient data storage and retrieval, consequently, decreasing the E number.
