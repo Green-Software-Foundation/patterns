@@ -31,7 +31,7 @@ For the SCI equation, using a lower carbon intensity region for ML training woul
 The migration of workloads to other regions assumes you have taken into consideration privacy, security, or data sovereignty based on your application requirements. 
 
 ## Considerations
-None
+Consider the trade-offs between carbon footprint, cost and latency while selecting a region based on your application requirements. 
 
 ## References
 - [Faster, cheaper, greener? Pick the Google Cloud region that’s right for you](https://cloud.google.com/blog/topics/sustainability/google-cloud-region-picker-helps-you-make-the-green-choice)
