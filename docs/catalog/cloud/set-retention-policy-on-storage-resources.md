@@ -9,7 +9,7 @@ tags:
  - size:small
 ---
 
-# Set Storage Retention Policies
+# Set storage retention policies
 
 ## Description
 From an embodied carbon perspective, it's better to have an automated mechanism to delete unused storage resources so we are efficient with hardware and that the storage layer is optimised for the task. 
