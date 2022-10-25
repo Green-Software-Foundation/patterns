@@ -18,7 +18,7 @@ a region which offers carbon-free energy for running your ML training jobs.
 
 
 ## Solution
-Use a cloud region which offers carbon-free energy for running your ML training workloads.
+Use a cloud region which has a lower carbon intensity value for running your ML training workloads.
 
 
 ## SCI Impact
