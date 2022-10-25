@@ -30,13 +30,13 @@ To capture the impact of time shifting, the following image shows variation of e
 
 Regarding the SCI equation. Time shifting will impact:
 
-- `I`: The goal is to reduce SCI by reducing carbon intensity
+- `I`: The goal is to reduce SCI by reducing carbon intensity.
 
 
 
 ## Assumptions
 In order to estimate the best time to schedule the CronJob:
-- The execution duration of the Job is assumed to be known 
+- The execution duration of the Job is assumed to be known.
 - The Job should ideally have a flexible deadline which allows a wider time window for scheduling.
 
 ## Considerations
