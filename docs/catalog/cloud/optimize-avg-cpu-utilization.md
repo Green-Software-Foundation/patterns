@@ -12,7 +12,7 @@ tags:
  - size:medium
 ---
 
-# Optimize Average CPU Utilization
+# Optimize average CPU utilization
 
 ## Description
 
@@ -31,16 +31,16 @@ From a hardware efficiency perspective, optimizing and reducing the average CPU 
 `SCI = (E * I) + M per R`  
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-Concerning the SCI equation, optimizing average CPU utilization will impact two parts:
+Optimizing average CPU utilization will impact SCI as follows:
 
-- `E`: Optimized average CPU utilization can reduce the amount of energy needed to support the systems traffic from the reduced CPU requirements
+- `E`: Optimized average CPU utilization can reduce the amount of energy needed to support the systems traffic from the reduced CPU requirements.
 - `M`: Optimized average CPU utilization can reduce the amount of resources needed which will decrease the amount of embodied carbon required to support the system.
 
 ## Assumptions
-- There is an assumption that traffic is expected to fluctuate during normal production usage because of external natural changes in how users consume. Monitoring the average CPU utilization helps to normalize these fluctuations and give a better overall sense of the system CPU utilization
+- There is an assumption that traffic is expected to fluctuate during normal production usage because of external natural changes in how users consume. Monitoring the average CPU utilization helps to normalize these fluctuations and give a better overall sense of the system CPU utilization.
 
 ## Considerations
-- There is no optimal CPU utilization value provided in this pattern, that should be determined from the system and its specific requirements
-- Reducing average CPU utilization could be achieved by adding more hardware to better load balance. This pattern intends for the software practioner to find efficiencies within the system that don't involve introducing more hardware and therefore additional embodied carbon.
+- There is no optimal CPU utilization value provided in this pattern, that should be determined from the system and its specific requirements.
+- Reducing average CPU utilization could be achieved by adding more hardware to better load balance. The software practioner should try to find efficiencies within the system that don't involve introducing more hardware and therefore additional embodied carbon.
  
 ## References
