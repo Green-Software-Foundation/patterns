@@ -10,12 +10,12 @@ tags:
  - size:small
 ---
 
-# Optimize Storage Utilization
+# Optimise storage utilization
 
 ## Description
-From both an embodied carbon angle and an energy proportionality angle, it's better to maximise storage utilisation so the storage layer is optimised for the task. 
+It's better to maximise storage utilisation so the storage layer is optimised for the task, not only in terms of energy proportionality but also in terms of embodied carbon. 
 
-From the embodied carbon angle, the unused capacity of underutilised storage could be more efficiently used by another task or process. From the energy proportionality angle, two storage running at low utilisation rates will consume more energy than one storage running at a high utilisation rate.
+Two storage units running at low utilization rates will consume more energy than one running at a high utilization rate. In addition, the unused capacity on the underutilised storage unit could be more efficiently used for another task or process.
 
 ## Solution
 Move storage resources away from underutilised storage resources. 
@@ -25,13 +25,13 @@ Move storage resources away from underutilised storage resources.
 `SCI = (E * I) + M per R`
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-Concerning the SCI equation. Moving storage resources will impact two parts:
+Moving storage resources will impact SCI as follows:
 
-- `M`: By reducing the total number of storage volumes required, we reduce the total embodied carbon.
-- `E`: Moving storage resources away from underutilised storage will **increase** the total storage utilisation. The more storage is utilised, the more efficient it becomes at turning energy into useful operations, as per the energy proportionality. Therefore rightsizing storage volumes should reduce the energy consumption of processes, and consequently, the `E` number should decrease.
+- `M`: By reducing the total number of storage volumes required, the total embodied carbon is lower.
+- `E`: Moving storage resources away from underutilised storage will *increase* the total storage utilisation. The more storage that is utilised, the more efficient it becomes at turning energy into useful operations. Therefore rightsizing storage volumes should reduce the energy consumption of processes.
 
 ## Assumptions
-If we choose oversized storage resources *occasionally* because there may be a burst of workload, then undersized them will reduce the headroom available to handle the peak. A better solution would be to consider an auto-scaling architecture that automatically scales the number of storage resources.
+If we choose oversized storage resources *occasionally* because there may be a burst of workload, then undersizing them will reduce the margin available to handle the peak load. A better solution would be to consider an auto-scaling architecture that automatically scales the number of storage resources.
 
 
 ## Considerations
