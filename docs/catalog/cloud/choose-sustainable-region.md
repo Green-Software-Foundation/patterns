@@ -9,7 +9,7 @@ tags:
  - size:medium
 ---
 
-# Choose Sustainable Region for Workloads
+# Choose sustainable region for workloads
 
 ## Description
 
