@@ -19,6 +19,7 @@ Enable Carbon Aware time scheduling, for recurrent Jobs on Kubernetes, such as M
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 Regarding the SCI equation. Reducing the distance will impact:
 
