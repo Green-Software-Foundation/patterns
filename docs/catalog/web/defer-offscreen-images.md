@@ -10,7 +10,7 @@ tags:
 
 ---
 
-# Defer Offscreen Images
+# Defer offscreen images
 
 
 ## Description
