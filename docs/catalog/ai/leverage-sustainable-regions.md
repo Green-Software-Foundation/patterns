@@ -28,7 +28,7 @@ For the SCI equation, using a lower carbon intensity region for ML training woul
 - 'E': Having a lower carbon intensity region for ML training, would reduce the carbon emissions of ML applications, decreasing the E number.
 
 ## Assumptions
-None 
+The migration of workloads to other regions assumes you have taken into consideration privacy, security, or data sovereignty based on your application requirements. 
 
 ## Considerations
 None
