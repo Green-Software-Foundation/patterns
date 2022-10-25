@@ -10,7 +10,7 @@ tags:
  - size:small
 ---
 
-# Run AI models at the edge.
+# Run AI models at the edge
 
 ## Description
 Data computation for ML workloads and ML inference is a significant contributor to the carbon footprint of the ML application. Also, if the ML model is running on the cloud, the data needs to be transferred and processed on the cloud to the required format that can be used by the ML model for inference.  
@@ -23,6 +23,7 @@ Evaluate and run AI models at the edge, based on your application requirements. 
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 For the SCI equation, energy-efficient AI at the edge would impact the following:
 - 'E': Having an energy-efficient AI at the edge, would reduce energy consumption by providing local computing and storage for data, running the inference at the edge and reducing the network transfer to the cloud, consequently, decreasing the E number.
