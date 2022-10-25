@@ -23,6 +23,7 @@ Evaluate energy-efficient AI/ML models for development and inference. For instan
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 For the SCI equation, using energy-efficient AI/ML models would impact the following:
 
