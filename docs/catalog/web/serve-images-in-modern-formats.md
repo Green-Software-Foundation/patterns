@@ -9,15 +9,13 @@ tags:
  - role:web-developer
 ---
 
-# Serve images in Moden Formats
+# Serve images in moden formats
 
 ## Description
 
-Images are one of the main parts of modern websites and used almost on every website. Modern image formats can help to reduce bandwidth, storage and computing requirements on the displaying device.
+Images are a key element in modern websites and are widely used. Modern image formats can help to reduce bandwidth, storage and computing requirements on the displaying device.
 
-There are serveral new image formats to choose from, for example WebP and AVIF. All new formats provide better compression ratio, increased quality and more features as traditional formats. 
-
-For example WebP offers around 30% smaller files sizes as JPEG without a quality gap.
+There are serveral new image formats to choose from, for example WebP and AVIF. All new formats provide better compression ratio, increased quality and more features than traditional formats. For example, WebP offers around 30% smaller files sizes than JPEG, with no drop in quality.
 
 
 ## Solution
@@ -30,15 +28,15 @@ Test which image format give the best compression ratio, visual quality and devi
 `SCI = (E * I) + M per R`
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-Concerning the SCI equation, the new image formats will impact the equation as follows:
+Concerning the SCI equation, the new image formats will impact SCI as follows:
 
 - `E`: Reducing the amount of emissions by reducing time spent on transfering and processing images
 
 ## Assumptions
-- The ability to use modern webbrowsers which supports modern image formats
+- The ability to use modern web browsers which support modern image formats.
 
 ## Considerations
-- Consider minification to reduce emissions on other resources
+- Consider minification to reduce emissions on other resources.
 
 
 ## References
