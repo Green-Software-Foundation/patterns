@@ -34,7 +34,7 @@ Queuing non-urgent requests will impact SCI as follows:
 
 
 ## Considerations
-- Decoupling components of your system can introduce unnecessary complexity as well as managing a message queue for your system can introduce unnecessary overhead, so careful consideration should be taken to evaluate if a message queue is suited for your system
+- Decoupling components of your system can introduce unnecessary complexity and managing a message queue might mean additional overheads. As such, you should give careful consideration as to whether a message queue is appropriate.
 
 
 ## References
