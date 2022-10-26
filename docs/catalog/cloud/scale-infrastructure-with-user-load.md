@@ -24,16 +24,14 @@ Scaling back resources during periods of low utilisation eliminates excess capac
 `SCI = (E * I) + M per R`  
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-In terms of the SCI impact, this means both M (embodied carbon) and E (energy) are reduced, leading to a lower overall score.
-Concerning the SCI equation, using optimal access patterns and storage technology, will impact two parts:
+Concerning the SCI equation, scale infrastructure with user laod, will impact two parts:
 
-- `E`: Can reduce the embodied emissions if the application after the optimization uses less hardware overall
-- `I`: Optimizing the application will lead to less electricity consumed over time
+- `M`: Can reduce the embodied emissions if the application after the optimization uses less hardware overall
+- `E`: Optimizing the application will lead to less electricity consumed over time
 
 ## Assumptions
 
 - Optimization needs proficiency in the tools and time to be implemented.
-- Changing the storage technology can lead to a large rewrite of the application.
 
 ## Considerations
 
