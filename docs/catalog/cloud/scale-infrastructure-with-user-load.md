@@ -39,4 +39,4 @@ Concerning the SCI equation, scale infrastructure with user laod, will impact tw
 
 ## References
 
-- [AWS Sustainability Pillar](https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_software_a6.html)
+- [AWS Sustainability Pillar](https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_user_a2.html)
