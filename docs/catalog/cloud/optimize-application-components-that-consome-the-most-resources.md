@@ -13,11 +13,13 @@ tags:
 
 ## Description
 
-Monitor the application to identify components that consume the most time or resources. Optimize the code or architecture so, that these component minimize the resource usage while maximising performance.
+Monitor the application to identify components that consume the most time or resources. Optimize the code or architecture so, that these component minimize the resource usage while maximizing performance.
 
 ## Solution
 
 Cloud providers support monitoring by providing logs and other methods to inspect the performance of the application additionally to tools to inspect the resource usage. Utilize these tools to identify application components that use the most resources and optimize these.
+
+Use a code profiler for deep application component analysis and consider other algorithms for an improved performance or using algorithms implemented in hardware for less resource usage.
 
 ## SCI Impact
 
@@ -26,12 +28,12 @@ Cloud providers support monitoring by providing logs and other methods to inspec
 
 Concerning the SCI equation, optimize application components, will impact two parts:
 
-- `E`: If memory, amount of used CPUs or storage can be decreased, then the embodied emissions will be decreased as well
-- `I`: If CPU usage can be decreased the software intensity will be decreased as well
+- `E`: If memory, amount of used CPUs or storage can be decreased, then the embodied emissions will be decreased
+- `I`: If CPU usage can be decreased the software intensity will be decreased
 
 ## Assumptions
 
-- Optimization needs proficency in the tools and time to be implemented.
+- Optimization needs proficiency in the tools and time to be implemented.
 
 ## Considerations
 
