@@ -17,7 +17,7 @@ Applications can have background tasks or jobs that run independent to the rest 
 
 ## Solution
 
-Run the workloads in a region that the used cloud provider labels as most sustainable. Choose the region that is near your application so that data transfer to and from the sustainable region minimal.
+Run the workloads in a region that the used cloud provider labels as most sustainable. Choose the region that is still near to your application so that data transfer to and from the sustainable region is minimal.
 
 ## SCI Impact
 
