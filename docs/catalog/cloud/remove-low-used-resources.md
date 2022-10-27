@@ -13,11 +13,11 @@ tags:
 
 ## Description
 
-Monitor and analyze the application usage patterns and activity to identify components that underutilze the hardware resources they are running on. 
+Monitor and analyze the application usage patterns and activity to identify components that underutilized the hardware resources they are running on. 
 
 ## Solution
 
-Monitor and analyze the application usage patterns and activity to identify components that underutilze the hardware resources they are running on. 
+Monitor and analyze the application usage patterns and activity to identify components that underutilized the hardware resources they are running on. 
 Underutilized Virtual Machines, for example, can be easily identified by inspecting the CPU load over time. 
 Underutilized resources can be consolidated, shut down on a schedule and/or removed.
 
