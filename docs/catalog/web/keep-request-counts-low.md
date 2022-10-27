@@ -39,4 +39,4 @@ Concerning the SCI equation, keeping the request counts low will impact:
 
 ## References
 
-- [Source](https://web.dev/resource-summary/)
+- [Detailed description](https://web.dev/resource-summary/)
