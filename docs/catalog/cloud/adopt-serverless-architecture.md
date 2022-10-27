@@ -2,10 +2,10 @@
 version: 1.0
 submitted_by: navveenb
 published_date: tbd
-category: ai
+category: cloud
 tags: 
  - serverless
- - role:cloud-developer
+ - role:cloud-engineer
  - size:small
 ---
 
