@@ -21,7 +21,7 @@ However, for business critical workloads, you need to ensure your workload is sp
 ## Solution
 Consider using proximity placement groups (also called VM-Host affinitry rules) to reduce the network traversal by ensuring your VM resources are physically located close to each other. 
 
-For critical workloads configure proximity placement groups with availability zones, to align high availability with performance.
+For critical workloads, configure proximity placement groups with availability zones, to align high availability with performance.
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
