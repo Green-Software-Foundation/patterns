@@ -26,7 +26,7 @@ State can be either externalized in a noSQL database or an in-memroy cache servi
 `SCI = (E * I) + M per R`
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-Regarding the SCI equation, implementing statless design will impact:
+Regarding the SCI equation, implementing stateless design will impact:
 
 - `M`: stateless applications require smaller compute VMs, which reduces the total embodied carbon emissions.
 - `E`: Rightsizing the compute VM increases its utilization, hence increasing energy efficiency.
