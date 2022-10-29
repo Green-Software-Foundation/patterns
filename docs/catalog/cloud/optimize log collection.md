@@ -36,4 +36,4 @@ The logging requirements are defined and shared by the developpers and platform 
 ## Considerations
 Consider archiving or deleting old logs.
 
-Consider implementing an [observability pipeline](https://opentelemetry.io/docs/collector/configuration/) that allows better management of logs collection, filtering and exports.
+Consider implementing an [observability pipeline](https://opentelemetry.io/docs/collector/configuration/) that allows better management of log collection, filtering and exports.
