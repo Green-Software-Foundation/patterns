@@ -34,6 +34,6 @@ Regarding the SCI equation, designing for independent scaling of logical compone
 The application logical components are deployed on platforms with auto-scaling capabilities, such as Kubernetes.
 
 ## Considerations
-Microservice frameworks use additional components or resources in order to provide additional functionnalities (messaging, secure traffic, tracing, etc.). This may result in a increase in carbon emissions.
+Microservice frameworks use additional components or resources in order to provide additional capabilities (messaging, secure traffic, tracing, etc.). This may result in a increase in carbon emissions.
 
 In practice, use only the frameworks capabilities that are necessary.
