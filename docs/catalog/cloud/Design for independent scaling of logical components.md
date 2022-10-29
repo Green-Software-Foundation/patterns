@@ -18,7 +18,7 @@ A microservice architecture may reduce the compute resources required, as it all
 
 ## Solution
 
-Use [Dapr](dapr.io) Framework or other cloud native projects to help you separate your application functionality into different microservices, to allow independent scaling of its logical components.
+Use [Dapr](https://dapr.io) Framework or other cloud native projects to help you separate your application functionality into different microservices, to allow independent scaling of its logical components.
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
