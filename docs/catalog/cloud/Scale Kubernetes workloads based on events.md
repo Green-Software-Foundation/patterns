@@ -26,7 +26,7 @@ Use [KEDA](https://keda.sh) when building event-driven kubernetes workloads, to 
 
 Regarding the SCI equation, scaling based on events will impact:
 
-- `M`: By scaling the workloads based on demand and maximizing resource utilization, we reduce the total embodied carbon emissions by the kubernetes cluster.
+- `M`: By scaling the workloads based on demand and reducing resource utilization, we reduce the total embodied carbon emissions by the kubernetes cluster.
 
 ## Assumptions
 
