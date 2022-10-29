@@ -14,6 +14,8 @@ tags:
 # Scale Kubernetes workloads based on events
 
 ## Description
+By default, Kubernetes scales workloads based on CPU and RAM utilization, in practice however, it is difficult to define the right thresholds for scaling based on CPU and RAM.
+
 Scaling your workload based on relevant business metrics such as HTTP requests, queue length, and cloud events can help reduce its resource utilization, hence its carbon emissions.
 
 ## Solution
