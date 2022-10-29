@@ -35,7 +35,7 @@ Regarding the SCI equation, using energy efficient hardware will impact:
 
 ## Assumptions
 
-The cloud provider offers VM Skus hosted based efficient hardware.
+The cloud provider offers VM Skus based on efficient hardware.
 
 ## Considerations
 
