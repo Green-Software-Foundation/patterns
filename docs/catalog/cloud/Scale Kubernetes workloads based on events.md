@@ -33,4 +33,4 @@ Regarding the SCI equation, scaling based on events will impact:
 In addition to scaling kubernetes workloads based on events, cluster auto-scaling and bursting capabilities are used to maximize resource utilization.
 
 ## Considerations
-If your workloads have predictable usage patterns, you could implement scaling based on time as a strategy to optimize utilization and reduce carbon emissions.
+If your workloads have predictable usage patterns, you could implement scaling based on time as an alternative to optimize utilization and reduce carbon emissions.
