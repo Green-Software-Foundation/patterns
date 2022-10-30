@@ -26,8 +26,8 @@ Utilize a message queue, so requests that do not require immediate processing ar
 
 Queuing non-urgent requests will impact SCI as follows:
 
-- `M`: By reducing the total number of computing equipment required, the total embodied carbon is lower.
 - `E`: By reducing the total number of idle resources, less total electricity is required.
+- `M`: By reducing the total number of computing equipment required, the total embodied carbon is lower.
 
 ## Assumptions
 - There is an assumption that the components in your system can communicate with a message queue asynchronously. If your component is the producer, it can add requests to the queue without waiting for the previous sent to be processed. If your component is the consumer, it will only process requests when they are available. We assume that no components in the system ever stalled while waiting for another. 
