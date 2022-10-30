@@ -19,6 +19,7 @@ Minify web assets to reduce page size and network bandwidth while delivering the
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+[Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 Minifying web assets will impact the SCI as follows:
 
