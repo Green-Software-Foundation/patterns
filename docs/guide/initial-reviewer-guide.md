@@ -15,7 +15,9 @@ Does this pattern align to the [Pattern Template](https://github.com/Green-Softw
 Our documentation system uses "front matter" which requires a specific format for metadata and this section should be included at the top of each submitted pattern. The front matter content and structure can be seen on the [Pattern Template](https://github.com/Green-Software-Foundation/green-software-patterns/blob/dev/TEMPLATE.md) and should include all fields listed there.
 
 Additionally, we look for patterns to align to the following formatting rules:
-- Titles should be in sentence casing. Ex: `Title of a pattern` and not `Title Of A Pattern`
+- Titles should be in sentence casing. Ex: `Title of a pattern` and not `Title Of A Pattern`.
+- Each section should end with the appropriate punctuation.
+- The SCI Impact section entries should follow the same order of the equation. `E` should be first (if applicable), then `I` (if applicable), then `M` (if applicable), then `R` (if applicable).
 
 ### Pull Request Set To Merge In Dev Branch
 We require that all new patterns are submitted against the `dev` branch in the repository. If the pull request is set to merge to any other branch of the repository, the submitter should update it to merge to `dev`.
