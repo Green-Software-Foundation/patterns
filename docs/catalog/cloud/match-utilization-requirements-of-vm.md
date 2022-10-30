@@ -13,7 +13,9 @@ tags:
 
 ## Description
 
-It's better to have one VM running at a higher utilization than two running at low utilization rates. From an energy proportionality angle, two servers running at low utilization rates will consume more energy than one server running at a high rate of utilization. But also, from an embodied carbon angle, the unused capacity on the underutilized server could be more efficiently used for another task or process.
+It's better to have one VM running at a higher utilization than two running at low utilization rates, not only in terms of energy proportionality but also in terms of embodied carbon.
+
+Two servers running at low utilization rates will consume more energy than one running at a high utilization rate. In addition, the unused capacity on the underutilized server could be more efficiently used for another task or process.
 
 ## Solution
 
@@ -24,14 +26,14 @@ Rightsize your VMs by changing the number of resources allocated to a VM to matc
 `SCI = (E * I) + M per R`
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-With respect to the SCI equation. Rightsizing oversized VMs will impact two parts:
+Rightsizing oversized VMs will impact SCI as follows:
 
-- `M`: By reducing the total number of servers required to run a process, we reduce the total embodied carbon, the `M` of the equation.
-- `E`: Rightsizing oversized VMs will **increase** the total server utilization. The more a server is utilized, the more efficient it becomes at turning energy into useful operations. Therefore rightsizing VMs should reduce the energy consumption of your processes, and consequently, the `E` number should decrease.
+- `E`: Rightsizing oversized VMs will *increase* the total server utilization. The more a server is utilized, the more efficient it becomes at turning energy into useful operations. Therefore rightsizing VMs should reduce the energy consumption of your processes.
+- `M`: By reducing the total number of servers required to run a process, the total embodied carbon is lower.
 
 ## Assumptions
 
-If we chose an oversized VM because *occasionally* there is a burst of work, a peak load, then undersizing them will reduce the headroom available to handle the peak traffic. A better solution would be to consider an auto-scaling architecture that would automatically scale the number of VM.
+- If we chose an oversized VM because *occasionally* there is a burst of work (peak load) then undersizing them will reduce the margin available to handle the peak traffic. A better solution would be to consider an auto-scaling architecture that would automatically scale the number of VMs.
 
 ## Considerations
 - It may reduce your cloud bill as reducing the spec of your VMs will cost less.

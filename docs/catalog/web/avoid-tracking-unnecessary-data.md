@@ -14,7 +14,7 @@ tags:
 
 ## Description
 
-User tracking, user data collection, and targeting in things like advertisements are responsible for significant energy use in many digital products and services. This is primarily due to the large size of tracking and advertising scripts, the energy required to process and track user behavior, and databases collecting vast amounts of user data. Furthermore, this can present a significant violation of user privacy and tangibly degrade user experience.
+User tracking, user data collection and targeting in things like advertisements are responsible for significant energy use in many digital products, and services. This is primarily due to the large size of tracking and advertising scripts, the energy required to process and track user behavior, and databases collecting vast amounts of user data. Furthermore, this can present a significant violation of user privacy and tangibly degrade user experience.
 
 
 ## Solution
@@ -26,9 +26,9 @@ From an energy efficiency perspective, avoiding tracking unnecessary user data w
 `SCI = (E * I) + M per R`  
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-Concerning the SCI equation, avoiding tracking unnecessary data will impact two parts:
+Avoiding tracking unnecessary data will impact SCI as follows:
 
-`E`: Avoiding the tracking of unnecessary data will reducing time spent on transfering and processing web pages. 
+`E`: Avoiding the tracking of unnecessary data will reduce time spent on transfering and processing web pages. 
 `I`: Avoiding the tracking of unnecessary data will reduce the amount of energy consumed by the users browser, reducing the intensity of carbon emissions. 
 
 ## Assumptions

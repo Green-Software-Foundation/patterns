@@ -10,22 +10,22 @@ tags:
  - size:small
 ---
 
-# Select the right hardware/VM instance types for training and inference of AI/ML process
+# Select the right hardware/VM instance types for training and inference of AI/ML process 
 
 ## Description
-Training an AI model has a significant carbon footprint. Selecting the right hardware/VM instance types for training the AI model is one of the choices you should make as part of your energy-efficient AI/ML process. For instance, custom application-specific integrated circuits (ASICs) and Field-programmable gate arrays (FPGAs) are provided or supported by cloud vendors which provide better energy efficiency and inference for AI models than conventional chips. 
+Training an AI model has a significant carbon footprint. Selecting the right hardware/VM instance types for training is one of the choices you should make as part of your energy-efficient AI/ML process. For instance, custom application-specific integrated circuits (ASICs) and field-programmable gate arrays (FPGAs) are provided or supported by cloud vendors which provide better energy efficiency and inference for AI models than conventional chips. 
 
 
 ## Solution
-Evaluate and leverage the right hardware/VM instance types for training and inference of AI/ML development.  
+Evaluate and leverage the right hardware/VM instance types for training and inference of AI/ML development.
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-For the SCI equation, the right hardware/VM types will impact the following:
-- 'E': Right hardware/VM type would provide better energy efficiency and inference for AI models. This should reduce the energy consumption of your AI/ML processes, and consequently, the E number should decrease.
-- 'M': By reducing the total number of servers required to run a process, we reduce the total embodied carbon, the M of the equation.
+Selecting the right hardware/VM types will impact SCI as follows:
+- `E`: The right hardware/VM type provides better energy efficiency and inference for AI models, reducing the energy consumption of your AI/ML processes overall.
+- `M`: By reducing the total number of servers required to run a process, the total embodied carbon is lower.
 
 ## Assumptions
 None 
