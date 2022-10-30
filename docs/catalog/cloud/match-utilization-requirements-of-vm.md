@@ -28,8 +28,8 @@ Rightsize your VMs by changing the number of resources allocated to a VM to matc
 
 Rightsizing oversized VMs will impact SCI as follows:
 
-- `M`: By reducing the total number of servers required to run a process, the total embodied carbon is lower.
 - `E`: Rightsizing oversized VMs will *increase* the total server utilization. The more a server is utilized, the more efficient it becomes at turning energy into useful operations. Therefore rightsizing VMs should reduce the energy consumption of your processes.
+- `M`: By reducing the total number of servers required to run a process, the total embodied carbon is lower.
 
 ## Assumptions
 
