@@ -27,8 +27,8 @@ Move storage resources away from underutilised storage resources.
 
 Moving storage resources will impact SCI as follows:
 
-- `M`: By reducing the total number of storage volumes required, the total embodied carbon is lower.
 - `E`: Moving storage resources away from underutilised storage will *increase* the total storage utilisation. The more storage that is utilised, the more efficient it becomes at turning energy into useful operations. Therefore rightsizing storage volumes should reduce the energy consumption of processes.
+- `M`: By reducing the total number of storage volumes required, the total embodied carbon is lower.
 
 ## Assumptions
 If we choose oversized storage resources *occasionally* because there may be a burst of workload, then undersizing them will reduce the margin available to handle the peak load. A better solution would be to consider an auto-scaling architecture that automatically scales the number of storage resources.
