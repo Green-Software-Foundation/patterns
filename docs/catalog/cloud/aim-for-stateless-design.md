@@ -4,13 +4,14 @@ submitted_by: yelghali
 published_date: tbd
 category: cloud
 tags: 
+- cloud
 - compute
 - kubernetes
 - role:software-engineer
 - size:medium
 ---
 
-# Aim for stateless design
+# Implement stateless design
 
 ## Description
 Service state refers to the in-memory or on-disk data required by a service to function. State includes the data structures and member variables that the service reads and writes. Depending on how the service is architected, the state might also include files or other resources stored on the disk. 
@@ -28,8 +29,8 @@ State can be either externalized in a noSQL database or an in-memroy cache servi
 
 Regarding the SCI equation, implementing stateless design will impact:
 
-- `M`: stateless applications require smaller compute VMs, which reduces the total embodied carbon emissions.
 - `E`: Rightsizing the compute VM increases its utilization, hence increasing energy efficiency.
+- `M`: stateless applications require smaller compute VMs, which reduces the total embodied carbon emissions.
 
 
 ## Assumptions
