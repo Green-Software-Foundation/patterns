@@ -4,7 +4,7 @@ submitted_by: yelghali
 published_date: tbd
 category: cloud
 tags: 
-- operations
+- cloud
 - compute
 - kubernetes
 - role:software-engineer
