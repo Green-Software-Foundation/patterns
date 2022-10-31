@@ -4,7 +4,9 @@ submitted_by: yelghali
 published_date: tbd
 category: cloud
 tags: 
+- cloud
 - security
+- network
 - compute
 - kubernetes
 - role:software-engineer
@@ -14,10 +16,10 @@ tags:
 # Use cloud native network security tools and controls
 
 ## Description
-Network & Web Application Firewalls provide protection against OWASP top 10 attacks and load shedding bad bots. Using these capabilities helps remove unnecessary data transmission and reduces the burden on the cloud infrastructure, with lower bandwidth and less infrastructure requirements.
+Network & Web Application Firewalls provide protection against [most common attacks](https://owasp.org/Top10/) and load shedding bad bots. Using these capabilities helps remove unnecessary data transmission and reduces the burden on the cloud infrastructure, with lower bandwidth and less infrastructure requirements.
 
 ## Solution
-Filter Ingress and Egress traffic at the source, to remove the unnecessary data transmissions.
+Filter Ingress and Egress traffic at the source, to block any unauthorized data transmissions.
 
 Use cloud native security tools as they scale based on demand, and use only the necessary infrastructure resources.
 
