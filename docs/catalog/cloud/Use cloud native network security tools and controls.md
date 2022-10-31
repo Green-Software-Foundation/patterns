@@ -38,3 +38,6 @@ Deployment and configuration of the security tools is automated.
 
 ## Considerations
 Consider implementing a Zero Trust Model, where security controls are layered.
+
+## References
+Microsoft Azure Well Architected Framework [sustainability patterns](https://learn.microsoft.com/en-us/azure/architecture/framework/sustainability/sustainability-security)
