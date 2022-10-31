@@ -4,6 +4,7 @@ submitted_by: yelghali
 published_date: tbd
 category: cloud
 tags: 
+- cloud
 - compute
 - kubernetes
 - role:software-engineer
@@ -11,7 +12,7 @@ tags:
 - size:medium
 ---
 
-# Use energy efficient hardware
+# Use cloud native processors VMs
 
 ## Description
 
@@ -22,7 +23,7 @@ Hence using virtual machines based on efficient processors would impact hardware
 
 ## Solution
 
-Use new cloud virtual machines that have been engineered with "cloud native processors" to efficiently run scale-out, cloud-native workloads and consume energy efficiently.
+Use new cloud virtual machines that have been engineered with [cloud native processors](https://www.forbes.com/sites/davealtavilla/2022/10/13/amperes-efficient-128-core-cloud-native-processor-builds-momentum-in-sustainable-data-centers/) to efficiently run scale-out, cloud-native workloads and consume energy efficiently.
 
 
 ## SCI Impact
@@ -31,7 +32,7 @@ Use new cloud virtual machines that have been engineered with "cloud native proc
 
 Regarding the SCI equation, using energy efficient hardware will impact:
 
-- `M`: By using energy efficient hardware, we reduce the total embodied carbon emissions.
+- `E`: By using energy efficient hardware, we reduce the total embodied carbon emissions.
 
 ## Assumptions
 
