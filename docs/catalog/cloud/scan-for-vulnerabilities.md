@@ -35,3 +35,6 @@ Zero Trust security policy is implemented, which covers security controls for in
 
 ## Considerations
 Leverage cloud native EDR and scanning services, as they scale based on demand, to keep aware of the carbon impact of the security tooling as well.
+
+## References
+Microsoft Azure Well Architected Framework [sustainability patterns](https://learn.microsoft.com/en-us/azure/architecture/framework/sustainability/sustainability-security)
