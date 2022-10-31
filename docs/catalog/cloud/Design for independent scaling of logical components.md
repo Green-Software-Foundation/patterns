@@ -5,29 +5,30 @@ published_date: tbd
 category: cloud
 tags: 
 - compute
+- cloud
 - kubernetes
 - role:software-engineer
 - role:cloud-engineer
 - size:medium
 ---
 
-# Design for independent scaling of logical components
+# Scale logical components independently
 
 ## Description
-A microservice architecture may reduce the compute resources required, as it allows for independent scaling of its logical components and ensures they are scaled according to the demand.
+A microservice architecture may reduce the compute resources required, as it allows each independent component to be scaled according to its own demand.
 
 ## Solution
 
-Use [Dapr](https://dapr.io) Framework or other cloud native projects to help you separate your application functionality into different microservices, to allow independent scaling of its logical components.
+Use cloud native projects like [Dapr](https://dapr.io) Framework to help you separate your application functionality into different microservices, to allow independent scaling of its logical components.
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-Regarding the SCI equation, designing for independent scaling of logical components will impact:
+Regarding the SCI equation, scaling logical components independently will impact:
 
-- `E`: By optimizing the most consuming application components, we reduce the amount of energy consumed by the application globally.
-- `M`: By scaling the components based on demand and maximizing resource utilization, we reduce the total embodied carbon emissions.
+- `E`: By optimizing the scaling of the most consuming application components, we reduce the amount of energy consumed by the application globally.
+- `M`: By scaling each component independently, we can right size its resources to maximize their utilization, thereby reducing the application total embodied carbon emissions.
 
 ## Assumptions
 
