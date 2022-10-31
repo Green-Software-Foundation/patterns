@@ -35,3 +35,6 @@ The application supports containerization.
 Using containers may not be enough to reduce carbon impact of a large monolith application. 
 
 Consider modernizing your applications into micro-services architectures, that allow independent sizing and scaling of their logical components.
+
+## References
+Microsoft Azure Well Architected Framework [sustainability patterns](https://learn.microsoft.com/en-us/azure/architecture/framework/sustainability/sustainability-application-platform)
