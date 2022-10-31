@@ -4,6 +4,7 @@ submitted_by: yelghali
 published_date: tbd
 category: cloud
 tags: 
+- cloud
 - network
 - compute
 - kubernetes
@@ -19,9 +20,9 @@ Placing VMs in a single region or a single availability zone reduces the physica
 However, for business critical workloads, you need to ensure your workload is spread across multiple availability-zones, which may result in more network traversal and increase in your carbon footprint.
 
 ## Solution
-Consider using proximity placement groups (also called VM-Host affinitry rules) to reduce the network traversal by ensuring your VM resources are physically located close to each other. 
+Consider using VM-Host affinitry rules (also called proximity placement groups) to reduce the network traversal by ensuring your VM resources are physically located close to each other. 
 
-For critical workloads, configure proximity placement groups with availability zones, to align high availability with performance.
+For critical workloads, configure VM-Host affinitry rules with availability zones, to align high availability with performance.
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
@@ -33,7 +34,7 @@ Regarding the SCI equation, reducing network traversal between VMs will impact:
 - `M`: By reducing the total number of computing equipment traversed, we reduce the total embodied carbon.
 
 ## Assumptions
-Proximity placement groups are applicable for workloads running on IaaS or Kubernetes.
+VM-Host affinitry rules are applicable for workloads running on IaaS or Kubernetes.
 
 ## Considerations
-Consider using proximity placement groups for hosting applications like gaming, engineering simulations, and high-frequency trading (HFT) that require low latency.
+Consider using VM-Host affinitry rules for hosting applications like gaming, engineering simulations, and high-frequency trading (HFT) that require low latency.
