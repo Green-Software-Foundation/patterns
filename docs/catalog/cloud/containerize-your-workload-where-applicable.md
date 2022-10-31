@@ -4,19 +4,20 @@ submitted_by: yelghali
 published_date: tbd
 category: cloud
 tags: 
+- cloud
 - compute
 - kubernetes
 - role:cloud-engineer
 - size:medium
 ---
 
-# Containerize your workload where applicable
+# Containerize your workloads
 
 ## Description
 Containers may reduce unnecessary resource allocation and increase utilization of the compute resources, as they allow for bin packing and require less compute resources than virtual machines.
 
 ## Solution
-Use [Draft](https://github.com/Azure/draft) to simplify application containerization by generating Dockerfiles and Kubernetes manifests.
+Use [Draft](https://github.com/Azure/draft) tool to simplify application containerization by generating Dockerfiles and Kubernetes manifests.
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
@@ -24,7 +25,7 @@ Use [Draft](https://github.com/Azure/draft) to simplify application containeriza
 
 Regarding the SCI equation, containerizing workloads will impact:
 
-- `E`: By reducing CPU and RAM utilization, we reduce the amount of energy required.
+- `E`: By reducing CPU and RAM usage, we reduce the amount of energy required.
 - `M`: Reducing compute resources decreases the embodied carbon emissions.
 
 ## Assumptions
