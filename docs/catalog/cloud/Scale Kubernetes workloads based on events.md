@@ -35,7 +35,7 @@ Regarding the SCI equation, scaling based on events will impact:
 
 ## Assumptions
 
-The metrics that drive application demand, and scaling needs, are known
+The metrics that drive application demand, and scaling needs, are known.
 
 ## Considerations
 If your workloads have predictable usage patterns, you could implement scaling based on time as an alternative to optimize utilization and reduce carbon emissions.
