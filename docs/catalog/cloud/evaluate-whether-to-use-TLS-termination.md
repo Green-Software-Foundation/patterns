@@ -41,3 +41,8 @@ The application does not have compliance requirements for using end to end TLS.
 A balanced level of security can offer a more sustainable and energy efficient workload while a higher level of security may increase the requirements on compute resources.
 
 Consider applying the principles of "Just Enough Security", and Terminate TLS at your border gateway for most standard applications that do not have strict compliance requirements.
+
+
+## References
+Microsoft Azure Well Architected Framework [sustainability patterns](https://learn.microsoft.com/en-us/azure/architecture/framework/sustainability/sustainability-security)
+
