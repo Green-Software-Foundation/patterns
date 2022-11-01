@@ -5,6 +5,7 @@ published_date: tbd
 category: cloud
 tags: 
  - devops
+ - cloud
  - role:cloud-engineer
  - size:small
 ---
