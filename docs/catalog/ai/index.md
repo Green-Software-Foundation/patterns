@@ -10,5 +10,6 @@ import Image from "@theme/IdealImage";
 ## Subject Matter Experts
 
 <TeamMembers>
+    <TeamMember github="navveenb">Navveen Balani</TeamMember>
     <TeamMember github="tmcclell">Tammy McClellan</TeamMember>
 </TeamMembers>
