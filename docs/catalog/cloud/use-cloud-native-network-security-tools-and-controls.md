@@ -6,7 +6,7 @@ category: cloud
 tags: 
 - cloud
 - security
-- network
+- networking
 - compute
 - kubernetes
 - role:software-engineer
