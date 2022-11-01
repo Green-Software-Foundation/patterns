@@ -16,11 +16,11 @@ Which technology does this pattern align to?
 * [Compute](/tags/compute)
 * Content Delivery/CDN
 * Database
-* Deployment
+* [Deployment](/tags/deployment)
 * DevOps
 * Gaming
 * Internet of Things
-* Kubernetes
+* [Kubernetes](/tags/kubernetes)
 * Logging
 * [Machine Learning](/tags/machine-learning)
 * Mobile
@@ -29,8 +29,8 @@ Which technology does this pattern align to?
 * Operating Systems
 * Programming Language
 * [Reliability/Availability](/tags/reliability-availability/)
-* Security
-* Serverless
+* [Security](/tags/security)
+* [Serverless](/tags/serverless)
 * [Storage](/tags/storage)
 * User Experience
 * User Interface
@@ -49,7 +49,7 @@ Which traditional role would implement this pattern?
 * Mobile Engineer
 * Project Manager
 * Program Manager
-* Reliability Engineer
+* [Reliability Engineer](/tags/role-reliability-engineer)
 * [Software Engineer](/tags/role-software-engineer)
 * [Web Developer](/tags/role-web-developer)
 
@@ -60,5 +60,5 @@ How complex is this pattern to implement?
 
 * [Small](/tags/size-small)
 * [Medium](/tags/size-medium)
-* Large
+* [Large](/tags/size-large)
 * Undetermined
