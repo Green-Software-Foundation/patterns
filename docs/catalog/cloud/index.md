@@ -19,4 +19,5 @@ import Image from "@theme/IdealImage";
     <TeamMember github="marcoshidalgonunes">Marcos Hidalgo Nunes</TeamMember>
     <TeamMember github="srini1978">Srinivasan Rakhunathan</TeamMember>
     <TeamMember github="bderusha">Bill DeRusha</TeamMember>
+    <TeamMember github="navveenb">Navveen Balani</TeamMember>
 </TeamMembers>
