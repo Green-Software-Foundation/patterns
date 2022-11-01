@@ -5,6 +5,7 @@ published_date: tbd
 category: cloud
 tags: 
  - serverless
+ - cloud
  - role:cloud-engineer
  - size:small
 ---
