@@ -30,8 +30,7 @@ Terminate TLS at your border gateway and continue with non-TLS, to your applicat
 
 Regarding the SCI equation, implementing non-TLS communication will impact:
 
-- `E`: By reducing CPU 
-, we reduce the amount of energy needed to support the communication transport.
+- `E`: By reducing CPU, we reduce the amount of energy needed to support the communication transport.
 - `M`: By reducing the compute resource requirements, we reduce the total embodied carbon emissions.
 
 ## Assumptions
