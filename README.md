@@ -15,14 +15,14 @@ To use the patterns, head to https://patterns.greensoftware.foundation and searc
 * **Title**: Title of the pattern
 * **Version**: Designation of iteration on the pattern. This will initially be assigned by the patterns working group
 * **Submitted By**: The name of the person(s) submitting the pattern
-* **Published Date**: The date this version of the pattern is published. This will be provided by the patterns working group upon apporval
-* **Intent**: Subtitle describing what this pattern is expected to do
-* **Tags**: Pre-defined list of tags which might apply to the pattern (e.g. Cloud, Web)
-* **Problem**: What is the problem this pattern is solving
+* **Published Date**: The date this version of the pattern is published. This will be provided by the patterns working group upon approval
+* **Tag Category**: Select the most appropriate category from: Artificial Intelligence, Cloud, or Web which might apply to this pattern
+* **Tags**: A [pre-defined list of additional tags](/docs/tags.md) which might apply to the pattern (e.g. Machine Learning, Gaming, Mobile).
+* **Description**: A full description of what problem this pattern is solving
 * **Solution**: How will this patter solve the problem
 * **SCI Impact**: How will this pattern affect an SCI score of an application and why
 * **Assumptions**: What are the assumptions being made
-* **Pros & Cons**: Discussion section for pros and cons of this pattern
+* **Considerations**: Discussion section anything that should be taken into consideration when implementing this pattern 
 
 ## Stages of a Green Software Pattern
 
@@ -42,7 +42,7 @@ This needs an explicit approval from the initial reviewer before the pattern can
 ### SME Review
 One or more subject matter experts in the GSF are asked to review the pattern and give their feedback. E.g. If the pattern is in the machine-learning catalog we ask a machine learning expert to review.
 
-This needs an explicit approval from the initial reviewer before the pattern can move to the next stage.
+This needs an explicit approval from the SME reviewer before the pattern can move to the next stage.
 
 
 ### Team Consensus
@@ -73,5 +73,4 @@ The Green Software Patterns projects are copyrighted under [Creative Commons Att
 No Patent License. No patent licenses are granted for the Draft Deliverables or Approved Deliverables developed by this Working Group.
 
 ## License
-The Green Software Patterns projects are licensed under the MIT License - see the [License.md](license/patterns-wg-license.md) file for details 
-
+The Green Software Patterns projects are licensed under the MIT License - see the [License.md](license.md) file for details.

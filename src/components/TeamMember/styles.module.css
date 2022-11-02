@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 44px;
+}
+.teamMember {
+  display: flex;
+  gap: 32px;
+}
+.avatar {
+  flex-shrink: 0;
+}
+.avatar img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--ifm-color-primary);
+  display: block;
+}
+.role {
+  font-size: 16px;
+  color: var(--ifm-color-content);
+  display: block;
+}
+.company {
+  font-size: 14px;
+  color: var(--ifm-color-emphasis-700);
+  display: block;
+}
+.social {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
