@@ -32,7 +32,6 @@ Concerning the SCI equation, scale infrastructure with user load, will impact tw
 
 ## Assumptions
 
-- Optimization needs proficiency in the tools and time to be implemented.
 
 ## Considerations
 
