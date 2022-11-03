@@ -5,11 +5,12 @@ published_date: TBD
 category: cloud
 tags: 
  - compute
+ - cloud
  - role:cloud-engineer
  - size:medium
 ---
 
-# Scale infrastructure with user load #
+# Scale infrastructure with user load
 
 ## Description
 
@@ -24,10 +25,10 @@ Scaling back resources during periods of low utilisation eliminates excess capac
 `SCI = (E * I) + M per R`  
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-Concerning the SCI equation, scale infrastructure with user laod, will impact two parts:
+Concerning the SCI equation, scale infrastructure with user load, will impact two parts:
 
-- `M`: Can reduce the embodied emissions if the application after the optimization uses less hardware overall
 - `E`: Optimizing the application will lead to less electricity consumed over time
+- `M`: Can reduce the embodied emissions if the application after the optimization uses less hardware overall
 
 ## Assumptions
 
