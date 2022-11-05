@@ -23,10 +23,11 @@ Optimizing the size of the AI/ML model can save on storage space and take up les
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 Optimizing the AI/ML model impacts SCI as follows:
-- 'E': Having an optimized AI model would reduce the energy consumption for your AI/ML inference, save storage space and network bandwidth and consequently, the E number should decrease.
+- `E`: Having an optimized AI model would reduce the energy consumption for your AI/ML inference, save storage space and network bandwidth and consequently, the E number should decrease.
 
 ## Assumptions
 None 
