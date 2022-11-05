@@ -23,6 +23,7 @@ Evaluate and select an energy-efficient framework/module for AI/ML development, 
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 Selecting an energy-efficient AI/ML would impact SCI as follows:
