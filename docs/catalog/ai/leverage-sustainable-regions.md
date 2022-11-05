@@ -13,7 +13,7 @@ tags:
 # Use sustainable regions for ML training 
 
 ## Description
-Training an AI model has a significant carbon footprint. Depending on the model parameters and training iterations, training an AM/ML model consumes lot of of power and requires many high servers that adds to embodied emissions.
+Training an AI model has a significant carbon footprint. Depending on the model parameters and training iterations, training an AI/ML model consumes lot of of power and requires many high servers that adds to embodied emissions.
 
 
 ## Solution
