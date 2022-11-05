@@ -23,9 +23,10 @@ Evaluate energy efficient AI/ML models for development and inference. For exampl
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-Using energy-efficient AI/ML models impacts SCI as follows:
+Using energy efficient AI/ML models impacts SCI as follows:
 
 - 'E':  Having an energy-efficient AI/ML model would provide efficient resource utilization and reduces the energy consumption of the compute resources and consequently, the E number should decrease.
 
