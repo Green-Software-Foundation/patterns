@@ -14,11 +14,11 @@ tags:
 
 ## Description
 
-Large ML and deep learning network models have a significant carbon footprint. Evaluate and use alternative, more energy efficient, models that provide similar functionality.
+Large AI/ML and deep learning network models have a significant carbon footprint. Evaluate and use alternative, more energy efficient, models that provide similar functionality.
 
 
 ## Solution
-Evaluate energy-efficient AI/ML models for development and inference. For example, DistilBERT provides similar functionality to the BERT model, running 60% faster while preserving 97% of BERT's performance. GPT-Neo 125M provides balanced results for energy consumption and accuracy compared to GPT-J 6B or GPT Neo 2.7B models.
+Evaluate energy efficient AI/ML models for development and inference. For example, DistilBERT provides similar functionality to the BERT model, running 60% faster while preserving 97% of BERT's performance. GPT-Neo 125M provides balanced results for energy consumption and accuracy compared to GPT-J 6B or GPT Neo 2.7B models.
 
 
 ## SCI Impact
