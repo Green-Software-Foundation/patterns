@@ -28,7 +28,7 @@ Evaluate energy efficient AI/ML models for development and inference. For exampl
 
 Using energy efficient AI/ML models impacts SCI as follows:
 
-- 'E':  Having an energy-efficient AI/ML model would provide efficient resource utilization and reduces the energy consumption of the compute resources and consequently, the E number should decrease.
+- `E`:  Having an energy-efficient AI/ML model would provide efficient resource utilization and reduces the energy consumption of the compute resources and consequently, the E number should decrease.
 
 ## Assumptions
 None 
