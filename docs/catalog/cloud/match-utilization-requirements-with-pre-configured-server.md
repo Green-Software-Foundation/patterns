@@ -33,7 +33,7 @@ Rightsizing oversized VMs will impact SCI as follows:
 
 ## Assumptions
 
-If we chose an oversized VM because *occasionally* there is a burst of work (peak load) then undersizing them will reduce the margin available to handle the peak traffic. A better solution would be to consider an auto-scaling architecture that would automatically scale the number of VMs.
+If we choose an oversized VM because *occasionally* there is a burst of work (peak load) then undersizing them will reduce the margin available to handle the peak traffic. A better solution would be to consider an auto-scaling architecture that would automatically scale the number of VMs.
 
 ## Considerations
 
