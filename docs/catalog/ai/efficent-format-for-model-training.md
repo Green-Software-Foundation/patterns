@@ -26,8 +26,8 @@ Use efficient file formats for building your ML models. For instance, column-ori
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 Using efficient file formats for ML development impacts SCI as follows:
-- 'E': A more efficient file format for ML development means more efficient data storage and retrieval, resulting in lower overall energy consumption.
-- 'M': A more efficient file format for ML development reduces the amount of storage space and number of servers needed, resulting in a lower overall embodied carbon.
+- `E`: A more efficient file format for ML development means more efficient data storage and retrieval, resulting in lower overall energy consumption.
+- `M`: A more efficient file format for ML development reduces the amount of storage space and number of servers needed, resulting in a lower overall embodied carbon.
 
 ## Assumptions
 None 
