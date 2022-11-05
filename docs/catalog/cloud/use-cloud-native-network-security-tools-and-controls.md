@@ -16,28 +16,28 @@ tags:
 # Use cloud native network security tools and controls
 
 ## Description
-Network & Web Application Firewalls provide protection against [most common attacks](https://owasp.org/Top10/) and load shedding bad bots. Using these capabilities helps remove unnecessary data transmission and reduces the burden on the cloud infrastructure, with lower bandwidth and less infrastructure requirements.
+Network & web application firewalls provide protection against [most common attacks](https://owasp.org/Top10/) and load shedding bad bots. These tools help to remove unnecessary data transmission and reduce the burden on the cloud infrastructure, while also using lower bandwidth and less infrastructure.
 
 ## Solution
-Filter Ingress and Egress traffic at the source, to block any unauthorized data transmissions.
+Filter ingress and egress traffic at the source to block any unauthorized data transmissions.
 
-Use cloud native security tools as they scale based on demand, and use only the necessary infrastructure resources.
+Use cloud native security tools, as they scale based on demand, and only the necessary infrastructure resources.
 
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-Regarding the SCI equation, using cloud native security controls and tools will impact:
+Using cloud native security controls and tools will impact SCI as follows:
 
-- `E`: By filtering transmitted data, we reduce the amount of energy consumed by the networking resources.
-- `M`: By scaling the tools based on demand and maximizing resource utilization, we reduce the total embodied carbon emissions.
+- `E`: By filtering transmitted data, less energy is consumed by the networking resources.
+- `M`: By scaling the tools based on demand and maximizing resource utilization, the total embodied carbon emissions are lower.
 
 ## Assumptions
 Deployment and configuration of the security tools is automated.
 
 ## Considerations
-Consider implementing a Zero Trust Model, where security controls are layered.
+Consider implementing a zero trust model, where security controls are layered.
 
 ## References
-Microsoft Azure Well Architected Framework [sustainability patterns](https://learn.microsoft.com/en-us/azure/architecture/framework/sustainability/sustainability-security)
+[Microsoft Azure well architected framework sustainability patterns](https://learn.microsoft.com/en-us/azure/architecture/framework/sustainability/sustainability-security)
