@@ -12,7 +12,7 @@ tags:
   - size:small
 ---
 
-# Adopt serverless architecture for AI/ML workload process
+# Adopt serverless architecture for AI/ML workload processes
 
 ## Description
 
