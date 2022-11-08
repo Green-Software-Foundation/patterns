@@ -26,7 +26,7 @@ Use a cloud region which has a lower carbon intensity value for running your AI/
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 Using a lower carbon intensity region for AI/ML training impacts SCI as follows:
-- `E`: Using a lower carbon intensity region for ML training would reduce the carbon emissions of ML applications, therfore decreasing the amount of energy consumed.
+- `E`: Using a lower carbon intensity region for ML training would reduce the carbon emissions of ML applications, therefore decreasing the amount of energy consumed.
 
 ## Assumptions
 The migration of workloads to other regions assumes you have taken into consideration privacy, security, or data sovereignty based on your application requirements. 
