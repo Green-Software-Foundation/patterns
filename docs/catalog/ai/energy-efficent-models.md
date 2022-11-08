@@ -10,7 +10,7 @@ tags:
  - size:small
 ---
 
-# Evaluate and use energy efficient AI/ML models
+# Use energy efficient AI/ML models
 
 ## Description
 
