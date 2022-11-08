@@ -21,6 +21,7 @@ Evaluate and select pre-trained models and use transfer learning to avoid traini
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 Leveraging a pre-trained model would impact SCI as follows:

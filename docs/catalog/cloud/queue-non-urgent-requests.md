@@ -17,7 +17,7 @@ All systems have periods of peak and low load. From a hardware-efficiency perspe
 
 ## Solution
 
-Utilize a message queue, so requests that do not require immediate processing are queued. 
+Utilize a message queue so requests that do not require immediate processing are queued. 
 
 ## SCI Impact
 
@@ -30,11 +30,11 @@ Queuing non-urgent requests will impact SCI as follows:
 - `M`: By reducing the total number of computing equipment required, the total embodied carbon is lower.
 
 ## Assumptions
-- There is an assumption that the components in your system can communicate with a message queue asynchronously. If your component is the producer, it can add requests to the queue without waiting for the previous sent to be processed. If your component is the consumer, it will only process requests when they are available. We assume that no components in the system ever stalled while waiting for another. 
+There is an assumption that the components in your system can communicate with a message queue asynchronously. If your component is the producer, it can add requests to the queue without waiting for the previous sent to be processed. If your component is the consumer, it will only process requests when they are available. We assume that no components in the system ever stalled while waiting for another. 
 
 
 ## Considerations
-- Decoupling components of your system can introduce unnecessary complexity and managing a message queue might mean additional overheads. As such, you should give careful consideration as to whether a message queue is appropriate.
+Decoupling components of your system can introduce unnecessary complexity and managing a message queue might mean additional overheads. As such, you should give careful consideration as to whether a message queue is appropriate.
 
 
 ## References

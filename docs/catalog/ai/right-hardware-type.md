@@ -21,9 +21,10 @@ Evaluate and leverage the right hardware/VM instance types for training and infe
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-Selecting the right hardware/VM types will impact SCI as follows:
+Selecting the right hardware/VM types impacts SCI as follows:
 - `E`: The right hardware/VM type provides better energy efficiency and inference for AI models, reducing the energy consumption of your AI/ML processes overall.
 - `M`: By reducing the total number of servers required to run a process, the total embodied carbon is lower.
 

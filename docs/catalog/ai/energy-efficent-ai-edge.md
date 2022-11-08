@@ -23,10 +23,11 @@ Evaluate and run AI models at the edge, based on your application requirements. 
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-For the SCI equation, energy-efficient AI at the edge would impact the following:
-- 'E': Having an energy-efficient AI at the edge, would reduce energy consumption by providing local computing and storage for data, running the inference at the edge and reducing the network transfer to the cloud, consequently, decreasing the E number.
+Running energy efficient AI at the edge would impact SCI as follows:
+- `E`: An energy efficient AI at the edge would reduce energy consumption by providing local computing and storage for data. Running the inference at the edge in this way would reduce the network transfer to the cloud, reducing the overall energy consumed.
 
 ## Assumptions
 None 
