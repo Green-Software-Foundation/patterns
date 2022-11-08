@@ -9,13 +9,13 @@ tags:
  - role:web-developer
 ---
 
-# Serve images in moden formats
+# Serve images in modern formats
 
 ## Description
 
 Images are a key element in modern websites and are widely used. Modern image formats can help to reduce bandwidth, storage and computing requirements on the displaying device.
 
-There are serveral new image formats to choose from, for example WebP and AVIF. All new formats provide better compression ratio, increased quality and more features than traditional formats. For example, WebP offers around 30% smaller files sizes than JPEG, with no drop in quality.
+There are several new image formats to choose from, for example WebP and AVIF. All new formats provide better compression ratio, increased quality and more features than traditional formats. For example, WebP offers around 30% smaller files sizes than JPEG, with no drop in quality.
 
 
 ## Solution
