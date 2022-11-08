@@ -10,7 +10,7 @@ tags:
  - size:small
 ---
 
-# Leverage pre-trained model and transfer learning for AI/ML development 
+# Leverage pre-trained models and transfer learning for AI/ML development 
 
 ## Description
 Training an AI model has a significant carbon footprint. As part of your AI/ML process, you should evaluate using a pre-trained model and use transfer learning to avoid training a new model from scratch. 
@@ -21,6 +21,7 @@ Evaluate and select pre-trained models and use transfer learning to avoid traini
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
+
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
 Leveraging a pre-trained model would impact SCI as follows:
