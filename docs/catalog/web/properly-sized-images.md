@@ -15,8 +15,8 @@ tags:
 
 Images are stored with fixed pixel dimensions on disk. This determines the file size and the quality that can be achieved when displaying the image on screen. Web pages let us dynamically resize the images from the stored size to a specific display size. 
 
-Ideally, the stored pixel dimensions are exactly the same, or smaller, as the display size in pixels so that no bandwith or storage space is wasted. 
-The display size of images varies from device to device and can even change when the window resizes. For this use case, web browsers provide the functionality to have "responsive images". In practice, the web server stores multiple versions of the same image, then decides which image size to load depending on the screen and window size. 
+Ideally, the stored pixel dimensions are exactly the same, or smaller, as the display size in pixels so that no bandwidth or storage space is wasted. 
+The display size of images varies from device to device and can even change when the window is esized. For this use case, web browsers provide the functionality to have "responsive images". In practice, the web server stores multiple versions of the same image, then decides which image size to load depending on the screen and window size. 
 
 ## Solution
 
