@@ -66,6 +66,11 @@ const config = {
         },
         items: [
           {
+            href: "https://patterns.greensoftware.foundation/guide/#how-to-propose-a-new-pattern-or-a-change-to-a-pattern",
+            position: "right",
+            label: "Add/Edit a pattern",
+          },
+          {
             href: "https://greensoftware.foundation/",
             position: "right",
             label: "a Green Software Foundation project",
