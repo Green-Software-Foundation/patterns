@@ -6,7 +6,7 @@ category: cloud
 tags: 
  - cloud
  - role:cloud-engineer
- - size:medium
+ - size:small
 ---
 
 # Choose sustainable region for workloads
@@ -32,6 +32,7 @@ Concerning the SCI equation. choose sustainable region for workloads will impact
 ## Assumptions
 
 - This optimization assumes that the workload can be run in an additional region and the transfer of the necessary data from and to the region is still better, in terms of CO2, than running the workload in the original region
+- Running workloads in a different region can increase latency in scheduling tasks and retrieving results
 
 ## Considerations
 
