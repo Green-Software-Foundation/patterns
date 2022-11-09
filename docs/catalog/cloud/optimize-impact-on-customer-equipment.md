@@ -19,23 +19,25 @@ Ideally the customer can use the hardware until it's failure or until it becomes
 
 ## Solution
 
-Understand the devices and equipment your customers use to consume your services. Implement software patterns and architectures to minimize the need for customers to replace devices and upgrade equipment. For example, implement new features using code that is backwards compatible with older hardware and operating system versions, or manage the size of payloads so they don’t exceed the storage capacity of the target device.
+Understand the devices and equipment your customers use to consume your services. Implement software patterns and architectures to minimize the need for customers to replace devices and upgrade equipment. 
+A few examples on how this could be achieved:
+* Implement new features using code that is backwards compatible with older hardware and operating system versions or disable them on older hardware only so the application can still be used
+* Support older browser versions and optimize the UX for an older tier of CPUs
+* Optimize network bandwidth for older devices or customers that have limited connectivity
 
 ## SCI Impact
 
 `SCI = (E * I) + M per R`  
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-Concerning the SCI equation, queuing non-urgent requests will impact two parts:
+Concerning the SCI equation, optimize impact on customer devices  will impact two parts:
 
-- `E`: [PATTERN_ENERGY_SCI_IMPACT]
-- `I`: [PATTERN_INTENSITY_SCI_IMPACT]
-- `M`: [PATTERN_EMBODIED_SCI_IMPACT]
-- `R`: [PATTERN_RATE_SCI_IMPACT]
+- `I`: Optimizing for older hardware might reduce the carbon intensity if it also runs more efficiently in general
+- `M`: Using older devices allows hardware to be used longer and therefore reduces the embodied carbon impact
 
 ## Assumptions
 
-- This pattern assumes that the team does have sufficient resources to implement backwards compatibility and optimize the application
+- This pattern assumes that the team does have sufficient time and resources to implement backwards compatibility and optimize the application
 
 ## Considerations
 
