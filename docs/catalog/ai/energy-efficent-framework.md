@@ -3,6 +3,7 @@ version: 1.0
 submitted_by: navveenb
 published_date: tbd
 category: ai
+description: Training an AI model implies a significant carbon footprint. The underlying framework used for the development, training, and deployment of AI/ML needs to be evaluated and considered to ensure the process is as energy efficient as possible.
 tags: 
  - ai
  - machine-learning
