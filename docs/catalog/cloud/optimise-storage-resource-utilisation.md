@@ -3,6 +3,7 @@ version: 1.0
 submitted_by: greenhsu123
 published_date: tbd
 category: cloud
+description: It's better to maximise storage utilisation so the storage layer is optimised for the task, not only in terms of energy proportionality but also in terms of embodied carbon. Two storage units running at low utilization rates will consume more energy than one running at a high utilization rate. In addition, the unused capacity on the underutilised storage unit could be more efficiently used for another task or process.
 tags: 
  - storage
  - role:cloud-engineer
