@@ -4,6 +4,7 @@ submitted_by: markus-ntt-seidl
 published_date: TBD
 category: cloud
 tags: 
+ - cloud
  - compute
  - role:cloud-engineer
  - size:medium
