@@ -3,6 +3,7 @@ version: 1.0
 submitted_by: navveenb
 published_date: tbd
 category: ai
+description: Selecting the right hardware/VM instance types for training is one of the choices you should make as part of your energy-efficient AI/ML process.
 tags: 
  - ai
  - machine-learning
