@@ -3,6 +3,7 @@ version: 1.0
 submitted_by: greenhsu123
 published_date: TBD
 category: cloud
+description: All systems have periods of peak and low load. From a hardware-efficiency perspective, we are more efficient with hardware if we minimise the impact of request spikes with an implementation that allows an even utilization of components. From an energy-efficiency perspective, we are more efficient with energy if we ensure that idle resources are kept to a minimum. 
 tags: 
  - cloud
  - role:cloud-engineer
