@@ -3,6 +3,7 @@ version: 1.0
 submitted_by: dubrie
 published_date: TBD
 category: cloud
+description: When resources are constrained during high-traffic events or when carbon intensity is high, more carbon emissions will be generated from your system. Adding more resources to support increased traffic requirements introduces more embodied carbon and more demand for electricity. Continuing to handle all requests during high carbon intensity will increase overall emissions for your system. Shedding traffic that is lower priority during these scenarios will save on resources and carbon emissions. This approach requires an understanding of your traffic, including which call requests are critical and which can best withstand retry attempts and failures.
 tags: 
  - compute
  - monitoring

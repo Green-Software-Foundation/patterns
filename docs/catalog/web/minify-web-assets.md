@@ -3,6 +3,7 @@ version: 1.0
 submitted_by: navveenb
 published_date: tbd
 category: web
+description: Minification removes unnecessary or redundant data without affecting how the resource is processed by the web browser.
 tags: 
  - web
  - role:web-developer

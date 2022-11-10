@@ -3,6 +3,7 @@ version: 1.0
 submitted_by: dubrie
 published_date: TBD
 category: cloud
+description: CPU usage and utilization varies throughout the day, sometimes wildly for different computational requirements. The larger the variance between the average and peak CPU utilization values, the more resources need to be provisioned in stand-by mode to absorb those spikes in traffic. 
 tags: 
  - compute
  - monitoring

@@ -3,7 +3,7 @@ version: 1.0
 submitted_by: navveenb
 published_date: tbd
 category: ai
-description: short description should be here
+description: Building an ML model takes significant computing resources that need to be optimized for efficient utilization.
 tags:
   - ai
   - machine-learning
