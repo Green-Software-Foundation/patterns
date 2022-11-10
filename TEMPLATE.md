@@ -3,6 +3,7 @@ version: 1.0
 submitted_by: [PATTERN_AUTHOR_GITHUB_ALIAS]
 published_date: TBD
 category: [PATTERN_TAG_CATEGORY]
+description: [PATTERN_DESCRIPTION IN TAGGED VIEW]
 tags: 
  - [PATTERN_TAGS]
 ---
