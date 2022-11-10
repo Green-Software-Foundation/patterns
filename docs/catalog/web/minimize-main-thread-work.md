@@ -5,6 +5,7 @@ published_date: TBD
 category: web
 tags: 
  - web
+ - compute
  - role:web-developer
  - size:small
 ---
@@ -18,7 +19,7 @@ When doing long running JavaScript computations it is running single threaded. I
 
 ## Solution
 
-For long running JavaScript computations try to use WebWorkers and run them in another thread while keeping the main rendering thread free. Consider moving the JavaScript computation to efficient server implementations that use optimized algorithms.
+For long running JavaScript computations (e.g. computations that run longer than a few 100 ms) try to use WebWorkers and run them in another thread while keeping the main rendering thread free. Consider moving the JavaScript computation to efficient server implementations that use optimized algorithms.
 
 ## SCI Impact
 
@@ -27,7 +28,7 @@ For long running JavaScript computations try to use WebWorkers and run them in a
 
 Concerning the SCI equation, minimize main thread work will impact as follows:
 
-- `I`: CPU resources can be used more efficiently which reduces the electricity required and reduces the carbon intensity
+- `E`: CPU resources can be used more efficiently which reduces the electricity required and reduces the carbon intensity
 
 ## Assumptions
 
