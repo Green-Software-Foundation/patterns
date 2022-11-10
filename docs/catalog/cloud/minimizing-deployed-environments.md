@@ -3,7 +3,7 @@ version: 1.0
 submitted_by: camcash17
 published_date: TBD
 category: cloud
-description: In a given application, there may be a need to utilize multiple enivornments in the application workflow. Typically, a development environment is used for regular updates, while staging or testing enviroments are used to make sure there are no issues before code reaches a production environment where users may have access. Each added environment has an increasing energy impact, which in turn creates more emissions. As such, it is important to understand the necessity of each enviroment and it's environmental impact.
+description: In a given application, there may be a need to utilize multiple environments in the application workflow. Typically, a development environment is used for regular updates, while staging or testing enviroments are used to make sure there are no issues before code reaches a production environment where users may have access. Each added environment has an increasing energy impact, which in turn creates more emissions. As such, it is important to understand the necessity of each enviroment and it's environmental impact.
 tags: 
  - cloud
  - deployment
@@ -13,9 +13,9 @@ tags:
 
 ## Description
 
-In a given application, there may be a need to utilize multiple enivornments in the application workflow. Typically, a development environment is used for regular updates, while staging or testing enviroments are used to make sure there are no issues before code reaches a production environment where users may have access.
+In a given application, there may be a need to utilize multiple environments in the application workflow. Typically, a development environment is used for regular updates, while staging or testing environments are used to make sure there are no issues before code reaches a production environment where users may have access.
 
-Each added environment has an increasing energy impact, which in turn creates more emissions. As such, it is important to understand the necessity of each enviroment and it's environmental impact.
+Each added environment has an increasing energy impact, which in turn creates more emissions. As such, it is important to understand the necessity of each environment and it's environmental impact.
 
 ## Solution
 
@@ -37,7 +37,7 @@ Suppose we choose to remove a deployed performance environment for an applicatio
 
 ## Considerations
 
-It may reduce cloud bills because minimising the total amount of provisioned resources will cost less. It may also create a bottle-neck in the application life cycle, losing an environment created for the sole purpose of performance or QA testing.
+It may reduce cloud bills because minimising the total amount of provisioned resources will cost less. It may also create a bottleneck in the application life cycle, losing an environment created for the sole purpose of performance or QA testing.
 
 ## References
 
