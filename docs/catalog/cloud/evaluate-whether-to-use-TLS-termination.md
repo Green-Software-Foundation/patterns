@@ -42,5 +42,5 @@ Consider applying the *Just Enough Security* (JES) model and terminate TLS at yo
 
 
 ## References
-[Microsoft Azure well architected framework sustainability patterns](https://learn.microsoft.com/en-us/azure/architecture/framework/sustainability/sustainability-security)
+[Microsoft Azure Well-Architected Framework Sustainability Patterns](https://learn.microsoft.com/en-us/azure/architecture/framework/sustainability/sustainability-security)
 
