@@ -30,12 +30,12 @@ Adjust your solution design to the service level your actual end users require.
 
 ## Assumptions
 
-Suppose you offer an service level objective (SLO) for availability for your serivce. Engineering teams target to fulfill this objective and will try to exceed this service level objective. In some cases engineering teams tend to strive for very sophisticated solutions to not run into any danger of falling below the SLO.
-High availabilty comes often for the cost of additional resources used, in the case of hot stand-by desings even with full duplication of infrastructure where half of the infrastructur is not even used.
-Ideally you validate the business reason for a specific SLO target and use it to design a solution that matches business requirements with a reasonable design for reliabilty & availability.
+Suppose you offer a service level objective (SLO) for availability for your service. Engineering teams target to fulfill this objective and will try to exceed this service level objective. In some cases, engineering teams tend to strive for very sophisticated solutions to not run into any danger of falling below the SLO.
+High availability comes often for the cost of additional resources used, in the case of hot stand-by designs even with full duplication of infrastructure where half of the infrastructure is not even used.
+Ideally you validate the business reason for a specific SLO target and use it to design a solution that matches business requirements with a reasonable design for reliability and availability.
 
 ## Considerations
-- This can impact the end user experience negativly because you are working towards a specifc SLO instead of highest availability.
+- This can impact the end user experience negatively because you are working towards a specifc SLO instead of highest availability.
 - This can reduce overall cloud cost because you will use less resources.
 
 ## References
