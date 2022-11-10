@@ -3,6 +3,7 @@ version: 1.0
 submitted_by: markus-ntt-seidl, navveenb
 published_date: TBD
 category: web
+description: Modern image formats can help to reduce bandwidth, storage and computing requirements on the displaying device.
 tags: 
  - web
  - size:small

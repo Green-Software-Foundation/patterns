@@ -3,6 +3,7 @@ version: 1.0
 submitted_by: navveenb
 published_date: tbd
 category: ai
+description: Evaluate and use alternative, more energy efficient, models that provide similar functionality.
 tags: 
  - ai
  - machine-learning

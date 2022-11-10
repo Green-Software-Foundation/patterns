@@ -3,6 +3,7 @@ version: 1.0
 submitted_by: greenhsu123
 published_date: tbd
 category: cloud
+description: From an energy-efficiency perspective, it's better to reduce network traffic by reading the data locally through a cache rather than accessing it remotely over the network. Shortening the distance a network packet travels means that less energy is required to transmit it. Similarly, from an embodied carbon perspective, we are more efficient with hardware when a network packet traverses through less computing equipment. 
 tags: 
  - networking
  - role:cloud-engineer

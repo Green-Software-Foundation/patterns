@@ -3,6 +3,7 @@ version: 1.0
 submitted_by: yelghali
 published_date: tbd
 category: cloud
+description: Many attacks on cloud infrastructure seek to misuse deployed resources, which leads to an unnecessary spike in usage and cost. 
 tags: 
 - cloud
 - security

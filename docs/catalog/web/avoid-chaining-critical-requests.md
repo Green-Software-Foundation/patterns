@@ -3,6 +3,7 @@ version: 1.0
 submitted_by: dubrie
 published_date: TBD
 category: web
+description: Most web experiences require a lot of work from the user's browser. The greater the length of the chains and the larger the download sizes, the more significant the impact on page load performance and the energy required to render a page.
 tags: 
  - web
  - role:web-developer
