@@ -10,7 +10,7 @@ tags:
  - size:medium
 ---
 
-# Remove zombie resources for VMs and Kubernetes
+# Delete zombie resources for VMs and Kubernetes
 
 ## Description
 
