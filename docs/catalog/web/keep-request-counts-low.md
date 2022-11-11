@@ -27,7 +27,7 @@ Reduce the amount of files needed and also the amount of requests done by the lo
 
 Concerning the SCI equation, keeping the request counts low will impact:
 
-- `I`: Reducing the amount of requests reduces the energy needed to display the page
+- `E`: Reducing the amount of requests reduces the energy needed to display the page
 - `M`: Reducing the amount of requests can also reduce the amount of files and therefore the storage requirements of the web page on the server
 
 
@@ -35,6 +35,8 @@ Concerning the SCI equation, keeping the request counts low will impact:
 
 
 ## Considerations
+
+- Consider setting up request count budgets that are measured when the application is tested via test automation
 
 
 ## References
