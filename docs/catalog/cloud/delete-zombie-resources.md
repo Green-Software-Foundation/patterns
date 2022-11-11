@@ -35,7 +35,6 @@ Concerning the SCI equation, remove zombie resources will impact two parts:
 
 ## Considerations
 
-- Consider starting with the easiest optimizations first (low hanging fruits)
 
 ## References
 
