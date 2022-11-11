@@ -18,7 +18,7 @@ This pattern involves reviewing workloads for predictable patterns and identifyi
 
 ## Solution
 
-Scaling back resources during periods of low utilisation eliminates excess capacity and improves efficiency because a unit running at a high utilisation produces energy more efficiently. In addition, reducing the total number of resources used also reduces the amount of embodied carbon.
+Scaling back resources during periods of low utilisation eliminates excess capacity and improves efficiency because a unit running at a high utilisation produces energy more efficiently. In addition, reducing the total number of resources used also reduces the amount of embodied carbon. Monitor and analyze the application usage patterns and activity to identify components that underutilized the hardware resources they are running on. Underutilized Virtual Machines, for example, can be easily identified by inspecting the CPU load over time. Underutilized resources can be consolidated, shut down on a schedule and/or removed.
 
 ## SCI Impact
 
