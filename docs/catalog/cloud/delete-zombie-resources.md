@@ -38,4 +38,4 @@ Concerning the SCI equation, remove zombie resources will impact two parts:
 
 ## References
 
-- [AWS Sustainability Pillar](https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_user_a2.html)
+- [VMWare](https://www.sdxcentral.com/articles/news/vmware-hunts-zombies-summons-sustainability-second-wave/2020/10/)
