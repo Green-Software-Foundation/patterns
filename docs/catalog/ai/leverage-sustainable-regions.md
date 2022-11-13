@@ -1,7 +1,7 @@
 ---
 version: 1.0
 submitted_by: navveenb
-published_date: tbd
+published_date: 2022-11-10
 category: ai
 description: Depending on the model parameters and training iterations, training an AI/ML model consumes a lot of power and requires many servers which contribute to embodied emissions.
 tags: 
@@ -11,7 +11,7 @@ tags:
  - size:small
 ---
 
-# Use sustainable regions for AI/ML training 
+# Use sustainable regions for AI/ML training
 
 ## Description
 Training an AI model has a significant carbon footprint. Depending on the model parameters and training iterations, training an AI/ML model consumes a lot of power and requires many servers which contribute to embodied emissions.

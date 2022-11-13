@@ -1,7 +1,7 @@
 ---
 version: 1.0
 submitted_by: navveenb
-published_date: tbd
+published_date: 2022-11-10
 category: ai
 description: Selecting the right hardware/VM instance types for training is one of the choices you should make as part of your energy-efficient AI/ML process.
 tags: 
@@ -11,7 +11,7 @@ tags:
  - size:small
 ---
 
-# Select the right hardware/VM instance types for AI/ML training 
+# Select the right hardware/VM instance types for AI/ML training
 
 ## Description
 Training an AI model has a significant carbon footprint. Selecting the right hardware/VM instance types for training is one of the choices you should make as part of your energy-efficient AI/ML process. For instance, custom application-specific integrated circuits (ASICs) and field-programmable gate arrays (FPGAs) are provided or supported by cloud vendors which provide better energy efficiency and inference for AI models than conventional chips. 

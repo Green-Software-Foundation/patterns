@@ -1,7 +1,7 @@
 ---
 version: 1.0
 submitted_by: markus-ntt-seidl
-published_date: TBD
+published_date: 2022-11-10
 category: web
 description: CSS files are very complex and need energy intensive parsing and processing. Each added CSS definition increases the amount of time and processing power needed in this process.
 tags: 
