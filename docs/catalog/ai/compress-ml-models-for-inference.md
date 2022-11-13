@@ -1,7 +1,7 @@
 ---
 version: 1.0
 submitted_by: navveenb
-published_date: tbd
+published_date: 2022-11-10
 category: ai
 description: Large-scale AI/ML models require significant storage space and take more resources to run as compared to optimized models.
 tags: 

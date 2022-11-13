@@ -1,7 +1,7 @@
 ---
 version: 1.0
 submitted_by: yelghali
-published_date: tbd
+published_date: 2022-11-10
 category: cloud
 description: The carbon emissions of a software system depends on the power consumed by that software, but also on the Carbon intensity of the electricity it is powered on. For this reason, running energy-efficient software on carbon intensive electricity grid, might be inefficient to reduce its global carbon emissions. Carbon aware time scheduling, is about scheduling workloads to execute, when electricity carbon intensity is low.
 tags: 

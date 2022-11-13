@@ -1,7 +1,7 @@
 ---
 version: 1.0
 submitted_by: dubrie
-published_date: tbd
+published_date: 2022-11-10
 category: cloud
 description: It's better to have one VM running at a higher utilization than two running at low utilization rates, not only in terms of energy proportionality but also in terms of embodied carbon. Two servers running at low utilization rates will consume more energy than one running at a high utilization rate. In addition, the unused capacity on the underutilized server could be more efficiently used for another task or process.
 tags: 

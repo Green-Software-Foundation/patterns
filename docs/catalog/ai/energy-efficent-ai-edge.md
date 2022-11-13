@@ -1,7 +1,7 @@
 ---
 version: 1.0
 submitted_by: navveenb
-published_date: tbd
+published_date: 2022-11-10
 category: ai
 description: Data computation for ML workloads and ML inference is a significant contributor to the carbon footprint of the ML application. Also, if the ML model is running on the cloud, the data needs to be transferred and processed on the cloud to the required format that can be used by the ML model for inference.
 tags: 
