@@ -1,7 +1,7 @@
 ---
 version: 1.0
 submitted_by: camcash17
-published_date: TBD
+published_date: 2022-11-10
 category: cloud
 description: In a given application, there may be a need to utilize multiple environments in the application workflow. Typically, a development environment is used for regular updates, while staging or testing enviroments are used to make sure there are no issues before code reaches a production environment where users may have access. Each added environment has an increasing energy impact, which in turn creates more emissions. As such, it is important to understand the necessity of each enviroment and it's environmental impact.
 tags: 

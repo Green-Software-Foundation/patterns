@@ -1,7 +1,7 @@
 ---
 version: 1.0
 submitted_by: markus-ntt-seidl
-published_date: TBD
+published_date: 2022-11-10
 category: web
 description: One direct replacement of the GIF is the MP4 video format which provides much smaller file sizes and higher quality at the same time.
 tags:

@@ -1,7 +1,7 @@
 ---
 version: 1.0
 submitted_by: navveenb
-published_date: tbd
+published_date: 2022-11-10
 category: ai
 description: Building an ML model takes significant computing resources that need to be optimized for efficient utilization.
 tags:

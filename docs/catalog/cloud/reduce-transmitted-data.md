@@ -1,7 +1,7 @@
 ---
 version: 1.0
 submitted_by: greenhsu123
-published_date: tbd
+published_date: 2022-11-10
 category: cloud
 description: From an energy-efficiency perspective, it's better to minimize the size of the data transmitted so that less energy is required because the network traffic is reduced. 
 tags: 
