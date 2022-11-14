@@ -31,6 +31,7 @@ Enable all supported compression formats on the server, this allows clients to u
 Concerning the SCI equation, the compression will impact the equation as follows:
 
 - `E`: Reducing the amount of emissions by reducing electricity needed while transferring and processing text files.
+- `M`: Reducing the amount of size of the files can also reduce the amount of storage requirements of the web page on the server
 
 ## Assumptions
 
