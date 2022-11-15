@@ -27,7 +27,8 @@ Inspect storage buckets if unused assets can be removed.
 
 With respect to the SCI equation, remove unused assets will impact one part:
 
-- `E`: Reduces the embodied emissions by not using the resources
+- `E`: Reduces the electricity by not using resources
+- `M`: Removing unused resources also reduces the embodied emissions, for example by reducing the storage or CPUs needed
 
 ## Assumptions
 
