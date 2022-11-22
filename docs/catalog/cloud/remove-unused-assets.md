@@ -36,7 +36,7 @@ With respect to the SCI equation, remove unused assets will impact one part:
 
 ## Considerations
 
-- Before decommissioning resources consider workloads that run rarely, for example generating quarterly or yearly reports
+- Consider creating monitoring to more easily identify resources that are no longer needed
 
 ## References
 
