@@ -41,3 +41,4 @@ Concerning the SCI equation, minimize main thread work will impact as follows:
 ## References
 
 - [Main thread work breakdown](https://web.dev/mainthread-work-breakdown/)
+- [What is a good Total Blocking Time](https://www.debugbear.com/docs/metrics/total-blocking-time#whats-a-good-total-blocking-time)
