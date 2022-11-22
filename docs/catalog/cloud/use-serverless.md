@@ -7,6 +7,7 @@ tags:
  - cloud
  - role:cloud-engineer
  - size:small
+ - serverless
 ---
 
 # Use serverless cloud services
