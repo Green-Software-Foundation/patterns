@@ -42,7 +42,7 @@ const config = {
           customCss: require.resolve("./src/css/custom.css"),
         },
         gtag: {
-          trackingID: "G-593HJXNS18",
+          trackingID: "G-G3P4S2WSTC",
         },
         sitemap: {
           changefreq: "weekly",
