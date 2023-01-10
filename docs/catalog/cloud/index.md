@@ -20,4 +20,5 @@ import Image from "@theme/IdealImage";
     <TeamMember github="srini1978">Srinivasan Rakhunathan</TeamMember>
     <TeamMember github="bderusha">Bill DeRusha</TeamMember>
     <TeamMember github="navveenb">Navveen Balani</TeamMember>
+    <TeamMember github="camcash17">Cameron Casher</TeamMember>
 </TeamMembers>
