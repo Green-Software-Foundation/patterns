@@ -11,6 +11,7 @@ import Image from "@theme/IdealImage";
 
 <TeamMembers>
     <TeamMember github="greenhsu123">Sarah Hsu</TeamMember>
+    <TeamMember github="aoifefitton">Aoife Fitton</TeamMember>
     <TeamMember github="dubrie">Bill Johnson</TeamMember>
     <TeamMember github="camcash17">Cameron Casher</TeamMember>
     <TeamMember github="navveenb">Navveen Balani</TeamMember>
