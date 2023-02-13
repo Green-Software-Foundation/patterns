@@ -13,7 +13,7 @@ tags:
 ## Description
 
 Modern web applications feature a lot of interface elements that are stored in templates on the server. This template is downloaded with the application code and then rendered with, optionally, requested data from the server.
-This can dramatically increase the SCI in different scenarios: When the client device doesn't have access to green energy, when the page usage is short (for example: accidential clicks, pages with short dwell time like landing pages) or if a lot of server-round-trips are needed to gather data.
+This can dramatically increase the SCI in different scenarios: When the client device doesn't have access to green energy, when the page usage is short (for example: accidental clicks, pages with short dwell time like landing pages) or if a lot of server-round-trips are needed to gather data.
 
 
 ## Solution
