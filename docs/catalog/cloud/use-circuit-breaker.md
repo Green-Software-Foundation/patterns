@@ -14,12 +14,12 @@ tags:
 ## Description
 
 Modern applications need to communicate with other applications on a regular basis. These other applications have their own deployment schedule, downtimes and availability or the network connection to these application might have problems.
-If the other application becomes unavailable all network requests against this other application will fail and future network requests are futile.
+If the other application is not reachable, all network requests against this other application will fail and future network requests are futile.
 
 ## Solution
 
 Circuit breaker patterns reject the request to the other application if health checks against the other application have failed to complete successfully. In this case a lot of network requests can be saved. 
-The circuit breaker will reset itself automatically, if health checks against the other application are successful.
+The circuit breaker will reset itself automatically, if health checks against the other application are successful again.
 
 ## SCI Impact
 
