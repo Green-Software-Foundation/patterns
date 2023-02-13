@@ -5,7 +5,8 @@ published_date: TBD
 category: [PATTERN_TAG_CATEGORY]
 description: [PATTERN_DESCRIPTION_METADATA]
 tags: 
- - [PATTERN_TAGS]
+ - cloud
+ - size:small
 ---
 
 # [PATTERN_TITLE_ACTION_ON_RESOURCE]
