@@ -2,9 +2,9 @@
 version: 1.0
 submitted_by: srini1978, markus-ntt-seidl
 published_date: TBD
-category: web
+category: cloud
 tags: 
- - web
+ - cloud
 ---
 
 # Use Asynchronous network calls instead of synchronous
@@ -33,7 +33,7 @@ This pattern affects the SCI as follows:
 
 ## Considerations
 
-[PATTERN_CONSIDERATIONS]
+- Consider higher level patterns for asynchronous communication as well, for example Queues, Topics and Streams
 
 ## References
 
