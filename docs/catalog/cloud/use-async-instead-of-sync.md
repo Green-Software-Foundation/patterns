@@ -39,3 +39,4 @@ This pattern affects the SCI as follows:
 
 - Async/Await (https://en.wikipedia.org/wiki/Async/await)
 - Optimize Peak and Average CPU utilization (https://patterns.greensoftware.foundation/catalog/cloud/optimize-avg-cpu-utilization)
+- [Azure Well-Architected Framework Sustainability Pillar](https://learn.microsoft.com/en-us/azure/architecture/framework/sustainability/sustainability-application-design)
