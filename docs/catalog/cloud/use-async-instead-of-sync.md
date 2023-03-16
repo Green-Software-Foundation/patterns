@@ -5,6 +5,7 @@ published_date: TBD
 category: cloud
 tags: 
  - cloud
+ - size:medium
 ---
 
 # Use Asynchronous network calls instead of synchronous
