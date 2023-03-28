@@ -13,7 +13,7 @@ tags:
 
 ## Description
 
-Modern applications need to communicate with other applications on a regular basis. These other applications have their own deployment schedule, downtimes and availability or the network connection to these application might have problems.
+Modern applications need to communicate with other applications on a regular basis. Since these other applications have their own deployment schedule, downtimes and availability, the network connection to these application might have problems.
 If the other application is not reachable, all network requests against this other application will fail and future network requests are futile.
 
 ## Solution
