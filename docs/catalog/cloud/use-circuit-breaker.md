@@ -10,7 +10,7 @@ tags:
 ---
 
 # Use circuit breaker patterns
-
+ 
 ## Description
 
 Modern applications need to communicate with other applications on a regular basis. Since these other applications have their own deployment schedule, downtimes and availability, the network connection to these application might have problems.
