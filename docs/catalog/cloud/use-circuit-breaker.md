@@ -22,7 +22,7 @@ Circuit breaker patterns reject the request to the other application if health c
 The circuit breaker will reset itself automatically, if health checks against the other application are successful again.
 
 ## SCI Impact
-
+ 
 `SCI = (E * I) + M per R`  
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
