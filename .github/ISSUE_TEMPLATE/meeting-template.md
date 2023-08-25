@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 ## Date
-YYYY-MM-DD - 3pm UTC - See the time in your timezone https://everytimezone.com/s/a8399b00
+YYYY-MM-DD - 15:30 UTC - See the time in your timezone https://everytimezone.com/s/b6822e5f
 
 ## Meeting notices
 
@@ -22,29 +22,23 @@ GSF project meetings may be recorded for use solely by the GSF team for administ
 
 ### Roll Call 
 Please *add a comment* to this issue during the meeting to denote attendance.
-
 Any untracked attendees will be added by the GSF team below:
 - Full Name, Affiliation, (optional) GitHub username
 
+### Previous Meeting
+
+Notes from the previous meeting: ...
+
 ## Agenda
-- [ ] Convene & Roll Call (5mins)
+- [ ] Convene & Roll Call
 - [ ] Review Meeting Notices (see above)
-- [ ] Approve Past Meeting Minutes
-- [ ] Review Pull Requests
-- [ ] Review Pull Request XXXX
-- [ ] Discuss Issues
-- [ ] Discuss Issue XXXXX
-- [ ] Agenda item 1
-- [ ] Agenda item 2
 - [ ] ...
-- [ ] AOB, Q&A & Adjourn (5mins)
+- [ ] AOB, Q&A & Adjourn
+
+## Another Other Business
 
 ## Decisions Made
-- [ ] Decision 1
-- [ ] Decision 2
 - [ ] ...
 
 ## Action Items
-- [ ] Action 1
-- [ ] Action 2
 - [ ] ...
