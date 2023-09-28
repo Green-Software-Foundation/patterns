@@ -23,6 +23,7 @@ To use the patterns, head to https://patterns.greensoftware.foundation and searc
 * **SCI Impact**: How will this pattern affect an SCI score of an application and why
 * **Assumptions**: What are the assumptions being made
 * **Considerations**: Discussion section anything that should be taken into consideration when implementing this pattern 
+* **References**: If this pattern, or components of it, is defined somewhere else the web please add links to those resources in this section
 
 ## Stages of a Green Software Pattern
 
