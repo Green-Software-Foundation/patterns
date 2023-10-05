@@ -21,12 +21,14 @@ Notes from the previous meeting: ...
 
 ## Agenda
 - [ ] Convene & Roll Call
-- [ ] Review Meeting Notices (see above)
+- [ ] OKR & KPI updates
 - [ ] Review the agenda and suggest new agenda points
 - [ ] Issues
 - [ ] Pull Requests
 - [ ] Discussions
 - [ ] AOB, Q&A & Adjourn
+
+## OKR & KPI updates
 
 ## Issues
 
