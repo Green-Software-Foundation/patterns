@@ -37,6 +37,7 @@ Server side rendering affects the SCI in the following aspects:
 
 ## Considerations
 
+- Consider using a caching mechanism to store rendered pages, if they change frequently but still are met with a high load. This can significantly reduce the server load by serving pre-rendered content for frequent requests.
 - Consider the other patterns in the web category
 
 ## References
