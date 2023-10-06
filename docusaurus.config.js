@@ -35,7 +35,7 @@ const config = {
           routeBasePath: "/",
           // Change this to your repo.
           editUrl:
-            "https://github.com/Green-Software-Foundation/green-software-patterns/",
+            "https://github.com/Green-Software-Foundation/patterns/edit/main/",
         },
         blog: false,
         theme: {
