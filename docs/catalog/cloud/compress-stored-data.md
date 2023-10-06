@@ -34,6 +34,4 @@ Concerning the SCI equation, using compression when storing data impact one part
 - Consider the tradeoff of compression: Does the benefit of compression outweigh the increased carbon cost in the resources (CPU, RAM) needed to perform the compression/decompression?
 
 ## References
-
-- [Blogpost](https://lemire.me/blog/2021/06/30/compressing-json-gzip-vs-zstd/)
-- [Similar Issue](vitejs/vite#5295)
+- [Microsoft Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/sustainability/sustainability-storage#enable-storage-compression)
