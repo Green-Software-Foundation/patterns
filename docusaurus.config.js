@@ -35,14 +35,14 @@ const config = {
           routeBasePath: "/",
           // Change this to your repo.
           editUrl:
-            "https://github.com/Green-Software-Foundation/green-software-patterns/",
+            "https://github.com/Green-Software-Foundation/patterns/edit/main/",
         },
         blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
         gtag: {
-          trackingID: "G-593HJXNS18",
+          trackingID: "G-G3P4S2WSTC",
         },
         sitemap: {
           changefreq: "weekly",
@@ -133,6 +133,56 @@ const config = {
         disableSwitch: true,
         defaultMode: "light",
       },
+      metadata: [{
+        name: "twitter:card",
+        content: "summary",
+      },
+      {
+        name: "twitter:site",
+        content: "@gsfcommunity",
+      },
+      {
+        name: "twitter:title",
+        content: "Green Software Practitioner",
+      },
+      {
+        name: "twitter:description",
+        content: "An online open-source database of green software patterns reviewed and curated by the Green Software Foundation",
+      },
+      {
+        name: "twitter:image",
+        content: "https://learn.greensoftware.foundation/img/og-image.png",
+      },
+      {
+        name: "twitter:creator",
+        content: "@gsfcommunity",
+      },
+      {
+        name: "og:title",
+        content: "Green Software Practitioner",
+      },
+      {
+        name: "og:description",
+        content: "An online open-source database of green software patterns reviewed and curated by the Green Software Foundation",
+      },
+      {
+        name: "og:image",
+        content: "https://learn.greensoftware.foundation/img/og-image.png",
+      },
+      {
+        name: "og:url",
+        content: "https://learn.greensoftware.foundation/",
+      },
+      {
+        name: "og:site_name",
+        content: "Green Software Practitioner",
+      },
+      {
+        name: "og:type",
+        content: "website",
+      },
+
+      ]
     }),
 
   plugins: [

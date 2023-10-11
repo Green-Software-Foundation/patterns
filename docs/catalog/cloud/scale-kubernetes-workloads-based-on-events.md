@@ -13,7 +13,7 @@ tags:
 - size:medium
 ---
 
-# Scale Kubernetes workloads based on relevent demand metrics
+# Scale Kubernetes workloads based on relevant demand metrics
 
 ## Description
 By default, Kubernetes scales workloads based on CPU and RAM utilization. In practice, however, it's difficult to correlate your application's demand drivers with CPU and RAM utilization.

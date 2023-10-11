@@ -17,7 +17,7 @@ To use the patterns, head to https://patterns.greensoftware.foundation and searc
 * **Submitted By**: The name of the person(s) submitting the pattern
 * **Published Date**: The date this version of the pattern is published. This will be provided by the patterns working group upon approval
 * **Tag Category**: Select the most appropriate category from: Artificial Intelligence, Cloud, or Web which might apply to this pattern
-* **Tags**: A [pre-defined list of additional tags](/docs/tags.md) which might apply to the pattern (e.g. Machine Learning, Gaming, Mobile)
+* **Tags**: A [pre-defined list of additional tags](https://patterns.greensoftware.foundation/tags/) which might apply to the pattern (e.g. Machine Learning, Gaming, Mobile).
 * **Description**: A full description of what problem this pattern is solving
 * **Solution**: How will this patter solve the problem
 * **SCI Impact**: How will this pattern affect an SCI score of an application and why

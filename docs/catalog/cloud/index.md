@@ -10,14 +10,11 @@ import Image from "@theme/IdealImage";
 ## Subject Matter Experts
 
 <TeamMembers>
-    <TeamMember github="greenhsu123">Sarah Hsu</TeamMember>
-    <TeamMember github="yelghali">Yassine El Ghali</TeamMember>
-    <TeamMember github="tmcclell">Tammy McClellan</TeamMember>
+    <TeamMember github="aoifefitton">Aoife Fitton</TeamMember>
     <TeamMember github="dubrie">Bill Johnson</TeamMember>
-    <TeamMember github="danielvaughn">Daniel Vaughn</TeamMember>
-    <TeamMember github="alex-kroll">Alexander Kroll</TeamMember>
-    <TeamMember github="marcoshidalgonunes">Marcos Hidalgo Nunes</TeamMember>
-    <TeamMember github="srini1978">Srinivasan Rakhunathan</TeamMember>
-    <TeamMember github="bderusha">Bill DeRusha</TeamMember>
+    <TeamMember github="camcash17">Cameron Casher</TeamMember>
     <TeamMember github="navveenb">Navveen Balani</TeamMember>
+    <TeamMember github="greenhsu123">Sarah Hsu</TeamMember>
+    <TeamMember github="tmcclell">Tammy McClellan</TeamMember>
+    <TeamMember github="yelghali">Yassine El Ghali</TeamMember>
 </TeamMembers>
