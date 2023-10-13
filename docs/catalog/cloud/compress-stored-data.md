@@ -28,8 +28,9 @@ Concerning the SCI equation, using compression when storing data impact one part
 - `E`: Decrease the amount of storage and therefor less E for the storage. However, we should be aware that there may be a slight increase in energy consumed due to compressing and de-compressing data.
 
 ## Assumptions
-
-
+- You have the ability to choose, wehter you use compression or not. If you store much, much data you are forced to use compression to keep storage costs reasonable.
+- If you are storage space constrainted you are forced to use a high compression (even when there is high CPU required) and also the other way around.
+  
 ## Considerations
 - Consider the tradeoff of compression: Does the benefit of compression outweigh the increased carbon cost in the resources (CPU, RAM) needed to perform the compression/decompression?
 
