@@ -13,8 +13,7 @@ tags:
 
 ## Description
 
-Accessing a web page usually retrieves a HTML file from the web server. The HTML may then reference additional resources that the browser has to download. The more requests that are made, the more CO2 that is consumed. As such, reducing the amount of files needed to display a page in the browser
-means less energy is consumed.
+Accessing a web page usually retrieves a HTML file from the web server. The HTML may then reference additional resources that the browser has to download. More requests means more energy consumed. As such, reducing the amount of files needed to display a page in the browser reduces also reduces the environmental impact.
 
 ## Solution
 
