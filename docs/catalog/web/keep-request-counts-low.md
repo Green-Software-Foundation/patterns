@@ -13,8 +13,7 @@ tags:
 
 ## Description
 
-Accessing a web page usually retrieves a HTML file from the web server. The HTML can then reference additional resources that the browser has to download. 
-To use the least amount of CO2, reduce the amount of files needed to display a page in the browser.
+Accessing a web page usually retrieves a HTML file from the web server. The HTML may then reference additional resources that the browser has to download. More requests means more energy consumed. As such, reducing the amount of files needed to display a page in the browser reduces also reduces the environmental impact.
 
 ## Solution
 
