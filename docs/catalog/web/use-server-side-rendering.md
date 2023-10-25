@@ -1,9 +1,9 @@
 ---
 version: 1.0
 submitted_by: markus-ntt-seidl
-published_date: TBD
+published_date: 2023-10-25
 category: web
-description: 
+description: Use server-side rendering for high-traffic pages
 tags: 
  - web
 ---
