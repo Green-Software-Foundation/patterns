@@ -13,21 +13,21 @@ tags:
 
 ## Description
 
-Applications are built with software architectures that are the best fit for the business need they are solving. Cloud providers make it easy also to evaluate other CPU types as x86-64 which can be included in the evaluation.
+Applications are built with a software architecture that best fits the business need they are serving. Cloud providers make it easy to evaluate other CPU types, such as x86-64, which can be included in the evaluation along with many cost effective alternatives that feature good performance per watt.
+
 
 ## Solution
 
-Cloud providers provide offerings of cost effective alternatives that feature a good performance per watt alternative.
-Evaluate the usage of other CPU architectures besides x86_64 for the application in regards of energy efficiency and execution performance.
+Other CPU architectures besides x86_64 should be evaluated for the application with energy efficiency and execution performance in mind.
 
 ## SCI Impact
 
 `SCI = (E * I) + M per R`  
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-Regarding the SCI equation, evaluate other CPU architectures can impact:
+Evaluating other CPU architectures can impact SCI as follows:
 
-- `E`: Other CPU architectures can provide better energy efficiency for the application use case and can therefore reduce the energy consumption
+- `E`: Other CPU architectures may provide better energy efficiency for the application use case and, as such, reduce the overall energy consumption
 
 ## Assumptions
 
@@ -35,7 +35,7 @@ Regarding the SCI equation, evaluate other CPU architectures can impact:
 
 ## Considerations
 
-- Also consider specialized accelerators for workloads cloud providers might offer
+- Also consider specialized accelerators for workloads that cloud providers might offer
 
 ## References
 
