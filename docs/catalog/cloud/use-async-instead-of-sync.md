@@ -1,8 +1,9 @@
 ---
 version: 1.0
 submitted_by: srini1978, markus-ntt-seidl
-published_date: TBD
+published_date: 2023-10-25
 category: cloud
+description: When making calls across process boundaries to either databases or file systems or REST APIs, relying on synchronous calls can cause the calling thread to become blocked, putting additional load on the CPU
 tags: 
  - cloud
  - size:medium

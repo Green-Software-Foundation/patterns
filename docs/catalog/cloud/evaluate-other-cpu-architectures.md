@@ -1,9 +1,9 @@
 ---
 version: 1.0
 submitted_by: markus-ntt-seidl
-published_date: TBD
+published_date: 2023-10-25
 category: cloud
-description: [PATTERN_DESCRIPTION_METADATA]
+description: Applications are built with a software architecture that best fits the business need they are serving. Cloud providers make it easy to evaluate other CPU types
 tags: 
  - cloud
  - size:small

@@ -1,8 +1,9 @@
 ---
 version: 1.0
 submitted_by: markus-ntt-seidl
-published_date: TBD
+published_date: 2023-10-25
 category: web
+description: Web browsers often communicate with web servers in a human readable format. These can be HTML, JavaScript and/or CSS files and REST requests which can return a response in JSON. This human readable communication is redundant and, as such, can be compressed to save bandwidth.
 tags: 
  - web
  - size:small

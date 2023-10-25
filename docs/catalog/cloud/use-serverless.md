@@ -1,7 +1,7 @@
 ---
 version: 1.0
 submitted_by: markus-ntt-seidl
-published_date: TBD
+published_date: 2023-01-17
 category: cloud
 tags: 
  - cloud
