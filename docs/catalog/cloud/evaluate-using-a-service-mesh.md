@@ -37,6 +37,4 @@ Regarding the SCI equation, not using a service mesh will impact:
 The application does not have compliance requirements for using a service mesh. 
 
 ## Considerations
-Should you use a service mesh ? The answer depends on your requirements. 
-Typically you would use a service mesh where there is a corporate policy that traffic on the network must be encrypted for all applications. 
-Other scenarios might include distributed tracing and traffic splitting for A/B testing.
+Consider alternative methods outside of an service mesh to fulfill application requirements, for example custom DNS servers or configuration that is injected into the application
