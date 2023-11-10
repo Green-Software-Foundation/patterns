@@ -16,7 +16,7 @@ tags:
 
 ## Description
 
-Cloud virtual machines are offered with different capabilties, based different hardware processors.
+Cloud virtual machines are offered with different capabilities based on different hardware processors.
 
 Hence using virtual machines based on efficient processors would impact hardware efficiency and reduce carbon emissions.
 
@@ -33,11 +33,16 @@ Use new cloud virtual machines that have been engineered with [cloud native proc
 Regarding the SCI equation, using energy efficient hardware will impact:
 
 - `E`: By using energy efficient hardware, we reduce the total embodied carbon emissions.
+- `M`: By using energy efficient hardware, we reduce also the embodied emissions.
 
 ## Assumptions
 
-The cloud provider offers VM Skus based on efficient hardware.
+The cloud provider offers VM SKUs based on efficient hardware.
+
 
 ## Considerations
 
 Energy efficient VMs tend to be cost effective as well, you should however consider also SKU availability in the region you choose for deployment.
+Azure: https://azure.microsoft.com/en-us/blog/azure-virtual-machines-with-ampere-altra-arm-based-processors-generally-available/
+Google: https://cloud.google.com/blog/products/compute/tau-t2a-is-first-compute-engine-vm-on-an-arm-chip
+
