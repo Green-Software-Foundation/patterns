@@ -17,9 +17,7 @@ tags:
 Containers may reduce unnecessary resource allocation and increase utilization of the compute resources, as they allow for bin packing and require less compute resources than virtual machines.
 
 ## Solution
-Containerize your applications with their minimal dependencies. 
-
-You can use [Draft](https://github.com/Azure/draft) tool to simplify application containerization by generating Dockerfiles and Kubernetes manifests.
+Containerize your applications with their minimal dependencies. You can use tools for generating Dockerfiles and Kubernetes manifests.
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
