@@ -12,7 +12,7 @@ tags:
 # Use DDoS protection
 
 ## Description
-
+ 
 Distributed Denial of Service (DDoS) is used to increase the load of server in a way, that they are unable to respond to any legitimate requests. This is mostly done to harm the owner of the service or hardware. 
 Due to the nature of attack, a lot of environmental resources are used up by nonsensical requests.
 
