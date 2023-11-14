@@ -35,7 +35,7 @@ This pattern affects the SCI as follows:
 
 ## Considerations
 
-- Consider purchasing the advanced protection tears of the cloud providers to be fully protected against similar DDoS attack patterns
+- Consider purchasing the advanced protection tiers of the cloud providers to be fully protected against similar DDoS attack patterns
 
 ## References
 
