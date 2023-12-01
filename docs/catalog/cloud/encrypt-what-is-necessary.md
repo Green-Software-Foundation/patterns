@@ -10,7 +10,7 @@ tags:
 - security
 - role:cloud-engineer
 ---
-# Encrypt What Is Necessary
+# Encrypt what is necessary
 
 ## Description
 Data protection through encryption is a crucial aspect of our security measures. However, the encryption process can be resource-intensive at multiple levels.
@@ -20,16 +20,16 @@ Furthermore, encryption is a repetitive task that needs to be performed each tim
 
 ## Solution
 - Carefully consider the sensitivity of the data that the application processes to understand if encryption is needed or not.
-- Revise policy of what is considered sensitive and understand which environment can impact this sensitivity.
-- Choose the appropriate algorithm and the number of iterations in case of hashing based on your application's performance and security needs.
+- Revise policy of what is considered sensitive and understand which environments can impact this sensitivity.
+- Choose the appropriate algorithm and number of iterations in case of hashing, based on your application's performance and security needs.
 
 ## SCI Impact
 `SCI = (E * I) + M per R` [Software Carbon Intensity Spec](https://grnsft.org/sci)
-Only encrypting what needs to be encrypted will impact SCI as follows:
-E: Reducing the amount of data that needs encryption will reduce the amount of energy needed to encrypt/decrypt, and store the data.
+Only encrypting what is necessary impacts SCI as follows:
+- E: Reducing the amount of data that needs encryption will reduce the amount of energy needed to encrypt/decrypt and store the data.
 
 ## Assumptions
-We assume that a significant amount of data is not sensitive and can be stored unencrypted.
+- There is an assumption that a significant amount of data is not sensitive and can be stored unencrypted.
 
 ## Considerations
 - Segregate data into sensitive and non-sensitive data and only encrypt the sensitive data.
