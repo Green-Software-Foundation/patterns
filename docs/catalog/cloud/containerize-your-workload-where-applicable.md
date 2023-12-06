@@ -14,7 +14,7 @@ tags:
 # Containerize your workloads
 
 ## Description
-Containers may reduce unnecessary resource allocation and increase utilization of the compute resources, as they allow for bin packing and require less compute resources than virtual machines.
+Containers allow resources to be used more flexible as workloads can be easily moved between machines. It may reduce unnecessary resource allocation and increase utilization of the compute resources, as they allow for bin packing and require less compute resources than virtual machines.
 
 ## Solution
 Containerize your applications with their minimal dependencies. You can use tools for generating Dockerfiles and Kubernetes manifests.
@@ -29,12 +29,12 @@ Regarding the SCI equation, containerizing workloads will impact:
 - `M`: Reducing compute resources decreases the embodied carbon emissions.
 
 ## Assumptions
-The application supports containerization.
+- The application supports containerization.
 
 ## Considerations
-Using containers may not be enough to reduce carbon impact of a large monolith application. 
-
-Consider modernizing your applications into micro-services architectures, that allow independent sizing and scaling of their logical components.
+- Using containers may not be enough to reduce carbon impact of a large monolith application.
+- Consider modernizing your applications into micro-services architectures, that allow independent sizing and scaling of their logical components.
+- You may use a container orchestration system for automating software deployment, scaling, and management.
 
 ## References
 Microsoft Azure Well Architected Framework [sustainability patterns](https://learn.microsoft.com/en-us/azure/architecture/framework/sustainability/sustainability-application-platform)
