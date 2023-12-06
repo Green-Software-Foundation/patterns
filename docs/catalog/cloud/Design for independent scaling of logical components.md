@@ -32,9 +32,9 @@ Regarding the SCI equation, scaling logical components independently will impact
 
 ## Assumptions
 
-The application logical components are deployed on platforms with auto-scaling capabilities, such as Kubernetes.
+- The application logical components are deployed on platforms with auto-scaling capabilities, such as Kubernetes.
 
 ## Considerations
-Microservice frameworks use additional components or resources in order to provide additional capabilities (messaging, secure traffic, tracing, etc.). This may result in a increase in carbon emissions.
-
-In practice, use only the frameworks capabilities that are necessary.
+- Microservice frameworks use additional components or resources in order to provide additional capabilities (messaging, secure traffic, tracing, etc.). This may result in a increase in carbon emissions. In practice, use only the frameworks capabilities that are necessary.
+- Do not make microservices too small as communication incours overhead which has a carbon impact.
+- Consider alternatives to http/s for communication, like GPRC and others.
