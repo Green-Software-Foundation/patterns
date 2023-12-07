@@ -20,7 +20,7 @@ For the following:
 "Chair" refers to the Chair, Co-Chair or other accountable authority within GSF.
 
 ### Submitting A New Pattern For Consideration
-1. Submite a new Pull Request (PR) to `GSF/green-software-patterns/dev`
+1. Submit a new Pull Request (PR) to `GSF/green-software-patterns/dev`
 2. The PR will be initially reviewed within 1 week to enforce format, structure, and relevance. The submitter must make any requested changes to advance the PR
 3. The PR will be assigned a Subject Matter Expert (SME) for deeper analysis and evaluation for 2 weeks. The submitter must make any requested changes from the SME to advance the PR.
 4. Once the Pattern has been approved by the SME it will begin the team review phase. The PR requires consensus before approval and merge and the Patterns team has 2 weeks to comment/object to the pattern.
