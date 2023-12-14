@@ -1,9 +1,9 @@
 ---
 version: 1.0
 submitted_by: yelghali, markus-ntt-seidl
-published_date: TBD
+published_date: 2023-12-14
 category: cloud
-description: [PATTERN_DESCRIPTION_METADATA]
+description: Applications consume CPU even when they are not actively in use. For example, background timers, garbage collection, health checks, etc. Even when the application is shut down, the underlying hardware is consuming idle power.
 tags: 
  - cloud
  - size:small
