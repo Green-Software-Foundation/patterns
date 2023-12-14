@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 ## Date
-YYYY-MM-DD - 14:30 UTC - See the time in your timezone https://everytimezone.com/s/b6822e5f
+YYYY-MM-DD - 15:00 UTC - See the time in your timezone https://everytimezone.com/s/ab85f7c5
 
 ## Roll Call 
 Please *add a comment* to this issue during the meeting to denote attendance.
@@ -23,35 +23,20 @@ Notes from the previous meeting: ...
 - [ ] Convene & Roll Call
 - [ ] OKR & KPI updates
 - [ ] Review the agenda and suggest new agenda points
-- [ ] Issues
-- [ ] Pull Requests
+- [ ] [Agenda Items]
+- [ ] Principles
+- [ ] Patterns
 - [ ] Discussions
 - [ ] AOB, Q&A & Adjourn
 
 ## OKR & KPI updates
 
-## Issues
-
 ### Principles
 
 ### Patterns
 
-## Pull Requests
+## Principles
 
-### Principles
-
-### Patterns
-
-## Discussions
-
-### Principles
-
-### Patterns
+## Patterns
 
 ## Another Other Business
-
-## Decisions Made
-- [ ] ...
-
-## Action Items
-- [ ] ...
