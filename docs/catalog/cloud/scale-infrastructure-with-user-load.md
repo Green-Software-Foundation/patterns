@@ -1,8 +1,10 @@
 ---
 version: 1.0
 submitted_by: franziska-nttdata-hesselfeld
-published_date: TBD
+published_date: 2023-12-14
 category: cloud
+description: Demand for resources depends on user load at any given time. However, most applications run without taking this into consideration. As a result,resources are underused and inefficient.
+
 tags: 
  - compute
  - cloud
