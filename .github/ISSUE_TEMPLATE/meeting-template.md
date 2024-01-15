@@ -26,7 +26,6 @@ Notes from the previous meeting: ...
 - [ ] [Agenda Items]
 - [ ] Principles
 - [ ] Patterns
-- [ ] Discussions
 - [ ] AOB, Q&A & Adjourn
 
 ## OKR & KPI updates
@@ -35,8 +34,4 @@ Notes from the previous meeting: ...
 
 ### Patterns
 
-## Principles
-
-## Patterns
-
-## Another Other Business
+## Any Other Business
