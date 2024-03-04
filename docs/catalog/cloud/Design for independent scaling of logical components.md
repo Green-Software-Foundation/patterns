@@ -15,26 +15,25 @@ tags:
 # Scale logical components independently
 
 ## Description
-A microservice architecture may reduce the compute resources required, as it allows each independent component to be scaled according to its own demand.
+A microservice architecture may reduce the amount of compute resources required as it allows each independent component to be scaled according to its own demand.
 
 ## Solution
 
-Use cloud native projects help you separate your application functionality into different microservices, to allow independent scaling of its logical components.
+Using cloud native projects can help you separate your application functionality into different microservices. This kind of microservice architecture allows for independent scaling of the application's logical components.
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-Regarding the SCI equation, scaling logical components independently will impact:
+Scaling logical components independently will impact SCI as follows:
 
 - `E`: By optimizing the scaling of the most consuming application components, we reduce the amount of energy consumed by the application globally.
-- `M`: By scaling each component independently, we can right size its resources to maximize their utilization, thereby reducing the application total embodied carbon emissions.
+- `M`: By scaling each component independently, we can right-size its resources to maximize their utilization, thereby reducing the application's total embodied carbon emissions.
 
 ## Assumptions
 
-- The application logical components are deployed on platforms with auto-scaling capabilities, such as Kubernetes.
+- The application's logical components are deployed on platforms with auto-scaling capabilities, such as Kubernetes.
 
 ## Considerations
-- Microservice frameworks use additional components or resources in order to provide additional capabilities (messaging, secure traffic, tracing, etc.). This may result in a increase in carbon emissions. In practice, use only the frameworks capabilities that are necessary.
-- Do not make microservices too small as communication incours overhead which has a carbon impact.
-- Consider alternatives to http/s for communication, like GPRC and others.
+- Microservice frameworks use additional components or resources in order to provide additional capabilities (messaging, secure traffic, tracing, etc.). This may result in an increase in carbon emissions. As such, only the necessary framework capabilities should be used.
+- Communication incurs overheads, which also have a carbon impact. As such, microservices should not be made too small. Alternatively, communication tools other than http/s should be considered, such as GPRC.
