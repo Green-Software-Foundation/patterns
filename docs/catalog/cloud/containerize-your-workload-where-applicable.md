@@ -14,16 +14,16 @@ tags:
 # Containerize your workloads
 
 ## Description
-Containers allow resources to be used more flexible as workloads can be easily moved between machines. It may reduce unnecessary resource allocation and increase utilization of the compute resources, as they allow for bin packing and require less compute resources than virtual machines.
+Containers allow resources to be used more flexibly, as workloads can be easily moved between machines. Containers allow for bin packing and require less compute resources than virtual machines, meaning a reduction in unnecessary resource allocation and an increase in utilization of the compute resources.
 
 ## Solution
-Containerize your applications with their minimal dependencies. You can use tools for generating Dockerfiles and Kubernetes manifests.
+Containerize your applications with their minimal dependencies. This can be done using tools for generating Dockerfiles and Kubernetes manifests.
 
 ## SCI Impact
 `SCI = (E * I) + M per R`
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-Regarding the SCI equation, containerizing workloads will impact:
+Containerizing workloads impacts SCI as follows:
 
 - `E`: By reducing CPU and RAM usage, we reduce the amount of energy required.
 - `M`: Reducing compute resources decreases the embodied carbon emissions.
@@ -32,8 +32,8 @@ Regarding the SCI equation, containerizing workloads will impact:
 - The application supports containerization.
 
 ## Considerations
-- Using containers may not be enough to reduce carbon impact of a large monolith application.
-- Consider modernizing your applications into micro-services architectures, that allow independent sizing and scaling of their logical components.
+- Using containers may not be enough to reduce the carbon impact of a large monolith application.
+- Consider modernizing your applications into micro-service architectures that allow independent sizing and scaling of their logical components.
 - You may use a container orchestration system for automating software deployment, scaling, and management.
 
 ## References
