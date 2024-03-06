@@ -13,29 +13,29 @@ tags:
 
 ## Description
 
-Distributed Denial of Service (DDoS) is used to increase the load of server in a way, that they are unable to respond to any legitimate requests. This is mostly done to harm the owner of the service or hardware. 
+Distributed denial of service (DDoS) attacks are used to increase the server load so that it is unable to respond to any legitimate requests. This is usually done to harm the owner of the service or hardware. 
 Due to the nature of attack, a lot of environmental resources are used up by nonsensical requests.
 
 ## Solution
 
-All cloud providers provide some form of DDoS protection (AWS Shield, Azure DDoS Protection, GCP DDoS Protection, CloudFlare, ...) that can prevent those attacks.
+All cloud providers have some form of DDoS protection (AWS Shield, Azure DDoS Protection, GCP DDoS Protection, CloudFlare, etc.) that can prevent those attacks.
 
 ## SCI Impact
 
 `SCI = (E * I) + M per R`  
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-This pattern affects the SCI as follows:
+DDoS protection impacts the SCI as follows:
 
-- `R`: The amount of requests will be reduced, due to not fulfilling DDoS requests
+- `R`: The functional unit is impacted because the amount of requests will be reduced.
 
 ## Assumptions
 
-- Assumes that the budget of the project can afford the costs for the DDoS protection service
+- There is budget for the DDoS protection service.
 
 ## Considerations
 
-- Consider purchasing the advanced protection tiers of the cloud providers to be fully protected against similar DDoS attack patterns
+- Consider purchasing advanced protection to be fully protected against other attack patterns similar to DDoS attacks.
 
 ## References
 
