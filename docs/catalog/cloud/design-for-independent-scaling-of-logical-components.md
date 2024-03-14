@@ -1,7 +1,7 @@
 ---
 version: 1.0
 submitted_by: yelghali
-published_date: tbd
+published_date: 2024-03-14
 category: cloud
 tags: 
 - compute
