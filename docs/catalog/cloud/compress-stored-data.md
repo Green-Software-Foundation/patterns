@@ -12,28 +12,27 @@ tags:
 
 ## Description
 
-Storing much uncompressed data can result in unnecessary bandwidth waste and increase the storage capacity requirements.
+Storing too much uncompressed data can result in bandwidth waste and increase the storage capacity requirements.
 
 ## Solution
 
-Use the right compression tool for the use case to reduce the storage requirements, including both capacity and required bandwidth to write or retrieve data. 
+Using the right compression tool for each use case reduces the storage requirements. This includes both the capacity and required bandwidth to write or retrieve data. 
 
 ## SCI Impact
 
 `SCI = (E * I) + M per R`  
 [Software Carbon Intensity Spec](https://grnsft.org/sci)
 
-Concerning the SCI equation, using compression when storing data impact two parts:
+Using compression when storing data impacts SCI as follows:
 
-- `E`: Decrease the amount of storage and therefor less E for the storage. However, we should be aware that there may be a slight increase in energy consumed due to compressing and de-compressing data.
-- `M`: Decrease the amount of storage and therefor less M
+- `E`: Decreasing the amount of storage means less energy is consumed for the storage. However, compressing and de-compressing data may also cause a slight increase in energy consumed.
+- `M`: Decreasing the amount of storage means there is less embodied carbon emitted.
 
 ## Assumptions
-- You have the ability to choose, wehter you use compression or not. If you store much, much data you are forced to use compression to keep storage costs reasonable.
-- If you are storage space constrainted you are forced to use a high compression (even when there is high CPU required) and also the other way around.
+- You have the ability to choose whether you use compression or not. This is not the case if you store a lot of data, as compression is needed to keep storage costs reasonable. In the same way, if you have a limited amount of storage space, you will be forced to use a high compression (even when a high CPU is required).
   
 ## Considerations
-- Consider the tradeoff of compression: Does the benefit of compression outweigh the increased carbon cost in the resources (CPU, RAM) needed to perform the compression/decompression?
+- The benefit of compression should always be considered in terms of the trade-off with the increased carbon cost of the resources (e.g. CPU, RAM) needed to perform the compression/decompression.
 
 ## References
 - [Microsoft Azure Well-Architected Framework](https://learn.microsoft.com/en-us/azure/well-architected/sustainability/sustainability-storage#enable-storage-compression)
