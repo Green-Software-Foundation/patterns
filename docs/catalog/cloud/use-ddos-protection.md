@@ -1,9 +1,9 @@
 ---
 version: 1.0
 submitted_by: markus-ntt-seidl
-published_date: TBD
+published_date: 2024-03-14
 category: cloud
-description: [PATTERN_DESCRIPTION_METADATA]
+description: Distributed denial of service (DDoS) attacks are used to increase the server load so that it is unable to respond to any legitimate requests. This is usually done to harm the owner of the service or hardware.
 tags: 
  - cloud
  - size:small
