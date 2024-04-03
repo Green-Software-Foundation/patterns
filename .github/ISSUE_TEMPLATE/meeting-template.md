@@ -21,17 +21,20 @@ Notes from the previous meeting: ...
 
 ## Agenda
 - [ ] Convene & Roll Call
-- [ ] OKR & KPI updates
 - [ ] Review the agenda and suggest new agenda points
 - [ ] [Agenda Items]
-- [ ] Principles
-- [ ] Patterns
+- [ ] Green Software for Practitioners
+- [ ] Green Software Patterns
 - [ ] AOB, Q&A & Adjourn
 
-## OKR & KPI updates
+## Green Software for Practitioners
 
-### Principles
+* OKRs & KPIs
 
-### Patterns
+## Green Software Patterns
+
+* OKRs & KPIs
+
+## Use Cases
 
 ## Any Other Business
