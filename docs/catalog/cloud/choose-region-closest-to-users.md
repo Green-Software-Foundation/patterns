@@ -15,6 +15,8 @@ tags:
 ## Description
 From an energy-efficiency perspective, it's better to shorten the distance a network packet travels so that less energy is required to transmit it. Similarly, from an embodied-carbon perspective, when a network packet traverses through less computing equipment, we are more efficient with hardware. 
 
+In the case of a multi region deployment infrastructure, implement a Global Server Load Balancing (GSLB) solution with real-time health checks and dynamic routing. This ensures traffic is directed to the closest healthy region, minimizing unnecessary network hops and reducing energy consumption.
+
 ## Solution
 Choose a region that is the closest to the majority of where the network packets are going. 
 
