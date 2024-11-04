@@ -11,6 +11,13 @@ The intention is that patterns are vendor agnostic, for instance there should no
 
 To use the patterns, head to https://patterns.greensoftware.foundation and search for your field or technology. Each pattern is atomic and applicable to real-world situations and applications.
 
+## Appointments
+
+The project is led by:
+
+* [Franziska Warncke](https://github.com/franziska-warncke) (NTT DATA)
+* [Liya Mathew](https://github.com/LiyaMath) (Goldman Sachs)
+
 ## Components of a Green Software Pattern
 * **Title**: Title of the pattern
 * **Version**: Designation of iteration on the pattern. This will initially be assigned by the patterns working group
@@ -63,9 +70,6 @@ The working group will regularly review submitted patterns along the following t
 * Initial Review: 1 week
 * SME Review: 2 weeks (plus additional iteration time based on feedback)
 * Team Consensus: 2 weeks
-
-## Appointments
-Chair Bill Johnson - Microsoft
 
 ## Copyright
 The Green Software Patterns projects are copyrighted under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/).
