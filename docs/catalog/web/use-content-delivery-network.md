@@ -1,9 +1,9 @@
 ---
 version: 1.0
-submitted_by: markus-ntt-seidl
-published_date: 2023-10-25
+submitted_by: Nishi Chauhan
+published_date: 2025-01-06
 category: web
-description: Web browsers often communicate with web servers in a human readable format. These can be HTML, JavaScript and/or CSS files and REST requests which can return a response in JSON. This human readable communication is redundant and, as such, can be compressed to save bandwidth.
+description: A Content Delivery Network (CDN) reduces the Software Carbon Intensity (SCI) of web applications by minimizing energy consumption through cached content delivery closer to users and leveraging renewable energy-powered infrastructure. This enhances performance, lowers latency, and promotes sustainable digital ecosystems.
 tags: 
  - web
  - size:small
