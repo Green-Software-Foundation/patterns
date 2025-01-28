@@ -143,7 +143,7 @@ const config = {
       },
       {
         name: "twitter:title",
-        content: "Green Software Practitioner",
+        content: "Green Software Patterns",
       },
       {
         name: "twitter:description",
@@ -151,7 +151,7 @@ const config = {
       },
       {
         name: "twitter:image",
-        content: "https://learn.greensoftware.foundation/img/og-image.png",
+        content: "https://patterns.greensoftware.foundation/img/og-image.png",
       },
       {
         name: "twitter:creator",
@@ -159,7 +159,7 @@ const config = {
       },
       {
         name: "og:title",
-        content: "Green Software Practitioner",
+        content: "Green Software Patterns",
       },
       {
         name: "og:description",
@@ -167,15 +167,15 @@ const config = {
       },
       {
         name: "og:image",
-        content: "https://learn.greensoftware.foundation/img/og-image.png",
+        content: "https://patterns.greensoftware.foundation/img/og-image.png",
       },
       {
         name: "og:url",
-        content: "https://learn.greensoftware.foundation/",
+        content: "https://patterns.greensoftware.foundation/",
       },
       {
         name: "og:site_name",
-        content: "Green Software Practitioner",
+        content: "Green Software Patterns",
       },
       {
         name: "og:type",
