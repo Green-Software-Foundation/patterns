@@ -20,7 +20,7 @@ Carbon aware time scheduling, is about scheduling workloads to execute, when ele
 ## Solution
 Kubernetes recurrent Jobs (such as ML Training Jobs, Batchs, etc.) are implemented [as CronJobs](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/).  They can be time shifted by using **carbon intensity Forecast data** (24h usually, depdening on the Electricity data provider),  to calculate the best time in the future to execute the job.
 
-To capture the impact of time shifting, the following image shows variation of electricity carbon intensity during a day, from one the electricity data providers, [ElectricityMap](https://app.electricitymaps.com/map).
+To capture the impact of time shifting, the following image shows variation of electricity carbon intensity during a day, from one the electricity data providers, [Electricity Maps](https://app.electricitymaps.com/map).
 
 ![zez](../../../src/images/time-shift.png)
 
