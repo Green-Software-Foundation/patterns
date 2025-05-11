@@ -7,7 +7,7 @@ For the longest time, the feedback we've received is that people need actionable
 
 The catalog of green software patterns is an online open-source database of software patterns reviewed and curated by the Green Software Foundation across a wide range of categories. Any software practitioner can find the patterns related to their field, technology, or domain. Anyone can submit a pattern that triggers a detailed review process by the Foundation. You can be confident that applying any patterns that have completed that process will reduce your software emissions.
 
-The intention is that patterns are vendor agnostic, for instance there should not be Azure, AWS and GCP patterns. There should be generic cloud patterns which could be applied to specific vendors, but the patterns themselves are vendor agnostic. We encourage specific platforms/vendors to create vendor-specific versions of these patterns for their specific products on their platforms.
+The intention is that patterns are vendor-agnostic, for instance there should not be Azure, AWS and GCP patterns. There should be generic cloud patterns which could be applied to specific vendors, but the patterns themselves are vendor-agnostic. We encourage specific platforms/vendors to create vendor-specific versions of these patterns for their specific products on their platforms.
 
 To use the patterns, head to https://patterns.greensoftware.foundation and search for your field or technology. Each pattern is atomic and applicable to real-world situations and applications.
 
@@ -26,7 +26,7 @@ The project is led by:
 * **Tag Category**: Select the most appropriate category from: Artificial Intelligence, Cloud, or Web which might apply to this pattern
 * **Tags**: A [pre-defined list of additional tags](https://patterns.greensoftware.foundation/tags/) which might apply to the pattern (e.g. Machine Learning, Gaming, Mobile).
 * **Description**: A full description of what problem this pattern is solving
-* **Solution**: How will this patter solve the problem
+* **Solution**: How will this pattern solve the problem
 * **SCI Impact**: How will this pattern affect an SCI score of an application and why
 * **Assumptions**: What are the assumptions being made
 * **Considerations**: Discussion section anything that should be taken into consideration when implementing this pattern 
