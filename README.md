@@ -60,7 +60,7 @@ The pattern is merged into dev but is not published on our website.
 
 
 ### Consistency Review
-Every quarter the dev branch is merged to the main branch and this triggers a consistency review where anyone in the Foundation has 2 weeks to comment or object. We need GSF wide consensus for the patterns to be published.
+Every quarter the dev branch is merged to the main branch and this triggers a consistency review where anyone in the Foundation has 2 weeks to comment or object. We need GSF-wide consensus for the patterns to be published.
 
 This is done in batches every quarter to reduce the noise to the rest of the Foundation.
 
