@@ -44,7 +44,7 @@ Create a PULL REQUEST to merge your changes in with the official repository, rem
 
 This starts an approval process.
 
-## What are the stages if a Green Software Pattern?
+## What are the stages in a Green Software Pattern?
 
 ### Discussion
 Anyone (member or non-members) can discuss patterns via the GitHub Issues tab of the repository. There will be an issue template to suggest new patterns or suggest changes to existing patterns. Once they are ready then can go ahead and create a PR to add a pattern to the database.
