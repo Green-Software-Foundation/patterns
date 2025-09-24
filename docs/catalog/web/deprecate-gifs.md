@@ -38,7 +38,7 @@ Converting GIFs will impact the SCI as follows:
 
 
 ## Considerations
-None
+- GIFs use the <img> tag with an alt attribute for screen readers, but <video> lacks this support. Instead, use aria-label="..." to describe the video content.
 
 ## References
 
