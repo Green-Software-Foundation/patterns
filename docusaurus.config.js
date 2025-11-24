@@ -128,14 +128,6 @@ const config = {
         disableSwitch: true,
         defaultMode: "light",
       },
-      announcementBar: {
-        id: 'disclaimer',
-        content:
-          "We're redesigning our Green Software Patterns catalog and need your help for 10-minutes: <a href='https://research.kardsort.com/green-software-foundation'><strong>Complete a Card Sort</strong></a>",
-        backgroundColor: '#EBF2D7',
-        textColor: '#006d69',
-        isCloseable: false,
-      },
       metadata: [{
         name: "twitter:card",
         content: "summary",
