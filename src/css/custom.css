@@ -1,72 +1,271 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
-
-/* You can override the default Infima variables here. */
+/* ─── GSF Design Tokens (matches soft.greensoftware.foundation) ─── */
 :root {
-  --background-color: #F7FAEE;
-  --ifm-color-primary: #003734;
-  --ifm-color-primary-dark: #00524f;
-  --ifm-color-primary-darker: #003734;
-  --ifm-color-primary-darkest: #002c2a;
-  --ifm-color-primary-light: #80b6b4;
-  --ifm-color-primary-lighter: #bfdbd9;
+  /* Primary teal palette */
+  --gsf-primary-darkest-2: #002625;
+  --gsf-primary-darkest:   #002c2a;
+  --gsf-primary-darker:    #003734;
+  --gsf-primary-dark:      #00524f;
+  --gsf-primary:           #006d69;
+  --gsf-primary-light:     #80b6b4;
+  --gsf-primary-lighter:   #bfdbd9;
+  --gsf-primary-lightest-1:#f2f8f7;
+  --gsf-primary-lightest-2:#e5f0f0;
+
+  /* Accent lime green palette */
+  --gsf-accent-darker:     #576629;
+  --gsf-accent-dark:       #83993e;
+  --gsf-accent:            #aecc53;
+  --gsf-accent-light:      #d7e6a9;
+  --gsf-accent-lighter:    #ebf2d4;
+  --gsf-accent-lightest-1: #fbfcf6;
+  --gsf-accent-lightest-2: #f7faee;
+
+  /* Neutrals */
+  --gsf-gray-darker:       #606060;
+  --gsf-gray-dark:         #b2b2b2;
+  --gsf-gray:              #ededed;
+  --gsf-gray-light:        #f6f6f6;
+  --gsf-border:            #e5e5e5;
+  --gsf-greige:            #d5d7da;
+
+  /* ─── Infima overrides ─── */
+  --ifm-color-primary:          #006d69;
+  --ifm-color-primary-dark:     #00524f;
+  --ifm-color-primary-darker:   #003734;
+  --ifm-color-primary-darkest:  #002c2a;
+  --ifm-color-primary-light:    #80b6b4;
+  --ifm-color-primary-lighter:  #bfdbd9;
   --ifm-color-primary-lightest: #e5f0f0;
-  --ifm-color-content: #3c3c3c;
-  --ifm-heading-color: var(--ifm-color-primary);
-  --ifm-font-size-base: 18px;
-  --ifm-code-font-size: 95%;
+
+  --ifm-background-color:       var(--gsf-accent-lightest-2);
+  --ifm-color-content:          #3c3c3c;
+  --ifm-heading-color:          var(--gsf-primary-darker);
+  --ifm-font-size-base:         18px;
+  --ifm-font-family-base:       'Nunito Sans', sans-serif;
+  --ifm-code-font-size:         95%;
+  --ifm-global-radius:          0.375rem;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-shadow:           0 1px 0 0 var(--gsf-primary-lighter);
+  --ifm-navbar-link-color:       var(--gsf-primary-darker);
+  --ifm-navbar-link-hover-color: var(--gsf-primary);
+  --ifm-navbar-link-active-color:var(--gsf-primary);
+
+  /* Footer */
+  --ifm-footer-background-color: var(--gsf-primary-darker);
+  --ifm-footer-color:            #ffffff;
+  --ifm-footer-link-color:       var(--gsf-primary-lighter);
+  --ifm-footer-link-hover-color: #ffffff;
+  --ifm-footer-title-color:      #ffffff;
+
+  /* Sidebar / menu */
+  --ifm-menu-color:                   var(--gsf-primary-darker);
+  --ifm-menu-color-active:            var(--gsf-primary);
+  --ifm-menu-color-background-active: var(--gsf-accent-lighter);
+  --ifm-menu-color-background-hover:  var(--gsf-primary-lightest-1);
+
+  /* Links */
+  --ifm-link-color:       var(--gsf-primary);
+  --ifm-link-hover-color: var(--gsf-primary-dark);
+
+  /* Breadcrumbs */
+  --ifm-breadcrumb-color-active: var(--gsf-primary);
+
+  /* TOC */
+  --ifm-toc-border-color: var(--gsf-primary-lighter);
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme="dark"] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --background-color: #fbfcf6;
-  --ifm-navbar-background-color: var(--background-color);
+/* Dark mode — disabled in config but kept for completeness */
+[data-theme='dark'] {
+  --ifm-color-primary:          #80b6b4;
+  --ifm-color-primary-dark:     #bfdbd9;
+  --ifm-color-primary-darker:   #e5f0f0;
+  --ifm-color-primary-darkest:  #f2f8f7;
+  --ifm-color-primary-light:    #006d69;
+  --ifm-color-primary-lighter:  #00524f;
+  --ifm-color-primary-lightest: #003734;
+  --ifm-background-color:       #002c2a;
+  --ifm-navbar-background-color:#002c2a;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-body{
-  background-color: var(--background-color);
-  font-family: 'Nunito Sans';
+/* ─── Base ─── */
+body {
+  background-color: var(--gsf-accent-lightest-2);
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/* ─── Navbar ─── */
+.navbar {
+  border-bottom: 1px solid var(--gsf-primary-lighter);
 }
 
 .navbar__brand {
-  color: var(--ifm-color-primary);
-}
-.navbar__link {
-  font-size: 15px;
+  color: var(--gsf-primary-darker);
+  font-weight: 800;
 }
 
+.navbar__title {
+  font-weight: 800;
+  font-size: 1rem;
+  color: var(--gsf-primary-darker);
+}
+
+.navbar__link {
+  font-size: 0.875rem;
+  font-weight: 800;
+  color: var(--gsf-primary-darker);
+  border-radius: 0.375rem;
+  padding: 0.375rem 1rem;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  background-color: var(--gsf-accent-lighter);
+  color: var(--gsf-primary-darkest);
+  text-decoration: none;
+}
+
+/* ─── Sidebar ─── */
+.menu {
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+.menu__link {
+  border-radius: 0.375rem;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.menu__link--active {
+  font-weight: 700;
+  background-color: var(--gsf-accent-lighter);
+  color: var(--gsf-primary);
+}
+
+.menu__link--active:hover {
+  background-color: var(--gsf-accent-light);
+}
+
+.menu__link:hover {
+  background-color: var(--gsf-primary-lightest-1);
+  color: var(--gsf-primary-darker);
+}
+
+/* ─── Markdown content ─── */
 .markdown {
   margin-top: 50px;
 }
 
 .markdown > h1 {
-  font-size: 2.0rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--gsf-primary-darker);
 }
+
 .markdown > h2 {
-  color: #006D69;
+  color: var(--gsf-primary);
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 5px;
-}
-.markdown > h3 {
-  margin-bottom: 5px;
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid var(--gsf-accent-lighter);
 }
 
+.markdown > h3 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: var(--gsf-primary-dark);
+}
+
+/* ─── Code ─── */
+code {
+  background-color: var(--gsf-primary-lightest-1);
+  border: 1px solid var(--gsf-primary-lighter);
+  border-radius: 0.25rem;
+}
+
+/* ─── Footer ─── */
+.footer {
+  font-size: 0.8rem;
+  background-color: var(--gsf-primary-darker);
+}
+
+.footer__title {
+  font-weight: 800;
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer__link-item {
+  color: var(--gsf-primary-lighter);
+  transition: color 0.15s ease;
+}
+
+.footer__link-item:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__copyright {
+  color: var(--gsf-primary-light);
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--gsf-primary-dark);
+}
+
+/* ─── Breadcrumb ─── */
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: var(--gsf-primary);
+  font-weight: 600;
+}
+
+/* ─── TOC ─── */
+.table-of-contents__link--active {
+  color: var(--gsf-primary);
+  font-weight: 700;
+}
+
+.table-of-contents__link:hover {
+  color: var(--gsf-primary);
+}
+
+/* ─── Pagination ─── */
+.pagination-nav__link {
+  border-color: var(--gsf-primary-lighter);
+  border-radius: 0.5rem;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--gsf-primary);
+  background-color: var(--gsf-primary-lightest-1);
+}
+
+/* ─── Tag badges ─── */
+.tag {
+  border-radius: 2rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background-color: var(--gsf-accent-lighter);
+  color: var(--gsf-accent-darker);
+  border-color: var(--gsf-accent-light);
+}
+
+.tag:hover {
+  background-color: var(--gsf-accent-light);
+  color: var(--gsf-accent-darker);
+}
+
+/* ─── Misc ─── */
 .alert--warning {
   font-size: 14px;
 }
@@ -75,10 +274,7 @@ body{
   font-size: 80%;
 }
 
-.menu {
-  font-size: 15px;
-}
-
-.footer {
-  font-size: 0.7rem;
+/* ─── Docusaurus search / navbar items ─── */
+.DocSearch-Button {
+  border-radius: 0.375rem !important;
 }
