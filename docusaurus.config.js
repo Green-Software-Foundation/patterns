@@ -1,7 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
+const { themes: prismThemes } = require("prism-react-renderer");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -14,7 +14,11 @@ const config = {
   url: "https://patterns.greensoftware.foundation/",
   baseUrl: "/",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: "warn",
+    },
+  },
   favicon: "img/favicon.ico",
   organizationName: "Green-Software-Foundation",
   // Change to GitHub repo name.
@@ -122,7 +126,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Joint Development Foundation Projects, LLC, Green Software Foundation Series`,
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: prismThemes.github,
       },
       colorMode: {
         disableSwitch: true,

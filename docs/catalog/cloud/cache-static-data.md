@@ -12,8 +12,6 @@ tags:
 
 # Cache static data
 
-<PatternComponent></PatternComponent>
-
 ## Description
 From an energy-efficiency perspective, it's better to reduce network traffic by reading the data locally through a cache rather than accessing it remotely over the network. 
 
