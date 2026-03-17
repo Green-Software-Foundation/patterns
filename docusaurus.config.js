@@ -195,6 +195,12 @@ const config = {
         disableInDev: false,
       },
     ],
+    [
+      "@docusaurus/plugin-client-redirects",
+      {
+        redirects: [],
+      },
+    ],
   ],
 };
 
