@@ -7,8 +7,9 @@ description: Efficient storage of the model becomes extremely important to manag
 tags: 
  - ai
  - machine-learning
- - role:data-scientist
  - size:small
+ - persona:ai-ml-engineer
+ - persona:data-engineer
 ---
 
 # Use efficient file formats for AI/ML development

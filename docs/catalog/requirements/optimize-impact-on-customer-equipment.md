@@ -3,10 +3,11 @@ version: 1.0
 submitted_by: markus-ntt-seidl
 published_date: 2022-11-09
 category: cloud
-tags: 
+tags:
  - cloud
- - role:cloud-engineer
  - size:small
+ - persona:software-engineer
+ - persona:ux-designer
 ---
 
 # Optimize impact on customer devices and equipment

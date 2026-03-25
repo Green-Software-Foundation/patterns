@@ -7,10 +7,9 @@ description: CPU usage and utilization varies throughout the day, sometimes wild
 tags: 
  - compute
  - monitoring
- - role:cloud-engineer
- - role:software-engineer
- - role:reliability-engineer
  - size:medium
+ - persona:devops-engineer
+ - persona:solution-architect
 ---
 
 # Optimize peak CPU utilization

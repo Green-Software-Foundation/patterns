@@ -6,8 +6,8 @@ category: web
 description: Web pages offer a lot of images that aren't displayed on the first loaded screen and can thus be loaded dynamically.
 tags: 
  - web
- - role:web-developer
  - size:small
+ - persona:front-end-engineer
 
 ---
 

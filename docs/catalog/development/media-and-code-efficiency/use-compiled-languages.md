@@ -5,9 +5,9 @@ published_date: 2024-07-30
 category: cloud
 tags: 
  - cloud
- - role:cloud-engineer
  - size:small
  - programming-language
+ - persona:software-engineer
 
 ---
 

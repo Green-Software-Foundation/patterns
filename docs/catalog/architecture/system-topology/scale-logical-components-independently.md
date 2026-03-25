@@ -4,12 +4,14 @@ submitted_by: yelghali
 published_date: 2024-03-14
 category: cloud
 tags: 
-- compute
-- cloud
-- kubernetes
-- role:software-engineer
-- role:cloud-engineer
-- size:medium
+ - persona:solution-architect
+ - persona:devops-engineer
+ - compute
+ - cloud
+ - kubernetes
+ - role:software-engineer
+ - role:cloud-engineer
+ - size:medium
 ---
 
 # Scale logical components independently

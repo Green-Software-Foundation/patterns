@@ -4,12 +4,14 @@ submitted_by: yelghali
 published_date: 2024-03-14
 category: cloud
 tags: 
-- cloud
-- compute
-- kubernetes
-- role:software-engineer
-- role:cloud-engineer
-- size:medium
+ - persona:infrastructure-engineer
+ - persona:devops-engineer
+ - cloud
+ - compute
+ - kubernetes
+ - role:software-engineer
+ - role:cloud-engineer
+ - size:medium
 ---
 
 # Use cloud native processor VMs

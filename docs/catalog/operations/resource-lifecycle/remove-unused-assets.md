@@ -5,8 +5,9 @@ published_date: 2022-11-22
 category: cloud
 tags: 
  - cloud
- - role:cloud-engineer
  - size:small
+ - persona:devops-engineer
+ - persona:software-engineer
 ---
 
 # Remove unused assets

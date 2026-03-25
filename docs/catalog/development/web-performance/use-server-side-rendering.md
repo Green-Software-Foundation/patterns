@@ -6,6 +6,7 @@ category: web
 description: Use server-side rendering for high-traffic pages
 tags: 
  - web
+ - persona:front-end-engineer
 ---
 
 # Use server-side rendering for high-traffic pages

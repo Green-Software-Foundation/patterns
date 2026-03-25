@@ -8,10 +8,8 @@ tags:
  - compute
  - monitoring
  - reliability-availability
- - role:cloud-engineer
- - role:software-engineer
- - role:reliability-engineer
  - size:large
+ - persona:devops-engineer
 ---
 
 # Shed lower priority traffic

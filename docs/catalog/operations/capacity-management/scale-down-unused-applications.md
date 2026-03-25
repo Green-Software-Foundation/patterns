@@ -7,6 +7,8 @@ description: Applications consume CPU even when they are not actively in use. Fo
 tags: 
  - cloud
  - size:small
+ - persona:devops-engineer
+ - persona:infrastructure-engineer
 ---
 
 # Scale down applications when not in use

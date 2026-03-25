@@ -5,12 +5,14 @@ published_date: 2022-11-10
 category: cloud
 description: By default, Kubernetes scales workloads based on CPU and RAM utilization. In practice, however, it's difficult to correlate your application's demand drivers with CPU and RAM utilization. Scaling your workload based on relevant demand metrics that drive scaling of your applications, such as HTTP requests, queue length, and cloud alerting events can help reduce resource utilization, and therefore also your carbon emissions.
 tags: 
-- cloud
-- serverless
-- kubernetes
-- role:software-engineer
-- role:cloud-engineer
-- size:medium
+ - persona:solution-architect
+ - persona:devops-engineer
+ - cloud
+ - serverless
+ - kubernetes
+ - role:software-engineer
+ - role:cloud-engineer
+ - size:medium
 ---
 
 # Scale Kubernetes workloads based on relevant demand metrics

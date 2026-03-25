@@ -4,10 +4,14 @@ submitted_by: danielmeixner
 published_date: 2022-11-10
 category: cloud
 description: If service downtimes are acceptable it's better to not strive for highest availability but to design the solution according to real business needs. Lower availability guarantees can help reduce energy consumption by using less infrastructure components.
-tags: 
+tags:
  - Cloud
  - Reliability/Availability
  - Monitoring
+ - persona:product-manager
+ - persona:solution-architect
+ - persona:devops-engineer
+ - persona:software-engineer
 ---
 
 # Match your service level objectives to business needs

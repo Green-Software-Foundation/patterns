@@ -7,8 +7,10 @@ description: Data computation for ML workloads and ML inference is a significant
 tags: 
  - ai
  - machine-learning
- - role:data-scientist
  - size:small
+ - persona:devops-engineer
+ - persona:solution-architect
+ - persona:ai-ml-engineer
 ---
 
 # Run AI models at the edge

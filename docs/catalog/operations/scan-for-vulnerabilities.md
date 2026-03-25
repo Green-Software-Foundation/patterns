@@ -5,12 +5,12 @@ published_date: 2022-11-10
 category: cloud
 description: Many attacks on cloud infrastructure seek to misuse deployed resources, which leads to an unnecessary spike in usage and cost. 
 tags: 
-- cloud
-- security
-- compute
-- kubernetes
-- role:cloud-engineer
-- size:medium
+ - cloud
+ - security
+ - compute
+ - kubernetes
+ - role:cloud-engineer
+ - size:medium
 ---
 
 # Scan for vulnerabilities

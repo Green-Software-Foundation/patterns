@@ -7,8 +7,10 @@ description: Selecting the right hardware/VM instance types for training is one 
 tags: 
  - ai
  - machine-learning
- - role:data-scientist
  - size:small
+ - persona:ai-ml-engineer
+ - persona:devops-engineer
+ - persona:infrastructure-engineer
 ---
 
 # Select the right hardware/VM instance types for AI/ML training

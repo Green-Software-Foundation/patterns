@@ -4,11 +4,13 @@ submitted_by: yelghali
 published_date: 2024-03-14
 category: cloud
 tags: 
-- cloud
-- compute
-- kubernetes
-- role:cloud-engineer
-- size:medium
+ - persona:devops-engineer
+ - persona:solution-architect
+ - cloud
+ - compute
+ - kubernetes
+ - role:cloud-engineer
+ - size:medium
 ---
 
 # Containerize your workloads

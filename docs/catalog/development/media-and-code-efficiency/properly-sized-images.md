@@ -7,7 +7,7 @@ description: Ideally, the stored pixel dimensions are exactly the same, or small
 tags: 
  - web
  - size:medium
- - role:web-developer
+ - persona:front-end-engineer
 ---
 
 # Optimize image size

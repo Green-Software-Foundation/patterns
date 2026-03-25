@@ -7,8 +7,9 @@ description: As part of your AI/ML process, you should evaluate using a pre-trai
 tags: 
  - ai
  - machine-learning
- - role:data-scientist
  - size:small
+ - persona:ai-ml-engineer
+ - persona:data-engineer
 ---
 
 # Leverage pre-trained models and transfer learning for AI/ML development

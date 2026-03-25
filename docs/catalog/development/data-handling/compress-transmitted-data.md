@@ -6,8 +6,9 @@ category: cloud
 description: From an energy-efficiency perspective, it's better to minimise the size of the data transmitted so that less energy is required because the network traffic is reduced. 
 tags: 
  - networking
- - role:cloud-engineer
  - size:small
+ - persona:devops-engineer
+ - persona:front-end-engineer
 ---
 
 # Compress transmitted data

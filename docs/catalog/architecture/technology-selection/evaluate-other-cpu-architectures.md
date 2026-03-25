@@ -7,6 +7,8 @@ description: Applications are built with a software architecture that best fits 
 tags: 
  - cloud
  - size:small
+ - persona:infrastructure-engineer
+ - persona:devops-engineer
 ---
 
 # Evaluate other CPU architectures

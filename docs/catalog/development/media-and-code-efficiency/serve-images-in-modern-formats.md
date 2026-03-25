@@ -7,7 +7,7 @@ description: Modern image formats can help to reduce bandwidth, storage and comp
 tags: 
  - web
  - size:small
- - role:web-developer
+ - persona:front-end-engineer
 ---
 
 # Serve images in modern formats

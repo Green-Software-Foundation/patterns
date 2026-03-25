@@ -8,8 +8,9 @@ description: Demand for resources depends on user load at any given time. Howeve
 tags: 
  - compute
  - cloud
- - role:cloud-engineer
  - size:medium
+ - persona:devops-engineer
+ - persona:solution-architect
 ---
 
 # Scale infrastructure with user load

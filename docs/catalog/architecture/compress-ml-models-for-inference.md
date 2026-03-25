@@ -7,8 +7,9 @@ description: Large-scale AI/ML models require significant storage space and take
 tags: 
  - ai
  - machine-learning
- - role:data-scientist
  - size:small
+ - persona:ai-ml-engineer
+ - persona:data-engineer
 ---
 
 # Optimize the size of AI/ML models

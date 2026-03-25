@@ -7,6 +7,8 @@ description: Modern applications need to communicate with other applications on 
 tags: 
  - compute
  - size:medium
+ - persona:software-engineer
+ - persona:devops-engineer
 ---
 
 # Use circuit breaker patterns

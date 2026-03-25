@@ -7,7 +7,7 @@ description: Web browsers often communicate with web servers in a human readable
 tags: 
  - web
  - size:small
- - role:web-developer
+ - persona:devops-engineer
 ---
 
 # Enable text compression

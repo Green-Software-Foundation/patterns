@@ -38,20 +38,19 @@ Which technology does this pattern align to?
 * [Web](/tags/web)
 
 
-## Role
-Which traditional role would implement this pattern?  
+## Persona
+Which persona would implement this pattern?
 
-* [Cloud Engineer](/tags/role-cloud-engineer)
-* [Data Scientist](/tags/role-data-scientist)
-* Database Administrator
-* UX/Graphic Designer
-* Hardware Engineer
-* Mobile Engineer
-* Project Manager
-* Program Manager
-* [Reliability Engineer](/tags/role-reliability-engineer)
-* [Software Engineer](/tags/role-software-engineer)
-* [Web Developer](/tags/role-web-developer)
+* [AI/ML Engineer](/tags/persona-ai-ml-engineer)
+* [Data Engineer](/tags/persona-data-engineer)
+* [DevOps Engineer](/tags/persona-devops-engineer)
+* [Front End Engineer](/tags/persona-front-end-engineer)
+* [Infrastructure Engineer](/tags/persona-infrastructure-engineer)
+* [Product Manager](/tags/persona-product-manager)
+* [Security Engineer](/tags/persona-security-engineer)
+* [Software Engineer](/tags/persona-software-engineer)
+* [Solution Architect](/tags/persona-solution-architect)
+* [UX Designer](/tags/persona-ux-designer)
 
 
 

@@ -70,6 +70,11 @@ const config = {
         },
         items: [
           {
+            to: "/personas",
+            label: "Personas",
+            position: "left",
+          },
+          {
             href: "https://greensoftware.foundation/",
             position: "right",
             label: "Green Software Foundation",

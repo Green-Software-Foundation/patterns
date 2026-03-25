@@ -6,8 +6,8 @@ category: web
 description: Accessing a web page usually retrieves a HTML file from the web server. The HTML may then reference additional resources that the browser has to download.
 tags: 
  - size:medium
- - role:web-developer
  - web
+ - persona:front-end-engineer
 ---
 
 # Keep request counts low

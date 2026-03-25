@@ -6,8 +6,9 @@ category: cloud
 description: From an embodied carbon perspective, it's better to delete unused storage resources so we are efficient with hardware and so that the storage layer is optimised for the task. 
 tags: 
  - storage
- - role:cloud-engineer
  - size:small
+ - persona:devops-engineer
+ - persona:software-engineer
 ---
 
 # Delete unused storage resources

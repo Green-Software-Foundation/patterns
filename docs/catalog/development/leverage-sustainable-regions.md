@@ -7,8 +7,9 @@ description: Depending on the model parameters and training iterations, training
 tags: 
  - ai
  - machine-learning
- - role:data-scientist
  - size:small
+ - persona:ai-ml-engineer
+ - persona:infrastructure-engineer
 ---
 
 # Use sustainable regions for AI/ML training

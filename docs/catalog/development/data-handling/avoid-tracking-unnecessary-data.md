@@ -6,9 +6,9 @@ category: web
 description: User tracking, user data collection and targeting in things like advertisements are responsible for significant energy use in many digital products, and services.
 tags: 
  - storage
- - role:web-developer
- - role:software-engineer
  - size:small
+ - persona:front-end-engineer
+ - persona:ux-designer
 ---
 
 # Avoid tracking unnecessary data

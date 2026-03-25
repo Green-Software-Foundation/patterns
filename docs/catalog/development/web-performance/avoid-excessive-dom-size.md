@@ -6,8 +6,8 @@ category: web
 description: The greater the amount of nodes that are defined in HTML, the greater the time spent processing and rendering each element.
 tags: 
  - size:medium
- - role:web-developer
  - web
+ - persona:front-end-engineer
 ---
 
 # Avoid an excessive DOM size

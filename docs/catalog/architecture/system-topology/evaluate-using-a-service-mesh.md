@@ -4,12 +4,14 @@ submitted_by: yelghali
 published_date: 2024-03-14
 category: cloud
 tags: 
-- cloud
-- security
-- network
-- kubernetes
-- role:cloud-engineer
-- size:medium
+ - persona:solution-architect
+ - persona:devops-engineer
+ - cloud
+ - security
+ - network
+ - kubernetes
+ - role:cloud-engineer
+ - size:medium
 ---
 
 # Use a service mesh only if needed

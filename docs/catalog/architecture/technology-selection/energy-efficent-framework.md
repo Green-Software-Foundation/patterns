@@ -7,8 +7,9 @@ description: Training an AI model implies a significant carbon footprint. The un
 tags: 
  - ai
  - machine-learning
- - role:data-scientist
  - size:small
+ - persona:ai-ml-engineer
+ - persona:software-engineer
 ---
 
 # Select a more energy efficient AI/ML framework

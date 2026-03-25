@@ -9,7 +9,13 @@
       "Bash(curl:*)",
       "Bash(lsof:*)",
       "Bash(grep -A 2 \"^category:\" /Users/russell/Sites/gsf-patterns/docs/catalog/architecture/*.md)",
-      "Bash(git mv:*)"
+      "Bash(git mv:*)",
+      "Bash(find /Users/russell/Sites/gsf-patterns/build -name *tag* -type f)",
+      "Bash(grep -r \"Personas\\\\|personas\\\\|CSV\" /Users/russell/Sites/gsf-patterns/docs --include=*.md --include=*.ts --include=*.tsx --include=*.js)",
+      "Bash(find /Users/russell/Sites/gsf-patterns -name \"package.json\" -exec cat {})",
+      "Bash(python3:*)",
+      "Bash(find /Users/russell/Sites/gsf-patterns/docs -type f -name *persona* -o -type f -name *role*)",
+      "Bash(node:*)"
     ]
   }
 }

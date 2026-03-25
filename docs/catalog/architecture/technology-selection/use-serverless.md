@@ -5,9 +5,11 @@ published_date: 2023-01-17
 category: cloud
 tags: 
  - cloud
- - role:cloud-engineer
  - size:small
  - serverless
+ - persona:infrastructure-engineer
+ - persona:devops-engineer
+ - persona:solution-architect
 ---
 
 # Use serverless cloud services

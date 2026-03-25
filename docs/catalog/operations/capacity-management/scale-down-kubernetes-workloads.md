@@ -6,8 +6,9 @@ category: cloud
 description: In order to reduce carbon emissions and costs, Dev&Test Kubernetes clusters can turn off nodes out of office hours. Thereby, optimization is implemented at the cluster level. For production clusters, where nodes need to stay up and running, optimization needs to be implemented at the application level.
 tags: 
  - kubernetes
- - role:cloud-engineer
  - size:small
+ - persona:devops-engineer
+ - persona:infrastructure-engineer
 ---
 
 # Scale down kubernetes applications when not in use

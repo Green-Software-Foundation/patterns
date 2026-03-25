@@ -6,8 +6,8 @@ category: web
 description: Minification removes unnecessary or redundant data without affecting how the resource is processed by the web browser.
 tags: 
  - web
- - role:web-developer
  - size:small
+ - persona:front-end-engineer
 ---
 
 # Minify web assets

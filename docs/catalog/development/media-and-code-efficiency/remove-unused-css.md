@@ -6,8 +6,8 @@ category: web
 description: CSS files are very complex and need energy intensive parsing and processing. Each added CSS definition increases the amount of time and processing power needed in this process.
 tags: 
  - size:small
- - role:web-developer
  - web
+ - persona:front-end-engineer
 ---
 
 # Remove unused CSS definitions

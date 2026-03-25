@@ -7,6 +7,9 @@ description: In a given application, there may be a need to utilize multiple env
 tags: 
  - cloud
  - deployment
+ - persona:infrastructure-engineer
+ - persona:devops-engineer
+ - persona:solution-architect
 ---
 
 # Minimize the total number of deployed environments

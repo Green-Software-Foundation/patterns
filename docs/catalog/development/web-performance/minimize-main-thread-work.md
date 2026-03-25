@@ -6,8 +6,8 @@ category: web
 tags: 
  - web
  - compute
- - role:web-developer
  - size:small
+ - persona:front-end-engineer
 ---
 
 # Minimize main thread work

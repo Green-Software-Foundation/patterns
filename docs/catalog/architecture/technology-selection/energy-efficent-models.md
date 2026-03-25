@@ -7,8 +7,8 @@ description: Evaluate and use alternative, more energy efficient, models that pr
 tags: 
  - ai
  - machine-learning
- - role:data-scientist
  - size:small
+ - persona:ai-ml-engineer
 ---
 
 # Use energy efficient AI/ML models

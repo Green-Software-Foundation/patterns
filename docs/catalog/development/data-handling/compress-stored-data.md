@@ -6,6 +6,8 @@ category: cloud
 tags: 
  - cloud
  - size:medium
+ - persona:devops-engineer
+ - persona:data-engineer
 ---
 
 # Compress stored data

@@ -4,12 +4,15 @@ submitted_by: yelghali
 published_date: 2024-07-30
 category: cloud
 tags: 
-- cloud
-- network
-- compute
-- kubernetes
-- role:cloud-engineer
-- size:medium
+ - persona:infrastructure-engineer
+ - persona:devops-engineer
+ - persona:solution-architect
+ - cloud
+ - network
+ - compute
+ - kubernetes
+ - role:cloud-engineer
+ - size:medium
 ---
 
 # Reduce network traversal between VMs

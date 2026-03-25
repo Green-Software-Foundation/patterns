@@ -5,11 +5,13 @@ published_date: 2022-11-10
 category: ai
 description: Building an ML model takes significant computing resources that need to be optimized for efficient utilization.
 tags:
-  - ai
-  - machine-learning
-  - serverless
-  - role:data-scientist
-  - size:small
+ - ai
+ - machine-learning
+ - serverless
+ - size:small
+ - persona:ai-ml-engineer
+ - persona:solution-architect
+ - persona:devops-engineer
 ---
 
 # Adopt serverless architecture for AI/ML workload processes
