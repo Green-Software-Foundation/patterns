@@ -15,7 +15,11 @@
       "Bash(find /Users/russell/Sites/gsf-patterns -name \"package.json\" -exec cat {})",
       "Bash(python3:*)",
       "Bash(find /Users/russell/Sites/gsf-patterns/docs -type f -name *persona* -o -type f -name *role*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(git -C /Users/russell/Sites/gsf-patterns log --oneline --follow docs/catalog/index.md)",
+      "Bash(git:*)",
+      "Bash(for dir:*)",
+      "Bash(do echo:*)"
     ]
   }
 }
