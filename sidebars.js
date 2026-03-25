@@ -4,7 +4,6 @@
 const sidebars = {
   tutorialSidebar: [
     'index',
-    'catalog/index',
     {
       type: 'category',
       label: 'Requirements',

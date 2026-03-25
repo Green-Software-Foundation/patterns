@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm show:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(npm start:*)",
+      "WebFetch(domain:soft.greensoftware.foundation)",
+      "Bash(curl:*)",
+      "Bash(lsof:*)",
+      "Bash(grep -A 2 \"^category:\" /Users/russell/Sites/gsf-patterns/docs/catalog/architecture/*.md)",
+      "Bash(git mv:*)"
+    ]
+  }
+}

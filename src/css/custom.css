@@ -42,7 +42,7 @@
   --ifm-background-color:       var(--gsf-accent-lightest-2);
   --ifm-color-content:          #3c3c3c;
   --ifm-heading-color:          var(--gsf-primary-darker);
-  --ifm-font-size-base:         18px;
+  --ifm-font-size-base:         16px;
   --ifm-font-family-base:       'Nunito Sans', sans-serif;
   --ifm-code-font-size:         95%;
   --ifm-global-radius:          0.375rem;
