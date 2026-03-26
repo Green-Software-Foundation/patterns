@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - 2026-categories
+      - main
 
 jobs:
   deploy:
