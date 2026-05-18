@@ -9,10 +9,10 @@ const config = {
   title: "Green Software Patterns",
   // Change to site description
   tagline:
-    "An online open-source database of green software patterns reviewed and curated by the Green Software Foundation",
+    "Practical green software patterns, organised by role and lifecycle stage, to reduce your software emissions.",
   // Change to site url
-  url: "https://russelltrow.github.io/",
-  baseUrl: "gsf-patterns/",
+  url: "https://patterns.greensoftware.foundation/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   markdown: {
     hooks: {
