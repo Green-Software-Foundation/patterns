@@ -147,7 +147,7 @@
 }
 
 .storyCard {
-  background: var(--gsf-primary-lightest-2);
+  background: transparent;
   border: 1px solid var(--gsf-primary-lighter);
   border-radius: var(--ifm-global-radius);
   padding: 1.25rem 1.4rem;
