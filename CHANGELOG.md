@@ -1,29 +1,56 @@
 # Changelog
 
-## [Unreleased] — 2026-03-16
+## [Unreleased] — 2026-05-18
+
+### Added
+
+#### Persona-based navigation
+A new Personas section surfaces patterns by professional role. Ten persona pages have been added under `docs/personas/`:
+
+- AI / ML Engineer, Data Engineer, DevOps Engineer, Front-End Engineer, Infrastructure Engineer, Product Manager, Security Engineer, Software Engineer, Solution Architect, UX Designer
+
+Pattern-to-persona assignments are defined in each pattern's frontmatter (`personas:` field) and compiled at build time by `scripts/generate-persona-data.js` into `src/data/personas.ts`.
+
+#### Client-side redirects
+Installed `@docusaurus/plugin-client-redirects` with 70 redirects:
+- All 61 old `/catalog/cloud/`, `/catalog/ai/`, and `/catalog/web/` pattern URLs redirect to their new lifecycle-category paths
+- Old `/catalog/`, `/catalog/cloud/`, `/catalog/ai/`, `/catalog/web/` landing pages redirect to the homepage
+- Five `role:*` tag pages redirect to the corresponding persona pages (`/tags/role-software-engineer` → `/personas/software-engineer`, etc.)
+
+#### Announcement bar
+Added a site-wide announcement bar informing visitors of the redesign, with links to the Software Lifecycle and Personas sections. Styled with the GSF accent colour (`#ABCC59`) and dismissible.
+
+#### Contribute page — review process documentation
+The Propose a Pattern page now includes a "What happens next" section explaining all three review stages (Initial Review, SME Review, Team Consensus), their expected timelines (~5 weeks total), and what contributors can expect if a pattern is not accepted.
 
 ### Changed
 
 #### Catalog restructure — new top-level categories
-Patterns have been reorganised from technology-based folders (`ai/`, `cloud/`, `web/`) into lifecycle-stage categories aligned with the GSF Patterns 2.0 taxonomy:
+Patterns have been reorganised from technology-based folders (`ai/`, `cloud/`, `web/`) into four lifecycle-stage categories aligned with the GSF Patterns 2.0 taxonomy:
 
 | New folder | Patterns | Previous locations |
 |---|---|---|
-| `docs/catalog/requirements/` | 4 | `cloud/` |
-| `docs/catalog/architecture/` | 17 | `ai/`, `cloud/` |
-| `docs/catalog/development/` | 23 | `ai/`, `cloud/`, `web/` |
-| `docs/catalog/operations/` | 17 | `cloud/` |
+| `docs/requirements/` | 4 | `cloud/` |
+| `docs/architecture/` | 17 | `ai/`, `cloud/` |
+| `docs/development/` | 23 | `ai/`, `cloud/`, `web/` |
+| `docs/operations/` | 17 | `cloud/` |
 
-The new categories are drawn from the SDLC-aligned framework defined in `data/GSF Patterns 2.0 - Categories.csv`:
-- **1 Requirements** (Define) — 4 patterns
-- **2 Architecture** (Architect) — 17 patterns
-- **4 Development** (Build) — 23 patterns
-- **6 Operations** (Operate) — 17 patterns
+Each category is further divided into subcategories (e.g. `architecture/system-topology/`, `development/web-performance/`). Categories defined in the taxonomy but with no patterns yet — Design, Testing, Decommissioning, End User — are not included.
 
-Categories 3 (Design), 5 (Testing), 7 (Decommissioning), and 8 (End User) are defined in the taxonomy but have no patterns yet.
+#### Homepage redesign
+- Hero subheading updated to reflect new practitioner-focused positioning
+- **Software Lifecycle** section added — browsable grid of the four lifecycle categories
+- **Personas** section added — role-based navigation grid
+- **Patterns in Use** section (formerly Success Stories) updated with new copy
+- **Team** section updated with current project leads and core contributors
+
+#### Site metadata and SEO
+- Tagline updated to: *"Practical green software patterns, organised by role and lifecycle stage, to reduce your software emissions."*
+- `og:description` and `twitter:description` updated to match new site positioning
+- `twitter:card` upgraded from `summary` to `summary_large_image`
 
 #### Styling — aligned with GSF microsite design system
-`src/css/custom.css` rewritten to match the design system used across GSF microsites (e.g. `soft.greensoftware.foundation`):
+`src/css/custom.css` rewritten to match the design system used across GSF microsites:
 
 - **Primary colour** updated from `#003734` to `#006d69` across the Infima palette
 - **Accent palette** added — lime green (`#aecc53` family, `--gsf-accent-*`) used for active sidebar items, tag badges, and heading underlines
@@ -47,4 +74,5 @@ Categories 3 (Design), 5 (Testing), 7 (Decommissioning), and 8 (End User) are de
 - `onBrokenMarkdownLinks` migrated to `markdown.hooks.onBrokenMarkdownLinks` (deprecation fix)
 
 ### Fixed
-- Removed undefined `<PatternComponent>` from `docs/catalog/development/cache-static-data.md` — MDX v3 throws on unknown components where MDX v1 silently ignored them
+- Removed undefined `<PatternComponent>` from `docs/development/cache-static-data.md` — MDX v3 throws on unknown components where MDX v1 silently ignored them
+- Resolved 35 npm audit vulnerabilities via `npm audit fix` and a `serialize-javascript@^7.0.5` override in `package.json`
