@@ -1,44 +1,66 @@
 ---
+hide_table_of_contents: true
 sidebar_position: 1
-description: "An online open-source database of green software patterns reviewed and curated by the Green Software Foundation"
+description: "A curated collection of best practices for software practitioners building greener software, reviewed and curated by the Green Software Foundation."
+custom_edit_url: null
+pagination_next: null
+pagination_prev: null
 ---
 
+import { PersonasIndexContent, CategoriesIndexContent, SuccessStoriesContent } from "@site/src/components/PersonaPage";
 import TeamMember, { TeamMembers } from "@site/src/components/TeamMember";
 
 # Green Software Patterns
 
-## Summary
+<p id="homepage-quote">A curated collection of best practices for software practitioners building greener software.</p>
 
-An online open-source database of software patterns reviewed and curated by the Green Software Foundation across a wide range of categories. You can be confident that applying any of our published and live patterns will reduce your software emissions.
+## Get Started
 
-Any software practitioner can find the patterns related to their field, technology, or domain. Anyone can submit a pattern that triggers a detailed review process by the Foundation.
+Patterns are designed to be easy to understand and put into practice. Just follow these simple steps:
 
-## Getting Started
+<table id="getting-started">
+  <tr>
+    <th><img src="img/homepage-started.png" /></th>
+    <td><strong>Choose a pattern</strong> that fits your role or aligns with where you are in the software development lifecycle.</td>
+  </tr>
+  <tr>
+    <th><img src="img/homepage-started.png" /></th>
+    <td><strong>Review the pattern and its proposed solution</strong> to understand the core idea.</td>
+  </tr>
+  <tr>
+    <th><img src="img/homepage-started.png" /></th>
+    <td><strong>Identify how the pattern applies to your software</strong>, including what changes are needed and how they may impact your system</td>
+  </tr>
+  <tr>
+    <th><img src="img/homepage-started.png" /></th>
+    <td><strong>Apply the change</strong> and measure the impact.</td>
+  </tr>
+</table>
 
-- Learn what constitutes a pattern and how to [contribute](/guide) a new one or edit an existing one.
-- View the [catalog](/catalog/) of patterns.
 
-## Quick Links
+## Software Lifecycle
 
-- [Press Release FAQ](https://github.com/Green-Software-Foundation/pr-faqs/blob/main/live/green-software-patterns.pr-faq.md)
-- [Main Website](https://patterns.greensoftware.foundation)
-- [Main GitHub Repository](https://github.com/Green-Software-Foundation/green-software-patterns)
+Browse green software patterns by where they apply in the software development lifecycle.
 
-## Principles, Patterns, and Practices
+<CategoriesIndexContent />
 
-The [**principles**](https://learn.greensoftware.foundation/practitioner/introduction) of green software outline a core set of competencies needed to define, run and build green software.
+## Personas
 
-A green software **pattern** is a specific example of how to apply one or more principles in a real-world example. Whereas principles describe the theory that underpins green software, patterns are the practical advice software practitioners can use in their software applications today. Patterns are vendor-neutral.
+Find green software patterns tailored to your role and responsibilities.
 
-A green software **practice** is a pattern applied to a specific vendor's product and informs practitioners about how to use that product in a more sustainable way.
+<PersonasIndexContent />
 
-Practices should refer to patterns that should refer to principles.
+## Patterns in Use
 
-![Green Software Principles, Patterns, and Practices](../src/images/GSF_Principles_Patterns_Practices_v2.png "Green Software Principles, Patterns, and Practices")
+Case studies, research, and conversations from organisations and practitioners applying these patterns in the real world.
 
----
+<SuccessStoriesContent />
 
-### Appointments
+## Contribute
+
+Are we missing a pattern? <a href="contribute/">Learn how to contribute new patterns</a>.
+
+## Team
 
 <TeamMembers>
   <TeamMember
@@ -56,5 +78,21 @@ Practices should refer to patterns that should refer to principles.
     linkedin="liyamath"
   >
     Liya Mathew
+  </TeamMember>
+  <TeamMember
+    role="Core Contributor"
+    company="Schneider Electric"
+    github="Juanigrubio1293"
+    linkedin="juan-ignacio-rubio"
+  >
+    Juan Rubio
+  </TeamMember>
+  <TeamMember
+    role="Core Contributor"
+    company="AVEVA"
+    github="pdematos12"
+    linkedin="pauladematos"
+  >
+    Paula de Matos
   </TeamMember>
 </TeamMembers>
