@@ -1,107 +1,55 @@
-# Green Software Patterns — 2026 Roadmap
+# Green Software Patterns — 2026 Roadmap Discussion
 
-> **Purpose:** Consolidated view of what was planned for v2.0, what shipped, what was closed, and what remains open for team discussion. Source pages: _Patterns 2.0 — Roadmap_, _Patterns 2.0 — Basic Structure_, _Patterns 2.0 — Backlog Review — During_, _Patterns 2.0 — Backlog Review — After_, _Patterns 2.0 — Backlog Review — Close_ (all updated May 2026).
+## Where We Are
 
----
+The v2.0 launch marks a significant step forward. The catalogue has been restructured around the software development lifecycle, a Personas section makes patterns discoverable by role, and the contribution process is clearer than it has ever been. The website is now more accessible and usable.
 
-## What v2.0 Set Out to Solve
+What v2.0 did not address is the patterns themselves. Many have not been revised in years. The catalogue is more navigable, but the content it surfaces is largely the same content it always has been.
 
-The _Basic Structure_ page defined three problem statements that drove the v2.0 work:
-
-1. **Adoption effort** — organisations like AVEVA had to build their own scoring systems to use the catalogue internally; this should be built in.
-2. **Discoverability** — the old AI / Cloud / Web grouping made it hard for users to find patterns relevant to their situation.
-3. **Technical complexity** — the catalogue was too developer-centric for non-technical stakeholders.
-
-### Goals set for v2
-
-| Goal | Shipped in v2.0? |
-|---|---|
-| Persona-based navigation | ✅ Yes |
-| Lifecycle-based catalogue structure (replacing AI/Cloud/Web) | ✅ Yes |
-| Clearer contribution process with stage timelines | ✅ Yes |
-| Graduate v1 | ✅ Yes (completed before v2 work began) |
-| Built-in scoring system (impact / adaptability) | ❌ Not shipped |
-| Filtering by project type (new, enhancement, extending) | ❌ Not shipped |
-| Behaviour-based patterns linked to SCI | ❌ Not shipped |
-| Automation for initial review (Stage 3 — bonus) | ❌ Not shipped |
+The question for the team is: **what do we focus on next?**
 
 ---
 
-## Backlog Status — As of May 2026
+## Strategic Themes for Discussion
 
-### Confirmed Closed
+### 1. Pattern Quality and Modernisation
 
-All five issues identified as directly closeable are done (confirmed May 2026 in _Backlog Review — Close_):
+The catalogue has grown organically over time, with patterns added independently rather than as part of a coherent, reviewed whole. Some reference technologies or approaches that are no longer current. Others are more granular than they need to be, or overlap with each other in ways that create confusion rather than clarity.
 
-- [#96 — Automatically scale down K8s clusters](https://github.com/Green-Software-Foundation/patterns/issues/96)
-- [#164 — "Right-sizing" Kubernetes Instances](https://github.com/Green-Software-Foundation/patterns/issues/164)
-- [#184 — Add additional description field](https://github.com/Green-Software-Foundation/patterns/issues/184)
-- [#195 — Add emissions reporting / offset button in header](https://github.com/Green-Software-Foundation/patterns/issues/195)
-- [#214 — Implement efficient indexing](https://github.com/Green-Software-Foundation/patterns/issues/214)
+Before expanding the catalogue, is there a case for consolidating and modernising what already exists? This would mean revisiting patterns against current practice, merging where there is overlap, retiring where something is outdated, and ensuring every pattern has a credible, up-to-date SCI linkage.
 
-Closed as part of restructuring (_Backlog Review — During_, updated May 2026):
+The question is whether a quality-first pass makes the catalogue more valuable than adding new patterns on top of an unreviewed foundation.
 
-- [#215 — Add BI / Data Visualisation / Reporting tag](https://github.com/Green-Software-Foundation/patterns/issues/215)
-- [#244 — The Green Web Dev Book](https://github.com/Green-Software-Foundation/patterns/issues/244)
-- [#247 — AVEVA adopter](https://github.com/Green-Software-Foundation/patterns/issues/247)
-- [#263 — Graduation of Patterns v1](https://github.com/Green-Software-Foundation/patterns/issues/263)
-- [#265 — Mastercard adopter](https://github.com/Green-Software-Foundation/patterns/issues/265)
-- [#302 — Green Software Design Resource](https://github.com/Green-Software-Foundation/patterns/issues/302)
+### 2. Pattern Expansion
 
-Closed after restructuring (_Backlog Review — After_, updated May 2026):
+The current catalogue has clear gaps — particularly in the Operations category, where practices around CI/CD, container resource management, and automated infrastructure optimisation are conspicuously absent despite being well-established in the industry.
 
-- [#91 — Design category for coding patterns](https://github.com/Green-Software-Foundation/patterns/issues/91)
-- [#132 — Using compiled vs interpreted languages](https://github.com/Green-Software-Foundation/patterns/issues/132)
-- [#193 — Patterns Party & Speaker Deck](https://github.com/Green-Software-Foundation/patterns/issues/193)
-- [#235 — Improve deprecated GIFs for animated image pattern](https://github.com/Green-Software-Foundation/patterns/issues/235)
+There are also entirely new areas the catalogue does not yet address: AI and ML workloads beyond what was in the original catalogue, emerging practices around sustainable software architecture, and patterns relevant to roles or contexts not yet well represented.
 
----
+The question is whether expansion should happen before or after a quality review of existing content, and what criteria govern whether a new pattern is ready to publish.
 
-### Open — Carry Forward for Discussion
+### 3. Integration with External Resources
 
-#### From the "During Restructuring" backlog (_Backlog Review — During_)
+Several established bodies of work exist alongside the GSF catalogue — the W3C Sustainability Guidelines, the Google Green Guides, the Azure Well-Architected Framework, and peer-reviewed academic research on energy-efficient ML. These are not competitors; they address different audiences and levels of abstraction. But they do cover similar ground, and there is currently no relationship between them and the GSF catalogue.
 
-| Issue | Notes |
-|---|---|
-| [#108 — Azure Well-Architected Framework patterns](https://github.com/Green-Software-Foundation/patterns/issues/108) | Needs vendor-neutral framing to map across lifecycle categories |
-| [#122 — Specify Pattern Reading Persona(s)](https://github.com/Green-Software-Foundation/patterns/issues/122) | Persona navigation shipped in v2.0 — does this need a formal close or is there follow-up work? |
-| [#126 — Collaboration with W3C web patterns](https://github.com/Green-Software-Foundation/patterns/issues/126) | Partnership / content uplift — no progress recorded |
-| [#127 — Integrate energy-efficient ML patterns from academia](https://github.com/Green-Software-Foundation/patterns/issues/127) | Needs SCI linkage review before any patterns are added |
-| [#213 — Tie patterns to use cases](https://github.com/Green-Software-Foundation/patterns/issues/213) | Broader question about use case integration — related to #257 and #297 |
-| [#217 — Make patterns more abstract and not so fine-grained](https://github.com/Green-Software-Foundation/patterns/issues/217) | Partially addressed in restructuring; needs a review pass to confirm |
-| [#254 — Green Software Architecture Patterns](https://github.com/Green-Software-Foundation/patterns/issues/254) | Architecture category shipped in v2.0 — does this need a formal close or further content work? |
-| [#257 — Example architectures](https://github.com/Green-Software-Foundation/patterns/issues/257) | Needs concept agreement before implementation |
-| [#296 — Multi-level caching in Web](https://github.com/Green-Software-Foundation/patterns/issues/296) | Review against the restructured Development category |
-| [#297 — Patterns Use Case: Microsoft & DOW](https://github.com/Green-Software-Foundation/patterns/issues/297) | Needs team decision on how use cases are presented on the site |
+Integration could mean several things: formally referencing external resources from within patterns, mapping GSF patterns to equivalent guidance elsewhere, or actively ingesting well-evidenced external patterns (with appropriate SCI linkage) rather than waiting for community submissions.
 
-#### From the "After Restructuring" backlog (_Backlog Review — After_)
+The question is whether the catalogue should position itself as the definitive cross-reference for green software guidance, and if so, what that relationship-building actually looks like in practice.
 
-| Issue | Notes |
-|---|---|
-| [#162 — Use ZSTD instead of gzip for data compression](https://github.com/Green-Software-Foundation/patterns/issues/162) | Could be absorbed into the existing compress-stored-data pattern |
-| [#211 — Resource Management for Pods & Containers](https://github.com/Green-Software-Foundation/patterns/issues/211) | Good fit for Operations category |
-| [#225 — Green DevOps: Sustainable CI/CD](https://github.com/Green-Software-Foundation/patterns/issues/225) | Strong candidate for Operations category |
-| [#226 — Autonomous Optimization of Compute & Storage Resources](https://github.com/Green-Software-Foundation/patterns/issues/226) | Review scope and SCI linkage |
-| [#323 — Add uglify / minify pattern](https://github.com/Green-Software-Foundation/patterns/issues/323) | Needs evidence of real SCI impact before adding |
+### 4. Reducing the Adoption Gap
 
----
+AVEVA, Mastercard, and EPAM all independently did significant work to make the catalogue usable internally — building scoring systems, compacting the catalogue, adding examples, and reframing patterns as practices. They invested that effort because the catalogue in its current form requires adaptation before organisations can act on it.
 
-## Questions for Team Discussion
+This is a signal that there is a gap between a well-curated catalogue and something organisations can adopt directly. Closing that gap might mean built-in impact and complexity scoring, example architectures that show patterns working together, use cases grounded in real adoption stories, or making the adoption stories themselves — currently only in the wiki — part of the public site.
 
-### 1. Close or continue? (#122 and #254)
-Persona navigation and the Architecture category both shipped in v2.0, but issues [#122](https://github.com/Green-Software-Foundation/patterns/issues/122) and [#254](https://github.com/Green-Software-Foundation/patterns/issues/254) remain open in the backlog. Are these fully resolved and ready to close, or is there follow-up content work still needed?
+The question is how much of this adaptation work the project should absorb, and whether doing so makes the catalogue more valuable or risks narrowing its scope.
 
-### 2. Scoring system
-The original v2 goal of a built-in scoring system (impact / adaptability / SCI linkage) was not shipped. AVEVA and Mastercard both solved this externally. Do we prioritise this for the next milestone? If so, what does the scoring metadata look like in pattern frontmatter, and who defines the methodology?
+### 5. Depth vs. Breadth
 
-### 3. Use cases and example architectures (#213, #257, #297)
-Three open issues point to the same gap: patterns exist in isolation, but real adoption means assembling them into scenarios. Do we create a Use Cases or Example Architectures section on the site? What is the difference between a use case and a pattern?
+Running through all of these themes is a more fundamental choice about what kind of resource the catalogue should be.
 
-### 4. New patterns — Operations priority
-The Operations category has the strongest set of ready candidates: CI/CD (#225) and Pod resource management (#211). Should these be the first post-v2.0 pattern additions?
+A **broad catalogue** prioritises coverage — adding patterns across as many categories, roles, and technology contexts as possible, and growing through community contribution.
 
-### 5. External content pipeline (#108, #126, #127)
-Patterns from Azure WAF, W3C, and academic ML research have been open for a long time. What is the actual process for reviewing and ingesting external patterns — who does the SCI mapping and vendor-neutral framing?
+A **deep catalogue** prioritises rigour — fewer patterns, but each one thoroughly reviewed, kept current, grounded in evidence, and connected to real-world adoption.
 
-### 6. Unshipped v2 goals
-Filtering by project type, behaviour-based patterns, and review automation were all scoped for v2 but not delivered. Do any of these move into the next milestone, or are they deprioritised?
+The two are not mutually exclusive, but they require different processes, different contributor profiles, and different ways of measuring success. The v2.0 restructuring improved the container. The next decision is about what goes inside it.
