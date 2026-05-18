@@ -44,7 +44,15 @@ This is a signal that there is a gap between a well-curated catalogue and someth
 
 The question is how much of this adaptation work the project should absorb, and whether doing so makes the catalogue more valuable or risks narrowing its scope.
 
-### 5. Depth vs. Breadth
+### 5. AI Patterns and the AI Lifecycle
+
+During the v2.0 restructuring conversations, a structural problem emerged with AI patterns: the AI development lifecycle does not map cleanly onto the conventional software development lifecycle that now organises the catalogue. Training, fine-tuning, inference, data pipelines, and model governance are distinct phases with their own sustainability considerations — and they sit awkwardly inside Requirements, Architecture, Development, and Operations.
+
+The current catalogue treats AI as a topic within the SDLC rather than a lifecycle in its own right. This may mean AI patterns are either shoehorned into categories where they don't belong, or simply not submitted because contributors don't know where they fit.
+
+The question is whether AI warrants a separate catalogue structured around its own lifecycle — or whether the current structure can accommodate AI patterns with better subcategorisation. A separate catalogue would be a significant commitment: it needs its own structure, its own reviewer pool with AI expertise, and its own relationship to the SCI framework in contexts (like model training) where carbon attribution is genuinely difficult.
+
+### 6. Depth vs. Breadth
 
 Running through all of these themes is a more fundamental choice about what kind of resource the catalogue should be.
 
