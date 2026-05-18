@@ -50,9 +50,27 @@ During the v2.0 restructuring conversations, a structural problem emerged with A
 
 The current catalogue treats AI as a topic within the SDLC rather than a lifecycle in its own right. This may mean AI patterns are either shoehorned into categories where they don't belong, or simply not submitted because contributors don't know where they fit.
 
-The question is whether AI warrants a separate catalogue structured around its own lifecycle — or whether the current structure can accommodate AI patterns with better subcategorisation. A separate catalogue would be a significant commitment: it needs its own structure, its own reviewer pool with AI expertise, and its own relationship to the SCI framework in contexts (like model training) where carbon attribution is genuinely difficult.
+There is also an active dependency to consider: the GSF's Green AI Committee is working on the SCI for AI specification, and existing AI patterns have been submitted to the GAIC for review and alignment. There is an opportunity — and arguably an expectation — to time a more comprehensive AI patterns effort with the publication of SCI for AI, which would give AI patterns a credible measurement foundation they currently lack.
 
-### 6. Depth vs. Breadth
+The question is whether AI warrants a separate catalogue structured around its own lifecycle — or whether the current structure can accommodate AI patterns with better subcategorisation. A separate catalogue would be a significant commitment: it needs its own structure, its own reviewer pool with AI expertise, and its own relationship to the SCI for AI framework. But doing nothing risks the AI patterns remaining a thin, poorly-organised corner of a catalogue that otherwise has no credibility problem in its domain.
+
+### 6. Enterprise Architecture
+
+Meeting discussions surfaced a potential collaboration with IASA Global (sustainablearchitectures.org), which runs a Chief Architect Forum of over 500 chief enterprise architects and maintains an open-source architecture framework comparable to TOGAF. Their interest is in linking enterprise architecture sustainability principles to green software patterns — connecting the strategic design decisions that enterprise architects make to the concrete practices that software engineers implement.
+
+This matters because enterprise architects are a distinct audience the catalogue does not currently serve well. They operate at a level of abstraction above the SDLC — concerned with technology selection, organisational patterns, portfolio decisions, and governance — and there are no patterns that speak directly to that context.
+
+The question is whether the catalogue should extend upward into enterprise architecture, and if so, whether that means new patterns within the existing structure or a different kind of resource altogether. It also raises a partnership question: IASA has an established community and framework — is there value in a formal alignment rather than going it alone?
+
+### 7. Scaling Content Creation
+
+The catalogue currently relies entirely on human contribution and review, which limits how quickly it can grow or modernise. Meeting discussions in 2025 surfaced an open question about whether AI could assist with parts of the content pipeline — generating first drafts of patterns from authoritative sources, suggesting SCI linkages, tagging patterns against the persona and category structure, or flagging outdated patterns for review.
+
+This is distinct from automating the review process. The question is not whether a machine can replace expert judgement, but whether AI assistance could reduce the activation energy for contributors and help the team maintain a larger, more current catalogue with the same human capacity.
+
+The question is what role, if any, AI-assisted creation plays in the content strategy — and what guardrails are needed to ensure quality and SCI rigour are not sacrificed for speed.
+
+### 8. Depth vs. Breadth
 
 Running through all of these themes is a more fundamental choice about what kind of resource the catalogue should be.
 
