@@ -1,173 +1,107 @@
 # Green Software Patterns — 2026 Roadmap
 
-> **Purpose:** This page consolidates all prior roadmap and backlog wiki pages into a single reference for team discussion on what comes next after the v2.0 launch. It replaces: _Patterns 2.0 Restructuring Roadmap_, _Patterns Backlog Review — November 2024_, _Patterns Backlog Review — During Restructuring_, _Patterns Backlog Review — After Restructuring_, _Patterns Backlog Review — Close_, _DRAFT — Restructuring Patterns Project_, _Plan 2025_, and _Patterns — Basic Structure for Restructuring_.
+> **Purpose:** Consolidated view of what was planned for v2.0, what shipped, what was closed, and what remains open for team discussion. Source pages: _Patterns 2.0 — Roadmap_, _Patterns 2.0 — Basic Structure_, _Patterns 2.0 — Backlog Review — During_, _Patterns 2.0 — Backlog Review — After_, _Patterns 2.0 — Backlog Review — Close_ (all updated May 2026).
 
 ---
 
-## What We Set Out to Do (2024–2025 Goals)
+## What v2.0 Set Out to Solve
 
-From the _Plan 2025_ and _DRAFT — Restructuring Patterns Project_ wiki pages, the high-level goals were:
+The _Basic Structure_ page defined three problem statements that drove the v2.0 work:
 
-1. Restructure the patterns catalogue
-2. Clear up the whole backlog
-3. Revive the project board
-4. Find owners of issues
-5. Edit the GSF homepage (Tip of the Day, link to patterns)
-6. Add case studies of adoption from companies
-7. Graduate the project to v1
+1. **Adoption effort** — organisations like AVEVA had to build their own scoring systems to use the catalogue internally; this should be built in.
+2. **Discoverability** — the old AI / Cloud / Web grouping made it hard for users to find patterns relevant to their situation.
+3. **Technical complexity** — the catalogue was too developer-centric for non-technical stakeholders.
+
+### Goals set for v2
+
+| Goal | Shipped in v2.0? |
+|---|---|
+| Persona-based navigation | ✅ Yes |
+| Lifecycle-based catalogue structure (replacing AI/Cloud/Web) | ✅ Yes |
+| Clearer contribution process with stage timelines | ✅ Yes |
+| Graduate v1 | ✅ Yes (completed before v2 work began) |
+| Built-in scoring system (impact / adaptability) | ❌ Not shipped |
+| Filtering by project type (new, enhancement, extending) | ❌ Not shipped |
+| Behaviour-based patterns linked to SCI | ❌ Not shipped |
+| Automation for initial review (Stage 3 — bonus) | ❌ Not shipped |
 
 ---
 
-## What v2.0 Delivered ✅
+## Backlog Status — As of May 2026
 
-Released **2026-05-18**, v2.0 addressed the core goals from the restructuring plan:
+### Confirmed Closed
 
-| Goal | Status |
-|---|---|
-| Restructure catalogue away from AI/Cloud/Web into lifecycle stages (Requirements, Architecture, Development, Operations) | ✅ Done |
-| Persona-based navigation (issue [#122](https://github.com/Green-Software-Foundation/patterns/issues/122)) | ✅ Done — 7+ roles including Software Engineer, DevOps, Front-End, Solution Architect |
-| Architecture category (issue [#254](https://github.com/Green-Software-Foundation/patterns/issues/254)) | ✅ Done |
-| Clearer contribution process with stage timelines | ✅ Done (~5 weeks submission to publication) |
-| Graduate v1 (issue [#263](https://github.com/Green-Software-Foundation/patterns/issues/263)) | ✅ Done — v1 graduated before v2 work began |
-| Platform upgrade (Docusaurus v2 → v3.9.2) | ✅ Done |
-| Resolve npm security vulnerabilities | ✅ Done |
-| Licence update to CC BY 4.0 | ✅ Done |
-| New core contributors (AVEVA, Schneider Electric) | ✅ Done — Paula de Matos (AVEVA), Juan Rubio (Schneider Electric) |
+All five issues identified as directly closeable are done (confirmed May 2026 in _Backlog Review — Close_):
 
-### What Was Planned for v2 But Not Delivered
+- [#96 — Automatically scale down K8s clusters](https://github.com/Green-Software-Foundation/patterns/issues/96)
+- [#164 — "Right-sizing" Kubernetes Instances](https://github.com/Green-Software-Foundation/patterns/issues/164)
+- [#184 — Add additional description field](https://github.com/Green-Software-Foundation/patterns/issues/184)
+- [#195 — Add emissions reporting / offset button in header](https://github.com/Green-Software-Foundation/patterns/issues/195)
+- [#214 — Implement efficient indexing](https://github.com/Green-Software-Foundation/patterns/issues/214)
 
-These goals from the _DRAFT — Restructuring Patterns Project_ page were scoped for v2 but have not shipped:
+Closed as part of restructuring (_Backlog Review — During_, updated May 2026):
 
-| Goal | Notes |
-|---|---|
-| Built-in scoring system (impact / complexity) | AVEVA and Mastercard both built their own scoring externally — this was a core v2 goal |
-| Filtering by project type (new project, enhancement, extending) | Discussed in UX planning, not implemented |
-| Behaviour-based patterns linked to SCI | Flagged as "if feasible" — still unresolved |
-| Automation for initial review (Stage 3) | Was explicitly a "bonus" stage — still open |
+- [#215 — Add BI / Data Visualisation / Reporting tag](https://github.com/Green-Software-Foundation/patterns/issues/215)
+- [#244 — The Green Web Dev Book](https://github.com/Green-Software-Foundation/patterns/issues/244)
+- [#247 — AVEVA adopter](https://github.com/Green-Software-Foundation/patterns/issues/247)
+- [#263 — Graduation of Patterns v1](https://github.com/Green-Software-Foundation/patterns/issues/263)
+- [#265 — Mastercard adopter](https://github.com/Green-Software-Foundation/patterns/issues/265)
+- [#302 — Green Software Design Resource](https://github.com/Green-Software-Foundation/patterns/issues/302)
+
+Closed after restructuring (_Backlog Review — After_, updated May 2026):
+
+- [#91 — Design category for coding patterns](https://github.com/Green-Software-Foundation/patterns/issues/91)
+- [#132 — Using compiled vs interpreted languages](https://github.com/Green-Software-Foundation/patterns/issues/132)
+- [#193 — Patterns Party & Speaker Deck](https://github.com/Green-Software-Foundation/patterns/issues/193)
+- [#235 — Improve deprecated GIFs for animated image pattern](https://github.com/Green-Software-Foundation/patterns/issues/235)
 
 ---
 
-## Backlog: Consolidated Issue Status
+### Open — Carry Forward for Discussion
 
-### Close — No Action Needed
+#### From the "During Restructuring" backlog (_Backlog Review — During_)
 
-These were identified as closeable during restructuring reviews:
-
-| Issue | Reason |
-|---|---|
-| [#96 — Automatically scale down K8s clusters](https://github.com/Green-Software-Foundation/patterns/issues/96) | Overlaps with existing patterns |
-| [#164 — "Right-sizing" Kubernetes Instances](https://github.com/Green-Software-Foundation/patterns/issues/164) | Can be absorbed into existing pattern |
-| [#184 — Add additional description field](https://github.com/Green-Software-Foundation/patterns/issues/184) | Appears complete |
-| [#195 — Add emissions reporting / offset button in header](https://github.com/Green-Software-Foundation/patterns/issues/195) | Interesting idea but out of scope; move to future ideas |
-| [#214 — Implement efficient indexing](https://github.com/Green-Software-Foundation/patterns/issues/214) | Identified for closure in backlog review |
-
-### Done — Delivered in v2.0
-
-| Issue | How |
-|---|---|
-| [#122 — Specify Pattern Reading Persona(s)](https://github.com/Green-Software-Foundation/patterns/issues/122) | Personas section |
-| [#254 — Green Software Architecture Patterns](https://github.com/Green-Software-Foundation/patterns/issues/254) | Architecture lifecycle category |
-| [#263 — Graduation of Patterns v1](https://github.com/Green-Software-Foundation/patterns/issues/263) | Completed before v2 restructuring |
-| [#217 — Make patterns more abstract](https://github.com/Green-Software-Foundation/patterns/issues/217) | Addressed during restructuring |
-| [#215 — Add BI/Data Visualisation/Reporting tag](https://github.com/Green-Software-Foundation/patterns/issues/215) | Tags section restructured |
-| [#302 — Green Software Design Resource](https://github.com/Green-Software-Foundation/patterns/issues/302) | Addressed in restructuring |
-
-### Carry Forward — For Discussion
-
-These were explicitly flagged as "take after restructuring" or remain open:
-
-#### New Patterns
 | Issue | Notes |
 |---|---|
-| [#323 — Add uglify/minify pattern](https://github.com/Green-Software-Foundation/patterns/issues/323) | Needs evidence of real SCI impact before adding |
-| [#162 — Use ZSTD instead of gzip for data compression](https://github.com/Green-Software-Foundation/patterns/issues/162) | Could be absorbed into existing compress-stored-data pattern |
-| [#226 — Autonomous Optimization of Compute & Storage Resources](https://github.com/Green-Software-Foundation/patterns/issues/226) | Relevant post-restructuring |
-| [#225 — Green DevOps: Sustainable CI/CD](https://github.com/Green-Software-Foundation/patterns/issues/225) | Strong candidate for Operations category |
-| [#211 — Resource Management for Pods & Containers](https://github.com/Green-Software-Foundation/patterns/issues/211) | Good fit for Operations category |
-| [#235 — Improve deprecated GIFs for animated image pattern](https://github.com/Green-Software-Foundation/patterns/issues/235) | Pattern content improvement |
-| [#127 — Integrate energy-efficient ML patterns from academia](https://github.com/Green-Software-Foundation/patterns/issues/127) | Needs SCI linkage review |
-| [#132 — Using compiled vs interpreted languages](https://github.com/Green-Software-Foundation/patterns/issues/132) | Compiler-specific; needs SCI correlation work |
-| [#91 — Design category for coding patterns](https://github.com/Green-Software-Foundation/patterns/issues/91) | Related to #132 |
-
-#### Partnerships & External Content
-| Issue | Notes |
-|---|---|
-| [#126 — Collaboration with W3C web patterns](https://github.com/Green-Software-Foundation/patterns/issues/126) | Uplifted check — still open |
-| [#108 — Azure Well-Architected Framework patterns](https://github.com/Green-Software-Foundation/patterns/issues/108) | Can map across lifecycle categories; vendor-agnostic framing needed |
-| [#244 — The Green Web Dev Book](https://github.com/Green-Software-Foundation/patterns/issues/244) | Source material to mine for new patterns |
-
-#### Use Cases & Adoption
-| Issue | Notes |
-|---|---|
-| [#297 — Patterns Use Case: Microsoft & DOW](https://github.com/Green-Software-Foundation/patterns/issues/297) | Need team decision on how to present use cases on the site |
+| [#108 — Azure Well-Architected Framework patterns](https://github.com/Green-Software-Foundation/patterns/issues/108) | Needs vendor-neutral framing to map across lifecycle categories |
+| [#122 — Specify Pattern Reading Persona(s)](https://github.com/Green-Software-Foundation/patterns/issues/122) | Persona navigation shipped in v2.0 — does this need a formal close or is there follow-up work? |
+| [#126 — Collaboration with W3C web patterns](https://github.com/Green-Software-Foundation/patterns/issues/126) | Partnership / content uplift — no progress recorded |
+| [#127 — Integrate energy-efficient ML patterns from academia](https://github.com/Green-Software-Foundation/patterns/issues/127) | Needs SCI linkage review before any patterns are added |
+| [#213 — Tie patterns to use cases](https://github.com/Green-Software-Foundation/patterns/issues/213) | Broader question about use case integration — related to #257 and #297 |
+| [#217 — Make patterns more abstract and not so fine-grained](https://github.com/Green-Software-Foundation/patterns/issues/217) | Partially addressed in restructuring; needs a review pass to confirm |
+| [#254 — Green Software Architecture Patterns](https://github.com/Green-Software-Foundation/patterns/issues/254) | Architecture category shipped in v2.0 — does this need a formal close or further content work? |
 | [#257 — Example architectures](https://github.com/Green-Software-Foundation/patterns/issues/257) | Needs concept agreement before implementation |
-| [#213 — Tie patterns to use cases](https://github.com/Green-Software-Foundation/patterns/issues/213) | Related to #297 — broader question about use case integration |
-| [#247 — AVEVA adoption story](https://github.com/Green-Software-Foundation/patterns/issues/247) | Adoption Stories wiki page exists; surface this on the website? |
-| [#265 — Mastercard adopter](https://github.com/Green-Software-Foundation/patterns/issues/265) | Same as above |
+| [#296 — Multi-level caching in Web](https://github.com/Green-Software-Foundation/patterns/issues/296) | Review against the restructured Development category |
+| [#297 — Patterns Use Case: Microsoft & DOW](https://github.com/Green-Software-Foundation/patterns/issues/297) | Needs team decision on how use cases are presented on the site |
 
-#### Community & Outreach
+#### From the "After Restructuring" backlog (_Backlog Review — After_)
+
 | Issue | Notes |
 |---|---|
-| [#193 — Patterns Party & Speaker Deck](https://github.com/Green-Software-Foundation/patterns/issues/193) | Review what assets currently exist; plan event or deck |
+| [#162 — Use ZSTD instead of gzip for data compression](https://github.com/Green-Software-Foundation/patterns/issues/162) | Could be absorbed into the existing compress-stored-data pattern |
+| [#211 — Resource Management for Pods & Containers](https://github.com/Green-Software-Foundation/patterns/issues/211) | Good fit for Operations category |
+| [#225 — Green DevOps: Sustainable CI/CD](https://github.com/Green-Software-Foundation/patterns/issues/225) | Strong candidate for Operations category |
+| [#226 — Autonomous Optimization of Compute & Storage Resources](https://github.com/Green-Software-Foundation/patterns/issues/226) | Review scope and SCI linkage |
+| [#323 — Add uglify / minify pattern](https://github.com/Green-Software-Foundation/patterns/issues/323) | Needs evidence of real SCI impact before adding |
 
 ---
 
-## Open Questions for Team Discussion
+## Questions for Team Discussion
 
-These are the strategic questions that were raised across the roadmap pages but never fully resolved. They should drive the team's prioritisation for post-v2.0 releases.
+### 1. Close or continue? (#122 and #254)
+Persona navigation and the Architecture category both shipped in v2.0, but issues [#122](https://github.com/Green-Software-Foundation/patterns/issues/122) and [#254](https://github.com/Green-Software-Foundation/patterns/issues/254) remain open in the backlog. Are these fully resolved and ready to close, or is there follow-up content work still needed?
 
-### 1. Scoring / Impact Metadata
-The original v2 goal of a **built-in scoring system** (impact level, complexity, SCI linkage) was not shipped. AVEVA and Mastercard both solved this themselves externally.
-- Do we add impact/complexity metadata to pattern frontmatter?
-- Do we surface it as a filter or sort option in the UI?
-- How do we define and validate the scoring consistently?
+### 2. Scoring system
+The original v2 goal of a built-in scoring system (impact / adaptability / SCI linkage) was not shipped. AVEVA and Mastercard both solved this externally. Do we prioritise this for the next milestone? If so, what does the scoring metadata look like in pattern frontmatter, and who defines the methodology?
 
-### 2. Use Cases and Example Architectures
-Multiple issues ([#213](https://github.com/Green-Software-Foundation/patterns/issues/213), [#257](https://github.com/Green-Software-Foundation/patterns/issues/257), [#297](https://github.com/Green-Software-Foundation/patterns/issues/297)) point to the same gap: patterns exist in isolation, but real-world adoption requires assembling them into coherent scenarios.
-- Do we create a new "Use Cases" or "Examples" section on the site?
-- How do we distinguish a use case from a pattern?
-- Can we use the AVEVA / Mastercard adoption stories as the first examples?
+### 3. Use cases and example architectures (#213, #257, #297)
+Three open issues point to the same gap: patterns exist in isolation, but real adoption means assembling them into scenarios. Do we create a Use Cases or Example Architectures section on the site? What is the difference between a use case and a pattern?
 
-### 3. Adoption Stories on the Website
-The Adoption Stories wiki page documents AVEVA, Mastercard, and EPAM. This content lives only in the wiki.
-- Should adoption stories have a dedicated section on the public site?
-- Paula de Matos (AVEVA) is now a core contributor — good time to formalise this.
+### 4. New patterns — Operations priority
+The Operations category has the strongest set of ready candidates: CI/CD (#225) and Pod resource management (#211). Should these be the first post-v2.0 pattern additions?
 
-### 4. Expanding the Personas
-The Personas section shipped with 7+ roles. Now it's live, we can see what's missing.
-- Are there roles not yet represented (e.g., Data Engineer, Product Manager, Security Engineer)?
-- How do we keep persona-pattern mappings maintained as new patterns are added?
+### 5. External content pipeline (#108, #126, #127)
+Patterns from Azure WAF, W3C, and academic ML research have been open for a long time. What is the actual process for reviewing and ingesting external patterns — who does the SCI mapping and vendor-neutral framing?
 
-### 5. Patterns from External Sources
-Several issues flag external sources of patterns (Google Green Guides, W3C, Azure WAF, academic ML research, The Green Web Dev Book) that were never fully integrated.
-- What is our process for reviewing and ingesting patterns from external sources?
-- Who owns the mapping work (SCI linkage, abstraction, vendor-neutral framing)?
-
-### 6. Patterns Quality: Abstract vs. Fine-Grained
-Issue [#217](https://github.com/Green-Software-Foundation/patterns/issues/217) raised whether patterns were too fine-grained. The restructuring addressed this partially.
-- With the new structure in place, are there patterns that should be merged or split?
-- Should we do a post-v2 quality review pass?
-
-### 7. Automation for Initial Review (Stage 3)
-This was always a "bonus" goal. The contribution process is now clearer, so automation has more value.
-- What could be automated? (Format validation, frontmatter checks, CI linting)
-- Is the team bandwidth ready to build and maintain this?
-
-### 8. Community & Outreach
-Issue [#193](https://github.com/Green-Software-Foundation/patterns/issues/193) proposed a Patterns Party event and a speaker deck.
-- Has the v2 launch created a natural opportunity to run an event or publish a deck?
-- What assets do we currently have?
-
----
-
-## Suggested Next Steps
-
-1. **Team review meeting** — Walk through the open questions above and vote on priorities for the first post-v2 milestone.
-2. **Close confirmed issues** — Action the five issues in the "Close" table above.
-3. **Decide on use cases / adoption stories** — Agree on whether these belong on the public site before any implementation begins.
-4. **Scoring system spike** — Time-box a small investigation into what scoring metadata would look like in the frontmatter and whether it's feasible to maintain.
-5. **New patterns sprint** — The Operations category in particular has strong candidates ready: CI/CD (#225), Pod resource management (#211).
-
----
-
-*Consolidates: Patterns 2.0 Restructuring Roadmap · Patterns Backlog Review (November 2024, During Restructuring, After Restructuring, Close) · DRAFT — Restructuring Patterns Project · Plan 2025 · Patterns — Basic Structure for Restructuring*
+### 6. Unshipped v2 goals
+Filtering by project type, behaviour-based patterns, and review automation were all scoped for v2 but not delivered. Do any of these move into the next milestone, or are they deprioritised?
