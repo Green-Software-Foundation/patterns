@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "^3.9.2",
+    "@docusaurus/plugin-client-redirects": "^3.10.1",
     "@docusaurus/plugin-ideal-image": "^3.9.2",
     "@docusaurus/preset-classic": "^3.9.2",
     "@mdx-js/react": "^3.0.0",
@@ -44,5 +45,8 @@
   },
   "engines": {
     "node": ">=18.0"
+  },
+  "overrides": {
+    "serialize-javascript": "^7.0.5"
   }
 }
