@@ -1,81 +1,86 @@
-# Patterns of Green Software Engineering
+# Green Software Patterns
 
 ## Scope
-An open-source database of software patterns that, if applied, will reduce software emissions. Each pattern has been thoroughly reviewed by experts and agreed upon by all members of the Foundation. The patterns are the next step in the Foundation's goal to create an ecosystem of people with the knowledge of how to build greener applications. 
 
-For the longest time, the feedback we've received is that people need actionable advice they can apply immediately to their software products. However, the correct choices can change dramatically from one technology to another. For example, a good pattern for an AI product might be a wrong pattern for a web application. The information is out there but hard to find. We need one place where everyone can go for green software patterns regardless of their role or the technology and trust that if they apply the pattern, it will reduce emissions.
+An open-source catalogue of best practices that, if applied, will reduce software emissions. Each pattern has been thoroughly reviewed by experts and agreed upon by members of the Green Software Foundation.
 
-The catalog of green software patterns is an online open-source database of software patterns reviewed and curated by the Green Software Foundation across a wide range of categories. Any software practitioner can find the patterns related to their field, technology, or domain. Anyone can submit a pattern that triggers a detailed review process by the Foundation. You can be confident that applying any patterns that have completed that process will reduce your software emissions.
+The patterns are a direct response to a consistent piece of feedback: people need actionable advice they can apply immediately to their software products. We need one place where everyone can go for green software patterns and trust that if they apply a pattern, it will reduce emissions.
 
-The intention is that patterns are vendor agnostic, for instance there should not be Azure, AWS and GCP patterns. There should be generic cloud patterns which could be applied to specific vendors, but the patterns themselves are vendor agnostic. We encourage specific platforms/vendors to create vendor-specific versions of these patterns for their specific products on their platforms.
+Browse the catalogue at [patterns.greensoftware.foundation](https://patterns.greensoftware.foundation) by **Software Lifecycle stage** — Requirements, Architecture, Development, or Operations — or explore patterns tailored to **your professional role** via the Personas section.
 
-To use the patterns, head to https://patterns.greensoftware.foundation and search for your field or technology. Each pattern is atomic and applicable to real-world situations and applications.
+Patterns are vendor-agnostic. There are no Azure, AWS, or GCP-specific patterns — only generic patterns that can be applied across specific platforms. We encourage vendors to create platform-specific implementations of these patterns on their own channels.
 
 ## Appointments
 
 The project is led by:
 
-* [Franziska Warncke](https://github.com/franziska-warncke) (NTT DATA)
-* [Liya Mathew](https://github.com/LiyaMath) (Goldman Sachs)
+* [Franziska Warncke](https://github.com/franziska-warncke) (NTT DATA) — Project Lead
+* [Liya Mathew](https://github.com/LiyaMath) (Goldman Sachs) — Project Lead
+
+Core contributors:
+
+* [Juan Rubio](https://github.com/Juanigrubio1293) (Schneider Electric)
+* [Paula de Matos](https://github.com/pdematos12) (AVEVA)
+
+## Browse the Catalogue
+
+Visit [patterns.greensoftware.foundation](https://patterns.greensoftware.foundation) to explore patterns in two ways:
+
+**By Software Lifecycle stage** — find patterns relevant to where you are in the development process:
+- **Requirements** — defining constraints and goals
+- **Architecture** — system topology and technology selection
+- **Development** — data handling, media efficiency, and web performance
+- **Operations** — capacity management and resource lifecycle
+
+**By Role** — find patterns tailored to your responsibilities:
+- Visit the [Personas](https://patterns.greensoftware.foundation/personas) section to browse patterns curated for Software Engineers, DevOps Engineers, Front-End Engineers, Solution Architects, and more.
 
 ## Components of a Green Software Pattern
+
 * **Title**: Title of the pattern
-* **Version**: Designation of iteration on the pattern. This will initially be assigned by the patterns working group
+* **Version**: Designation of iteration on the pattern. Initially assigned by the patterns working group
 * **Submitted By**: The name of the person(s) submitting the pattern
-* **Published Date**: The date this version of the pattern is published. This will be provided by the patterns working group upon approval
-* **Tag Category**: Select the most appropriate category from: Artificial Intelligence, Cloud, or Web which might apply to this pattern
-* **Tags**: A [pre-defined list of additional tags](https://patterns.greensoftware.foundation/tags/) which might apply to the pattern (e.g. Machine Learning, Gaming, Mobile).
+* **Published Date**: The date this version of the pattern is published. Provided by the patterns working group upon approval
+* **Lifecycle Category**: The most appropriate lifecycle category for this pattern: Requirements, Architecture, Development, or Operations
+* **Tags**: A [pre-defined list of additional tags](https://patterns.greensoftware.foundation/tags/) which apply to the pattern (e.g. kubernetes, compute, security)
 * **Description**: A full description of what problem this pattern is solving
-* **Solution**: How will this patter solve the problem
-* **SCI Impact**: How will this pattern affect an SCI score of an application and why
-* **Assumptions**: What are the assumptions being made
-* **Considerations**: Discussion section anything that should be taken into consideration when implementing this pattern 
-* **References**: If this pattern, or components of it, is defined somewhere else the web please add links to those resources in this section
+* **Solution**: How this pattern solves the problem
+* **SCI Impact**: How this pattern affects an SCI score and why
+* **Assumptions**: What assumptions are being made
+* **Considerations**: Anything that should be taken into consideration when implementing this pattern
+* **References**: Links to related resources elsewhere on the web
 
 ## Stages of a Green Software Pattern
 
-### Discussion
-Anyone (member or non-members) can discuss patterns via the GitHub Issues tab of the repository. There will be an issue template to suggest new patterns or suggest changes to existing patterns. Once they are ready then can go ahead and create a PR to add a pattern to the database.
+### Submission
+Anyone can propose a new pattern via the [Propose a Pattern](https://patterns.greensoftware.foundation/contribute) form. You don't need to write the full pattern — just describe the problem you want to solve and your proposed approach. The team will develop it into a fully formatted pattern for review.
 
-### Draft
-Anyone (member or non-members) can create a PR matching the template for Green Software Patterns to be merged into the dev branch. This starts an internal process of review.
+### Initial Review *(up to 1 week)*
+An initial reviewer checks that the pattern meets core requirements: correct format, sufficient detail, and alignment with the GSF mission. If anything is missing, feedback is provided directly in the pull request.
 
-### Initial Review
-An initial review by one member of the principles and patterns project. The goal of this stage is just to make sure the pattern meets core requirements for what a pattern should contain, is it the right format, syntax etc…? 
+### SME Review *(up to 2 weeks)*
+One or more subject matter experts review the pattern for technical accuracy and efficacy. They assess whether applying the pattern would genuinely reduce software emissions.
 
-The initial reviewer will also decide what subject matter experts are required to review this pattern.
+### Team Consensus *(2 weeks)*
+The Principles and Patterns Working Group has two weeks to comment or object. Once consensus is reached, the pattern is approved and published to the website.
 
-This needs an explicit approval from the initial reviewer before the pattern can move to the next stage.
+## Local Development
 
-### SME Review
-One or more subject matter experts in the GSF are asked to review the pattern and give their feedback. E.g. If the pattern is in the machine-learning catalog we ask a machine learning expert to review.
+```bash
+npm install
+node scripts/generate-persona-data.js   # required before build
+npm start                                # dev server at localhost:3000
+npm run build                            # production build → /build
+npm run serve                            # preview the production build
+```
 
-This needs an explicit approval from the SME reviewer before the pattern can move to the next stage.
-
-
-### Team Consensus
-Once the pattern has been approved by the SME it starts the team review phase. The principles and patterns team has 2 weeks to comment/object to the pattern. It needs consensus before the PR can be approved and merged into dev.
-
-The pattern is merged into dev but is not published on our website.
-
-
-### Consistency Review
-Every quarter the dev branch is merged to the main branch and this triggers a consistency review where anyone in the Foundation has 2 weeks to comment or object. We need GSF wide consensus for the patterns to be published.
-
-This is done in batches every quarter to reduce the noise to the rest of the Foundation.
-
-## Internal Review Timelines
-The working group will regularly review submitted patterns along the following timeline:
-
-* Initial Review: 1 week
-* SME Review: 2 weeks (plus additional iteration time based on feedback)
-* Team Consensus: 2 weeks
+> **Note:** `generate-persona-data.js` compiles pattern frontmatter into persona page data. It must be run before `npm run build` or persona pages will be stale.
 
 ## Copyright
-The Green Software Patterns projects are copyrighted under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/).
+The Green Software Patterns projects are copyrighted under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
 
 ## Patent
 No Patent License. No patent licenses are granted for the Draft Deliverables or Approved Deliverables developed by this Working Group.
 
 ## License
-The Green Software Patterns projects are licensed under the MIT License - see the [License.md](license.md) file for details.
+The Green Software Patterns projects are licensed under the Creative Commons Attribution 4.0 International License — see the [License.md](license.md) file for details.

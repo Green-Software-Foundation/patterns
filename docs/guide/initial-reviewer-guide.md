@@ -1,3 +1,8 @@
+---
+sidebar_position: 3
+title: "Initial Review"
+---
+
 # Initial Review Guide
 
 This is the guide that our Initial Reviewers will follow to determine if a submitted Green Software Pattern meets the requirements to move the Subject Matter Expert review or not. If any issues arise, the reviewer will provide feedback directly in the pull request that the submitter should update before moving forward. Once the pattern passes the initial review guidelines, the reviewer will assign it to an appropriate Subject Matter Expert (SME) for a deeper technical review. This process is expected to take no more than 1 week barring any lengthy feedback cycles. 

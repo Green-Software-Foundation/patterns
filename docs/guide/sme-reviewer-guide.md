@@ -1,4 +1,9 @@
-# Subject Matter Expert (SME) Review Guide
+---
+sidebar_position: 4
+title: "SME Review"
+---
+
+# Subject Matter Expert Review Guide
 
 This is the guide that our Subject Matter Experts (SMEs) will follow to determine if a submitted Green Software Pattern meets the requirements to move the Team Consensus Review or not. If any issues arise, the reviewer will provide feedback in the pull request that the submitter should update before moving forward. Once the pattern passes the SME Review guidelines, the reviewer add the appropriate label for the next stage of Team Consensus review. This process is expected to take no more than 2 weeks barring any lengthy feedback cycles. 
 
