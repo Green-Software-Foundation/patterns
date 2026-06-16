@@ -5,6 +5,15 @@ submitted_by_linkedin: https://www.linkedin.com/in/naveenbalani/
 published_date: 
 category: Architecture
 tags: 
+ - ai
+ - machine-learning
+ - compute
+ - serverless
+ - cloud
+ - persona:devops-engineer
+ - persona:software-engineer
+ - persona:ai-ml-engineer
+ - size:medium
 personas: DevOps Engineer, Software Engineer, AI/ML Engineer
 description: Trigger AI and agent workloads only when needed using serverless or event-driven platforms to eliminate idle compute and reduce unnecessary energy consumption.
 ---

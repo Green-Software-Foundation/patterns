@@ -5,6 +5,12 @@ submitted_by_linkedin: https://www.linkedin.com/in/naveenbalani/
 published_date: 
 category: Development
 tags: 
+ - ai
+ - machine-learning
+ - compute
+ - persona:ai-ml-engineer
+ - persona:software-engineer
+ - size:medium
 personas: AI/ML Engineer, Software Engineer
 description: Design agentic AI workflows to minimise redundant model invocations and unnecessary compute through caching, conditional logic, and efficient orchestration patterns.
 ---

@@ -5,6 +5,15 @@ submitted_by_linkedin: https://www.linkedin.com/in/naveenbalani/
 published_date: 
 category: Architecture
 tags: 
+ - ai
+ - machine-learning
+ - compute
+ - cloud
+ - persona:infrastructure-engineer
+ - persona:devops-engineer
+ - persona:ai-ml-engineer
+ - persona:solution-architect
+ - size:medium
 personas: Infrastructure Engineer, DevOps Engineer, AI/ML Engineer, Solution Architect
 description: Match AI workloads to the most energy-efficient hardware accelerator or instance type to improve utilisation and reduce energy consumption per inference or training run.
 ---

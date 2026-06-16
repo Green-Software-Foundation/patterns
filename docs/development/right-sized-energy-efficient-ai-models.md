@@ -5,6 +5,13 @@ submitted_by_linkedin: https://www.linkedin.com/in/naveenbalani/
 published_date: 
 category: Development
 tags: 
+ - ai
+ - machine-learning
+ - compute
+ - persona:ai-ml-engineer
+ - persona:software-engineer
+ - persona:solution-architect
+ - size:medium
 personas: AI/ML Engineer, Software Engineer, Solution Architect
 description: Select and optimize AI models that are appropriately sized for the task to reduce compute, memory, and energy consumption during training and inference.
 ---

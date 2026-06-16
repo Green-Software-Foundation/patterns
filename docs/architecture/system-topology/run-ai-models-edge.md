@@ -5,6 +5,15 @@ submitted_by_linkedin: https://www.linkedin.com/in/naveenbalani/
 published_date:
 category: Architecture
 tags: 
+ - ai
+ - machine-learning
+ - compute
+ - networking
+ - deployment
+ - persona:infrastructure-engineer
+ - persona:solution-architect
+ - persona:ai-ml-engineer
+ - size:large
 personas: Infrastructure Engineer, Solution Architect, AI/ML Engineer
 description: Deploy AI inference on edge devices or local infrastructure to reduce data transfer, network energy use, and reliance on centralised cloud compute.
 ---
