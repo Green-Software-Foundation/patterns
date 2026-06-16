@@ -5,7 +5,7 @@ submitted_by_linkedin: https://www.linkedin.com/in/naveenbalani/
 published_date:
 category: Operations
 tags: carbon-intensity, scheduling, cloud-regions, renewable-energy, ai-ml
-personas: DevOps Engineer, Infrastructure Engineer, Enterprise Architect
+personas: DevOps Engineer, Infrastructure Engineer, Solution Architect
 description: Reduce the carbon impact of AI workloads by running them in cloud regions with lower grid carbon intensity and scheduling deferrable jobs during periods of high renewable energy availability.
 ---
 
