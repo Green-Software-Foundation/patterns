@@ -4,7 +4,7 @@ submitted_by: Naveen Balani
 submitted_by_linkedin: https://www.linkedin.com/in/naveenbalani/
 published_date: 
 category: Development
-tags: data-storage, databases, machine-learning, performance, ai-ml
+tags: 
 personas: Data Engineer, AI/ML Engineer
 description: Use efficient storage formats, compression, and indexing strategies for AI datasets and embeddings to reduce storage footprint, data transfer, and retrieval compute.
 ---

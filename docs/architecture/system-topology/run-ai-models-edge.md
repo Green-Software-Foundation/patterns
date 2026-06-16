@@ -4,7 +4,7 @@ submitted_by: Naveen Balani
 submitted_by_linkedin: https://www.linkedin.com/in/naveenbalani/
 published_date:
 category: Architecture
-tags: edge-computing, deployment, latency, carbon-intensity, ai-ml
+tags: 
 personas: Infrastructure Engineer, Solution Architect, AI/ML Engineer
 description: Deploy AI inference on edge devices or local infrastructure to reduce data transfer, network energy use, and reliance on centralised cloud compute.
 ---

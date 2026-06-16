@@ -4,7 +4,7 @@ submitted_by: Naveen Balani
 submitted_by_linkedin: https://www.linkedin.com/in/naveenbalani/
 published_date:
 category: Development
-tags: model-training, transfer-learning, foundation-models, energy-efficiency, ai-ml
+tags: 
 personas: AI/ML Engineer, Data Engineer
 description: Fine-tune existing pre-trained models instead of training from scratch to dramatically reduce the compute, energy, and time required for model development.
 ---

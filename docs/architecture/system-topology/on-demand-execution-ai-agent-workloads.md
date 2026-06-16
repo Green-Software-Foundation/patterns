@@ -4,7 +4,7 @@ submitted_by: Naveen Balani
 submitted_by_linkedin: https://www.linkedin.com/in/naveenbalani/
 published_date: 
 category: Architecture
-tags: serverless, agents, event-driven, agentic-ai, ai-ml
+tags: 
 personas: DevOps Engineer, Software Engineer, AI/ML Engineer
 description: Trigger AI and agent workloads only when needed using serverless or event-driven platforms to eliminate idle compute and reduce unnecessary energy consumption.
 ---
