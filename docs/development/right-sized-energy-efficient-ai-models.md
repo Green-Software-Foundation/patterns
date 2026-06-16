@@ -6,6 +6,7 @@ published_date:
 category: Development
 tags: model-optimization, machine-learning, energy-efficiency, ai-ml
 personas: AI/ML Engineer, Software Engineer, Enterprise Architect
+description: Select and optimize AI models that are appropriately sized for the task to reduce compute, memory, and energy consumption during training and inference.
 ---
 
 # Use right-sized and energy-efficient AI models

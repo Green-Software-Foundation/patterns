@@ -6,6 +6,7 @@ published_date:
 category: Architecture
 tags: edge-computing, deployment, latency, carbon-intensity, ai-ml
 personas: Infrastructure Engineer, Solution Architect, AI/ML Engineer
+description: Deploy AI inference on edge devices or local infrastructure to reduce data transfer, network energy use, and reliance on centralised cloud compute.
 ---
 
 # Run AI models at the edge

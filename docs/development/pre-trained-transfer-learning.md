@@ -6,6 +6,7 @@ published_date:
 category: Development
 tags: model-training, transfer-learning, foundation-models, energy-efficiency, ai-ml
 personas: AI/ML Engineer, Data Engineer
+description: Fine-tune existing pre-trained models instead of training from scratch to dramatically reduce the compute, energy, and time required for model development.
 ---
 
 # Leverage pre-trained models and transfer learning

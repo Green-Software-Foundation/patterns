@@ -6,6 +6,7 @@ published_date:
 category: Development
 tags: data-storage, databases, machine-learning, performance, ai-ml
 personas: Data Engineer, AI/ML Engineer
+description: Use efficient storage formats, compression, and indexing strategies for AI datasets and embeddings to reduce storage footprint, data transfer, and retrieval compute.
 ---
 
 # Optimize data storage formats for AI training and inference

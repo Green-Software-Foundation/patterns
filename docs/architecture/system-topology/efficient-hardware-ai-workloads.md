@@ -6,6 +6,7 @@ published_date:
 category: Architecture
 tags: hardware, accelerators, machine-learning, data-center, ai-ml
 personas: Infrastructure Engineer, DevOps Engineer, AI/ML Engineer, Enterprise Architect
+description: Match AI workloads to the most energy-efficient hardware accelerator or instance type to improve utilisation and reduce energy consumption per inference or training run.
 ---
 
 # Select efficient accelerators and instance types for AI workloads
