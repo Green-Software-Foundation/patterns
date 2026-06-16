@@ -41,6 +41,14 @@ By selecting low-carbon regions and scheduling deferrable workloads during perio
 
 **E (Energy):** Energy consumption remains largely unchanged for the same workload, though pausing and resuming may introduce minor checkpoint overhead.
 
+## Cost Impact
+
+- **Compute costs:** May decrease in low-cost regions; varies by cloud provider pricing
+- **Data transfer costs:** May increase due to cross-region data movement
+- **Monitoring costs:** Carbon-aware scheduling tools add operational cost
+- **SLA costs:** Potential cost increases if scheduling flexibility impacts performance SLAs
+- **Trade-off:** Regional cost arbitrage may offset environmental gains; evaluate full cost picture
+
 ## Assumptions
 
 - Workloads can be executed in alternative regions without violating data sovereignty or compliance constraints

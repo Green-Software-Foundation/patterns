@@ -8,7 +8,7 @@ tags: data-storage, databases, machine-learning, performance, ai-ml
 personas: Data Engineer, AI/ML Engineer
 ---
 
-# Optimize data storage formats for AI training and inference"
+# Optimize data storage formats for AI training and inference
 
 **Applicable Role:** Provider and Consumer
 
@@ -36,6 +36,14 @@ Using efficient data storage and access patterns improves data retrieval perform
 **E (Energy):** Efficient storage, retrieval, and vector search reduce compute required for data processing and runtime inference.
 
 **M (Embodied Carbon):** Reduced storage requirements decrease infrastructure needs and associated embodied emissions.
+
+## Cost Impact
+
+- **Storage costs:** Reduced through efficient formats (Parquet vs. CSV) and compression
+- **Data transfer costs:** Lower egress charges due to smaller data sizes
+- **Compute costs:** Reduced query and retrieval costs from optimized indexing
+- **Tooling costs:** Vector DB licensing (Milvus, Pinecone) may add operational expense
+- **Trade-off:** Storage efficiency gains offset by vector indexing infrastructure costs
 
 ## Assumptions
 

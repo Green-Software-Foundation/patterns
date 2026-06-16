@@ -39,9 +39,17 @@ Providers also deploy edge inference capabilities through on-device ML SDKs and 
 
 **M (Embodied Carbon):** Edge deployments may increase device footprint, but can reduce reliance on large centralized infrastructure.
 
+## Cost Impact
+
+- **Cloud compute costs:** Reduced by moving inference to edge devices
+- **Network costs:** Lower data transfer to centralized systems
+- **Edge device costs:** Increased due to deploying hardware at the edge
+- **Model management costs:** Higher due to complexity of distributed model updates
+- **Trade-off:** Cloud cost savings offset by edge device and management overhead
+
 ## Assumptions
 
-- Edge or local environments have sufficient capability to run the required models
+- Edge or local devices have sufficient memory, compute capacity, and power to run the target model without requiring additional optimization
 - Workloads can be partitioned effectively between edge and cloud
 
 ## Considerations

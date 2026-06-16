@@ -39,6 +39,13 @@ Using models that are appropriately sized and architecturally efficient for the 
 
 **R (Functional Unit):** When the functional unit is per inference or per token, right-sizing a model reduces the energy cost per functional unit, directly lowering the SCI score. However, if optimization reduces output quality and more functional units are needed to achieve the same outcome, the net effect on SCI should be evaluated.
 
+## Cost Impact
+
+- **Compute costs:** Reduced due to smaller model sizes and faster inference
+- **Infrastructure costs:** Lower due to reduced memory and storage requirements
+- **Benchmarking overhead:** May add cost for performance testing across model variants
+- **Trade-off:** Optimization for efficiency may require initial investment in model compression tooling
+
 ## Assumptions
 
 - Smaller or optimized models can meet the functional requirements of the application

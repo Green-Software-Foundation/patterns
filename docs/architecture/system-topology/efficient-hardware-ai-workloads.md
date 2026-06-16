@@ -34,6 +34,14 @@ Different hardware options vary in their ability to execute AI workloads efficie
 
 **M (Embodied Carbon):** Better utilization can reduce the number of required machines and associated embodied emissions.
 
+## Cost Impact
+
+- **Hardware costs:** Instance type choice affects hourly compute rates significantly
+- **Utilization efficiency:** Better hardware-workload fit reduces per-inference cost
+- **Reserved instance savings:** Efficient hardware selection enables better RI negotiation
+- **Power and cooling costs:** Specialized accelerators may have lower operational energy costs
+- **Trade-off:** Premium accelerators (H100, TPU) cost more upfront but may have better cost-per-inference
+
 ## Assumptions
 
 - Suitable hardware options are available for the workload

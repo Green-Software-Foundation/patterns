@@ -36,6 +36,14 @@ Leveraging pre-trained models avoids redundant training effort and reduces the o
 
 **R (Functional Unit):** For providers using per FLOP or per training token as the functional unit, transfer learning dramatically reduces the total FLOPs and tokens required, lowering total carbon (C) while R scales proportionally, resulting in a more favorable SCI score.
 
+## Cost Impact
+
+- **Training costs:** Dramatically reduced by avoiding full model training
+- **Compute time:** Significantly lower for fine-tuning vs. training from scratch
+- **Pre-trained model licensing:** Potential licensing costs for commercial model access
+- **Data costs:** May be lower if transfer learning requires less training data
+- **Trade-off:** Pre-trained model licensing may offset training cost savings
+
 ## Assumptions
 
 - Suitable pre-trained models are available for the target use case
@@ -44,7 +52,7 @@ Leveraging pre-trained models avoids redundant training effort and reduces the o
 ## Considerations
 
 - Pre-trained models may introduce biases or limitations from their original training data
-- Fine-tuning may still require significant compute depending on model size
+- Fine-tuning large foundation models can still require substantial compute resources comparable to training from scratch; evaluate the true cost-benefit of fine-tuning vs. full training for your use case
 - Licensing and usage restrictions of pre-trained models must be evaluated
 - Model suitability should be validated for the specific domain
 

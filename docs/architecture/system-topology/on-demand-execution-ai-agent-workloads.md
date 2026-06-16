@@ -39,10 +39,18 @@ Using on-demand execution ensures that compute and workflows are triggered only 
 
 **M (Embodied Carbon):** Improved utilization of shared infrastructure reduces overall hardware demand.
 
+## Cost Impact
+
+- **Compute costs:** Reduced by eliminating idle infrastructure and always-on processes
+- **Cold start overhead:** Serverless platforms may incur higher per-invocation costs than reserved instances
+- **Provisioned concurrency:** Can mitigate cold starts but adds baseline cost
+- **State management:** Stateless design may require additional storage or messaging infrastructure
+- **Trade-off:** Per-invocation serverless pricing vs. reserved instance baseline; evaluate break-even point
+
 ## Assumptions
 
 - Workloads and agent workflows can be structured as event-driven processes
-- Execution environments support dynamic scaling and orchestration
+- Execution environments support dynamic scaling and orchestration, and workloads can be safely interrupted and resumed without losing state or requiring expensive recomputation
 
 ## Considerations
 
