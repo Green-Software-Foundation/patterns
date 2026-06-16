@@ -281,20 +281,20 @@ const config = {
           { from: "/catalog/cloud/shed-lower-priority-traffic", to: "/requirements/shed-lower-priority-traffic" },
 
           // AI → Architecture (root)
-          { from: "/catalog/ai/compress-ml-models-for-inference", to: "/architecture/compress-ml-models-for-inference" },
+          { from: "/catalog/ai/compress-ml-models-for-inference", to: "/development/right-sized-energy-efficient-ai-models" },
 
           // AI → Architecture: System Topology
-          { from: "/catalog/ai/energy-efficent-ai-edge", to: "/architecture/system-topology/energy-efficent-ai-edge" },
+          { from: "/catalog/ai/energy-efficent-ai-edge", to: "/architecture/system-topology/run-ai-models-edge" },
           { from: "/catalog/ai/serverless-model-development", to: "/architecture/system-topology/serverless-model-development" },
 
           // AI → Architecture: Technology Selection
-          { from: "/catalog/ai/efficent-format-for-model-training", to: "/architecture/technology-selection/efficent-format-for-model-training" },
+          { from: "/catalog/ai/efficent-format-for-model-training", to: "/development/data-handling/optimize-data-storage-ai-training" },
           { from: "/catalog/ai/energy-efficent-framework", to: "/architecture/technology-selection/energy-efficent-framework" },
           { from: "/catalog/ai/energy-efficent-models", to: "/architecture/technology-selection/energy-efficent-models" },
-          { from: "/catalog/ai/right-hardware-type", to: "/architecture/technology-selection/right-hardware-type" },
+          { from: "/catalog/ai/right-hardware-type", to: "/architecture/system-topology/efficient-hardware-ai-workloads" },
 
           // AI → Development (root)
-          { from: "/catalog/ai/leverage-sustainable-regions", to: "/development/leverage-sustainable-regions" },
+          { from: "/catalog/ai/leverage-sustainable-regions", to: "/operations/carbon-aware-ai-scheduling" },
           { from: "/catalog/ai/pre-trained-transfer-learning", to: "/development/pre-trained-transfer-learning" },
 
           // Web → Development: Data Handling
