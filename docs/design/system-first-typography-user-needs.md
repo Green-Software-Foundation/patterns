@@ -1,14 +1,14 @@
 ---
-version: 0.2
+version: 1.0
 submitted_by: Paula de Matos
 submitted_by_linkedin: https://www.linkedin.com/in/pauladematos/
-published_date:
+published_date: 2026-06-18
 category: Design
 tags: frontend, fonts, typography, design-system, accessibility, internationalisation, web-performance
 personas: Product Designer, UX Designer, Front End Engineer, Full Stack Engineer
 ---
 
-# Choose typefaces appropriately and optimise
+# Prioritise system-first typography selection based on user needs
 
 ## Description
 
