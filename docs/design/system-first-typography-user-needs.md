@@ -5,12 +5,10 @@ submitted_by_linkedin: https://www.linkedin.com/in/pauladematos/
 published_date: 2026-06-22
 category: Design
 tags: 
- - frontend
- - fonts
+ - persona:front-end-engineer
+ - persona:ux-designer
  - typography
- - design-system
  - accessibility
- - internationalisation
  - web-performance
 personas: Product Designer, UX Designer, Front End Engineer, Full Stack Engineer
 ---
