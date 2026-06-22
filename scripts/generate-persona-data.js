@@ -7,7 +7,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const PATTERN_DIRS = ["requirements", "architecture", "development", "operations"].map(
+const PATTERN_DIRS = ["requirements", "architecture", "design", "development", "operations"].map(
   c => path.join(__dirname, "../docs", c)
 );
 const OUT_FILE = path.join(__dirname, "../src/data/personas.ts");
