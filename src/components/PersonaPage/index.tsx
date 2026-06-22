@@ -21,7 +21,7 @@ type Props = {
 export default function PersonaPage({ persona }: Props): JSX.Element {
   const { name, description, patterns } = persona;
   const grouped = groupByCategory(patterns);
-  const categoryOrder = ["Requirements", "Architecture", "Development", "Operations"];
+  const categoryOrder = ["Requirements", "Architecture", "Design", "Development", "Operations"];
   const sortedCategories = [...grouped.keys()].sort(
     (a, b) => categoryOrder.indexOf(a) - categoryOrder.indexOf(b)
   );
