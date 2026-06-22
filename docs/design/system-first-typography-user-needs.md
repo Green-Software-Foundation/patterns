@@ -2,9 +2,16 @@
 version: 1.0
 submitted_by: Paula de Matos
 submitted_by_linkedin: https://www.linkedin.com/in/pauladematos/
-published_date: 2026-06-18
+published_date: 2026-06-22
 category: Design
-tags: frontend, fonts, typography, design-system, accessibility, internationalisation, web-performance
+tags: 
+ - frontend
+ - fonts
+ - typography
+ - design-system
+ - accessibility
+ - internationalisation
+ - web-performance
 personas: Product Designer, UX Designer, Front End Engineer, Full Stack Engineer
 ---
 
