@@ -19,6 +19,12 @@ export const categories: Category[] = [
     path: "/architecture",
   },
   {
+    slug: "design",
+    name: "Design",
+    description: "Design patterns that align component choices with actual user requirements to eliminate unnecessary resource consumption.",
+    path: "/design",
+  },
+  {
     slug: "development",
     name: "Development",
     description: "Coding and implementation patterns that improve efficiency and reduce the environmental impact of software.",

@@ -1,0 +1,16 @@
+---
+title: Design
+sidebar_label: Overview
+sidebar_position: 0
+hide_table_of_contents: true
+custom_edit_url: null
+pagination_next: null
+pagination_prev: null
+---
+
+import { CategoryPage } from "@site/src/components/PersonaPage";
+import { categoryMap } from "@site/src/data/categories";
+
+# Design
+
+<CategoryPage category={categoryMap.get("design")} />
