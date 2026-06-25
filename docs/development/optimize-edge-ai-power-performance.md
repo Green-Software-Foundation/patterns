@@ -77,7 +77,6 @@ Optimizing power-performance for edge AI impacts SCI as follows:
 
 - **Testing challenges**: Validating power-performance behavior requires testing across diverse scenarios (battery levels, thermal conditions, workload patterns). Invest in comprehensive testing infrastructure.
 
-
 ## References
 
 - [Towards Benchmarking Power-Performance Characteristics of Federated Learning Clients (arXiv:2308.08270)](https://arxiv.org/abs/2308.08270)
