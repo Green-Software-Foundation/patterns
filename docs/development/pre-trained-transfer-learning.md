@@ -61,7 +61,7 @@ Leveraging pre-trained models avoids redundant training effort and reduces the o
 - Pre-trained models may introduce biases or limitations from their original training data
 - Fine-tuning large foundation models can still require substantial compute resources comparable to training from scratch; evaluate the true cost-benefit of fine-tuning vs. full training for your use case
 - Licensing and usage restrictions of pre-trained models must be evaluated
-- Model suitability should be validated for the specific domain
+- Suitable domain-specific pre-trained models may not always be available; adapting and validating models for specialized domains may require additional data, compute resources, and evaluation effort
 
 ## References
 
