@@ -32,11 +32,12 @@ Providers also deploy edge inference capabilities through on-device ML SDKs and 
 
 ## Solution
 
-- Deploy models on edge devices or local infrastructure to reduce data transfer to centralized systems
-- Perform data preprocessing tasks such as filtering, cleansing, and feature generation locally
-- Use edge inference for real-time or latency-sensitive applications
-- Limit transmission of raw data by sending only necessary or aggregated results to the cloud
+- Classify workloads and edge devices based on latency requirements, data volume, compute intensity, memory constraints, and power availability to determine suitable deployment targets
 - Evaluate hybrid architectures that combine edge and cloud processing based on workload requirements
+- Deploy models on edge devices or local infrastructure when doing so reduces data transfer, latency, or centralized compute requirements
+- Perform workload-specific data preprocessing tasks such as filtering, cleansing, aggregation, and feature generation locally
+- Use edge inference for real-time, high-frequency, or latency-sensitive applications
+- Limit transmission of raw data by sending only necessary, filtered, or aggregated results to the cloud
 - For applications using external AI services, consider on-device or local inference options to reduce repeated remote calls
 
 ## SCI Impact
@@ -53,24 +54,23 @@ Providers also deploy edge inference capabilities through on-device ML SDKs and 
 
 - **Cloud compute costs:** Reduced by moving inference to edge devices
 - **Network costs:** Lower data transfer to centralized systems
-- **Edge device costs:** Increased due to deploying hardware at the edge
+- **Edge device costs:** Hardware choices range from conventional CPUs and GPUs to specialized low-power accelerators and emerging architectures, with different cost, performance, and energy-efficiency trade-offs
 - **Model management costs:** Higher due to complexity of distributed model updates
 - **Trade-off:** Cloud cost savings offset by edge device and management overhead
 
 ## Assumptions
 
-- Edge or local devices have sufficient memory, compute capacity, and power to run the target model without requiring additional optimization
+- Edge or local devices have sufficient memory, compute capacity, and power to support both workload-specific preprocessing and model execution, potentially using optimized, compressed, or quantized models
 - Workloads can be partitioned effectively between edge and cloud
 
 ## Considerations
 
 - Embodied emissions of edge devices must be accounted for
-- Edge environments may have limited compute and storage capacity
+- Edge environments may have limited compute, storage, connectivity, availability, and responsiveness
 - Model updates and lifecycle management can be more complex in distributed systems
-- Not all workloads are suitable for edge deployment
-- Carbon intensity of edge locations versus cloud regions should be compared
-- Trade-offs between latency, cost, and carbon should be evaluated
-
+- Workload partitioning between edge and cloud should consider latency, energy consumption, network usage, device capabilities, operational constraints, and carbon intensity differences
+- Not all workloads are suitable for edge deployment; trade-offs between latency, cost, carbon, and operational complexity should be evaluated
+  
 ## References
 
 - [TensorFlow Lite — On-device ML Framework](https://www.tensorflow.org/lite)
