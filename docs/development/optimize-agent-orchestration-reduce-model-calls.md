@@ -33,7 +33,7 @@ Optimizing agent orchestration and workflow design minimizes unnecessary model c
 - Use caching mechanisms to avoid re-processing identical inputs or identical tool results
 - Implement conditional logic to skip unnecessary model calls when prior results can be reused
 - Prefer direct tool calls or API integrations over calling models to transform simple data
-- Use streaming and progressive results where possible instead of processing entire responses at once
+- Use streaming, progressive results, and event-driven processing patterns where appropriate to reduce unnecessary computation and improve responsiveness
 - Implement thought/action batching to reduce the number of model invocations per task
 - Design workflows to halt agent loops when goals are achieved rather than running fixed iterations
 - Monitor and profile agent execution to identify and eliminate inefficient patterns
@@ -60,20 +60,20 @@ Optimizing agent orchestration and workflow design minimizes unnecessary model c
 
 ## Assumptions
 
-- Workflows can be analyzed and profiled to identify inefficiencies
+- Workflows can be analyzed, profiled, and calibrated using telemetry from deployed systems to identify inefficiencies
 - Caching and conditional logic can be implemented without breaking workflow functionality
 - Tool integrations and APIs are available as alternatives to model invocations for certain tasks
 
 ## Considerations
 
-- Complex multi-turn workflows may have subtle interdependencies that make optimization difficult
-- Over-optimization for efficiency may reduce output quality or responsiveness if not carefully managed
-- Caching strategies must account for data freshness and accuracy requirements
-- Some tasks genuinely require multiple model calls; avoid false economy measures
-- Agent design patterns vary (ReAct, Tree of Thought, etc.); optimization strategies differ by pattern
-- Monitoring and profiling agent execution requires observable logging and metrics
-- Trade-offs between latency, cost, and efficiency must be evaluated for your use case
+## Considerations
 
+- Complex multi-step workflows and different agent design patterns (for example, ReAct or Tree of Thought) may require different optimization strategies
+- Caching strategies must account for data freshness and accuracy requirements
+- Some tasks genuinely require multiple model calls; avoid over-optimizing at the expense of output quality or responsiveness
+- Monitoring, profiling, and telemetry are required to identify inefficient execution patterns and support adaptive orchestration
+- Trade-offs between latency, cost, and efficiency should be evaluated for each use case
+  
 ## References
 
 - [LangChain — LLM Application Framework](https://www.langchain.com/)
