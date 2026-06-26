@@ -26,15 +26,17 @@ description: Match AI workloads to the most energy-efficient hardware accelerato
 
 AI workloads such as training, fine-tuning, and inference require significant compute resources. The type of hardware used, including CPUs, GPUs, TPUs, and specialized accelerators, has a direct impact on energy efficiency and performance.
 
-Different hardware options vary in their ability to execute AI workloads efficiently. Selecting appropriate hardware and compute resources improves utilization, reduces execution time, and lowers overall energy consumption.
+Different hardware options vary in their ability to execute AI workloads efficiently. Selecting appropriate hardware and compute resources, combined with intelligent workload orchestration across heterogeneous platforms, improves utilization, reduces execution time, and lowers overall energy consumption..
 
 ## Solution
 
-- Choose hardware that is optimized for the specific workload, such as GPUs or TPUs for parallel processing tasks
-- Use specialized accelerators where available to improve efficiency
-- Right-size compute resources to match workload requirements and avoid over-provisioning
-- Monitor utilization and adjust resource allocation to improve efficiency
-- Evaluate performance-per-watt benchmarks when selecting hardware and instance types
+- Profile workloads based on latency, throughput, and execution characteristics before selecting compute resources
+- Choose hardware optimized for the specific workload, such as CPUs, GPUs, TPUs, NPUs, or other specialized accelerators
+- Maintain a catalogue of supported accelerator types and their suitability for different workload classes
+- Use orchestration and scheduling systems to automatically dispatch workloads to the most energy-efficient available compute platform
+- Implement closed-loop monitoring and resource allocation to continuously optimize workload placement and avoid over-provisioning
+- Monitor utilization and dynamically adjust resource allocation to improve efficiency
+- Evaluate performance-per-watt benchmarks and runtime telemetry when selecting hardware and instance types
 
 ## SCI Impact
 
@@ -50,7 +52,7 @@ Different hardware options vary in their ability to execute AI workloads efficie
 - **Utilization efficiency:** Better hardware-workload fit reduces per-inference cost
 - **Reserved instance savings:** Efficient hardware selection enables better RI negotiation
 - **Power and cooling costs:** Specialized accelerators may have lower operational energy costs
-- **Trade-off:** Premium accelerators (H100, TPU) cost more upfront but may have better cost-per-inference
+- **Trade-off:** Premium or specialized accelerators (GPUs, TPUs, NPUs, neuromorphic processors, or in-memory computing systems) may cost more upfront but can deliver significantly lower cost-per-inference and energy consumption for suitable workloads
 
 ## Assumptions
 
@@ -70,3 +72,4 @@ Different hardware options vary in their ability to execute AI workloads efficie
 - [Google Cloud TPU — Purpose-built AI Accelerator](https://cloud.google.com/tpu)
 - [NVIDIA GPU Benchmarks for AI](https://developer.nvidia.com/deep-learning-performance-training-inference)
 - [Spec Power Benchmark — Server Energy Efficiency](https://www.spec.org/power_ssj2008/)
+- [NeuroBench — Benchmarking Neuromorphic Algorithms and Systems](https://neurobench.ai/)
