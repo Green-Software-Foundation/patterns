@@ -36,8 +36,10 @@ Using on-demand execution ensures that compute and workflows are triggered only 
 - Design agent workflows to run only when required and terminate after task completion
 - Avoid long-running or always-on agent processes unless continuously needed
 - Trigger model calls and tool usage conditionally rather than continuously
-- Use orchestration frameworks that support event-driven execution and efficient workflow management
-- Scale resources dynamically based on demand and workload intensity
+- Use orchestration frameworks that support event-driven execution, workload dispatching, and efficient workflow management
+- Prioritize the use of existing available resources through orchestration before provisioning additional capacity
+- Dynamically scale resources only when workload demand exceeds available capacity
+- Monitor workload execution and adapt resource allocation continuously to optimize utilization and efficiency
 
 ## SCI Impact
 
@@ -49,17 +51,19 @@ Using on-demand execution ensures that compute and workflows are triggered only 
 
 **M (Embodied Carbon):** Improved utilization of shared infrastructure reduces overall hardware demand.
 
+**R (Functional Unit):** For event-driven systems, the functional unit may be expressed as events processed, workflows completed, or agent tasks executed. Event payload size, throughput, and latency requirements can significantly influence overall efficiency.
+
 ## Cost Impact
 
 - **Compute costs:** Reduced by eliminating idle infrastructure and always-on processes
 - **Cold start overhead:** Serverless platforms may incur higher per-invocation costs than reserved instances
 - **Provisioned concurrency:** Can mitigate cold starts but adds baseline cost
-- **State management:** Stateless design may require additional storage or messaging infrastructure
+- **State management:** Event-driven architectures often require explicit state persistence, recovery, logging, and lifecycle management. Additional storage, messaging, and orchestration components may increase operational complexity and cost.
 - **Trade-off:** Per-invocation serverless pricing vs. reserved instance baseline; evaluate break-even point
 
 ## Assumptions
 
-- Workloads and agent workflows can be structured as event-driven processes
+- Workloads and agent workflows can be structured as event-driven processes with appropriate state management, lifecycle instrumentation, and mechanisms for efficiently processing asynchronous event payloads
 - Execution environments support dynamic scaling and orchestration, and workloads can be safely interrupted and resumed without losing state or requiring expensive recomputation
 
 ## Considerations
@@ -67,8 +71,9 @@ Using on-demand execution ensures that compute and workflows are triggered only 
 - Cold start latency may impact responsiveness
 - Complex workflows may require careful orchestration design
 - Not all workloads are suitable for on-demand execution
-- Inefficient agent design can still lead to excessive compute even in serverless environments
+- Inefficient agent design can still lead to excessive compute even in serverless environments; orchestration and workload scheduling can improve placement efficiency but cannot fully compensate for poorly designed agents
 - Trade-offs between responsiveness, cost, and carbon should be evaluated
+- Synchronous and asynchronous event-processing models present different trade-offs in latency, scalability, and energy efficiency
 
 ## References
 
