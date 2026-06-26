@@ -35,7 +35,7 @@ Selecting efficient ML frameworks and inference runtimes improves model executio
 - Select frameworks with strong compiler optimization and memory management capabilities
 - Benchmark framework options under your actual workload conditions before committing to production
 - Keep frameworks and runtime dependencies updated to benefit from performance and efficiency improvements
-- Consider compilation frameworks (ONNX, OpenVINO) that optimize models for specific hardware targets
+- Consider compilation frameworks and interoperable model formats (for example, ONNX or OpenVINO) that optimize models for specific hardware targets and enable portability across heterogeneous environments
 
 ## SCI Impact
 
@@ -62,12 +62,12 @@ Selecting efficient ML frameworks and inference runtimes improves model executio
 ## Considerations
 
 - Framework migration may require significant effort and refactoring of existing code
-- Compatibility with existing tools, libraries, and pipelines must be evaluated
-- Some optimized runtimes may be hardware-specific (NVIDIA TensorRT, Apple Metal)
+- Compatibility with existing tools, libraries, pipelines, infrastructure, and runtime dependencies must be evaluated
+- Existing infrastructure investments and backward compatibility requirements may constrain framework selection and migration options
+- Some optimized runtimes may be hardware-specific (for example, NVIDIA TensorRT or Apple Metal)
 - Training framework efficiency may differ from inference runtime efficiency; choose accordingly for your use case
-- Framework maturity and community support should factor into the decision
+- Framework maturity, ecosystem support, and portability should factor into the decision
 - Performance gains must be validated under actual workload conditions, not just benchmarks
-- Some specialized frameworks may have limited ecosystem or third-party library support
 
 ## References
 
