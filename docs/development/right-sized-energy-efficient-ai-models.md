@@ -28,12 +28,13 @@ Using models that are appropriately sized and architecturally efficient for the 
 
 ## Solution
 
+- Evaluate model options based on task requirements, deployment constraints, and available model catalogs before selecting a model
 - Select smaller or task-specific models where they provide sufficient performance
 - Choose base models that provide the required capability with lower compute requirements
 - Prefer optimized or distilled versions of larger models for fine-tuning and inference
 - Apply model compression techniques such as quantization, pruning, and knowledge distillation
 - Remove redundant or inactive parameters where possible
-- Evaluate model options based on both performance and energy efficiency before selection
+- Evaluate model options based on performance and energy efficiency using benchmarks representative of the target deployment environment
 - Continuously evaluate newer model variants that offer improved efficiency
 - Avoid defaulting to the largest available model when simpler alternatives can achieve similar outcomes
 
@@ -51,23 +52,23 @@ Using models that are appropriately sized and architecturally efficient for the 
 
 - **Compute costs:** Reduced due to smaller model sizes and faster inference
 - **Infrastructure costs:** Lower due to reduced memory and storage requirements
-- **Benchmarking overhead:** May add cost for performance testing across model variants
+- **Benchmarking and evaluation:** Requires additional effort and cost but is essential for identifying the most efficient model for a given use case
 - **Trade-off:** Optimization for efficiency may require initial investment in model compression tooling
 
 ## Assumptions
 
 - Smaller or optimized models can meet the functional requirements of the application
-- Model performance can be validated against acceptable thresholds
-- Efficiency improvements do not significantly degrade output quality
+- Model performance can be validated against application-specific functional and quality thresholds
+- Efficiency improvements are evaluated against acceptable trade-offs in output quality, accuracy, latency, and cost
 
 ## Considerations
 
-- There is a trade-off between model size, accuracy, and efficiency
-- Some complex tasks may require larger models
-- Over-optimization can degrade performance
-- Fine-tuning larger models may be necessary for complex domain-specific tasks
-- Periodic re-evaluation is needed as workloads and models evolve
-- Benchmarking should include both performance and resource usage
+- Trade-offs between model size, accuracy, latency, and efficiency should be evaluated in the context of task requirements, deployment hardware, data characteristics, preprocessing requirements, and operational constraints
+- Some complex or domain-specific tasks may still require larger models or fine-tuning
+- Model suitability depends on task requirements, deployment hardware, data characteristics, preprocessing requirements, and operational constraints
+- Over-optimization can degrade performance or output quality
+- Monitoring and periodic re-evaluation introduce overhead and should balance observability benefits with resource consumption
+- Benchmarking should include both performance and resource usage in representative deployment environments
 
 ## References
 
