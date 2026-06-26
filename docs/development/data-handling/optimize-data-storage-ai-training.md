@@ -32,6 +32,7 @@ Using efficient data storage and access patterns improves data retrieval perform
 - Use columnar storage formats such as Parquet or ORC for structured datasets
 - Avoid text-based formats like CSV for large-scale workloads when more efficient alternatives are available
 - Compress data where appropriate to reduce storage and transfer size
+- Use efficient serialization and deserialization formats and techniques to reduce processing overhead and data transfer costs, particularly in distributed or edge-cloud environments
 - Optimize data schemas to reduce redundancy and improve access efficiency
 - Use storage systems that support efficient querying, indexing, and partial reads
 - For retrieval systems, use optimized vector storage and indexing techniques to reduce compute during similarity search
@@ -59,7 +60,7 @@ Using efficient data storage and access patterns improves data retrieval perform
 
 ## Considerations
 
-- Compatibility with existing tools and pipelines must be evaluated
+- Compatibility with existing tools and pipelines must be evaluated, as data format conversion and migration may introduce additional compute, tooling, and operational costs
 - Retrieval workloads may require both efficient storage and optimized indexing strategies
 - Compression should be balanced with decompression cost
 - Vector storage and indexing choices can significantly impact retrieval performance and energy usage
