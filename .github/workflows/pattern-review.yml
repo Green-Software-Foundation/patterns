@@ -1,0 +1,46 @@
+name: Pattern Review Bot
+
+on:
+  pull_request:
+    paths:
+      - 'docs/**/*.md'
+    types: [opened, synchronize, edited]
+
+jobs:
+  review-patterns:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pyyaml requests
+
+      - name: Get changed pattern files
+        id: changed-files
+        uses: tj-actions/changed-files@v42
+        with:
+          files: |
+            patterns/**/*.md
+          since_last_remote_commit: true
+
+      - name: Review patterns
+        if: steps.changed-files.outputs.any_changed == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+          CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        run: python .github/scripts/pattern_reviewer.py
