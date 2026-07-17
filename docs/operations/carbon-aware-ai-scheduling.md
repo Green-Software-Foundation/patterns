@@ -12,8 +12,9 @@ tags:
  - persona:devops-engineer
  - persona:infrastructure-engineer
  - persona:solution-architect
+ - persona:ai-ml-engineer
  - size:large
-personas: DevOps Engineer, Infrastructure Engineer, Solution Architect
+personas: DevOps Engineer, Infrastructure Engineer, Solution Architect, AI/ML Engineer
 description: Reduce the carbon impact of AI workloads by running them in cloud regions with lower grid carbon intensity and scheduling deferrable jobs during periods of high renewable energy availability.
 ---
 
