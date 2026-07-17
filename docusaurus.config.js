@@ -11,8 +11,8 @@ const config = {
   tagline:
     "Practical green software patterns, organised by role and lifecycle stage, to reduce your software emissions.",
   // Change to site url
-  url: "https://russelltrow.github.io/", 
-  baseUrl: "/gsf-patterns/",
+  url: "https://patterns.greensoftware.foundation/", 
+  baseUrl: "/",
   onBrokenLinks: "throw",
   markdown: {
     hooks: {
