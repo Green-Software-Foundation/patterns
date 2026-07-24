@@ -32,6 +32,11 @@ Traditional AI deployment strategies optimize for accuracy and latency without c
 
 The challenge is balancing the competing demands of inference latency and power consumption while adapting to dynamic conditions like battery level, thermal state, and workload priority.
 
+Increasingly, this challenge plays out on **heterogeneous edge architectures** rather than a single CPU or GPU. Alongside conventional von-Neumann processors, edge systems now integrate **non-von-Neumann AI accelerators**—neuromorphic, in-memory-compute, and analog/mixed-signal designs—that are often far more energy-efficient because they collapse the memory–compute separation that dominates power on classical hardware. Two caveats follow:
+
+- **No settled benchmarking consensus**: The community has not agreed on how to fairly benchmark non-von-Neumann accelerators, and results rarely compare across device classes. Emerging efforts such as NeuroBench and Edge AIBench help, but treat cross-architecture comparisons with caution and report measurement conditions.
+- **Temporal metrics are not universally meaningful**: Some accelerators—especially analog/mixed-signal neuromorphic processors—are event-driven and **not clocked**, so clock-based knobs (DVFS) and latency figures (p50/p95) may not apply. Where there is no meaningful clock, rely on energy- and accuracy-based measures instead.
+
 ## Solution
 
 Implement power-aware AI inference strategies for edge devices that dynamically optimize the trade-off between performance and energy consumption:
@@ -42,6 +47,8 @@ Implement power-aware AI inference strategies for edge devices that dynamically 
 - **Thermal-aware throttling**: Monitor device temperature and reduce inference frequency or model complexity before hardware throttling occurs.
 - **Battery-level policies**: Implement tiered power policies that progressively reduce AI workload intensity as battery depletes (e.g., 100-70%: full performance, 70-30%: reduced frequency, <30%: minimal/disabled).
 - **Enable dynamic voltage and frequency scaling (DVFS)**: Configure hardware to operate at lower frequencies when peak performance isn't needed.
+- **Account for mixed-signal accelerator sensitivity**: Analog and mixed-signal AI accelerators exhibit performance that varies with process, voltage, and temperature (PVT). This is usually mitigated during hardware-aware training, but it still matters at inference in deployed systems—accuracy and energy can drift as temperature or supply voltage change. Prefer routing work to such accelerators within their validated operating envelope, and in a heterogeneous system fall back to a more robust (e.g. digital) compute unit when conditions move outside it.
+- **Schedule across heterogeneous compute units**: With CPUs, GPUs, NPUs, and non-von-Neumann accelerators increasingly present on the same edge device, treat scheduling as a placement decision—dispatch each request to the unit offering the best energy-per-inference for the current accuracy target and operating conditions, not just to a single default processor.
 
 ### 2. Monitoring and Feedback
 
@@ -105,4 +112,8 @@ Optimizing power-performance for edge AI impacts SCI as follows:
 - [TensorFlow Lite for Microcontrollers](https://www.tensorflow.org/lite/microcontrollers)
 - [Energy-Efficient AI - Green Software Foundation](https://learn.greensoftware.foundation/practitioner/energy-efficiency)
 - [Green AI for IIoT: Energy Efficient Intelligent Edge Computing](https://ieeexplore.ieee.org/document/9520303)
+- [Yik, J. et al. The NeuroBench framework for benchmarking neuromorphic computing algorithms and systems. Nature Communications 16, 1545 (2025)](https://www.nature.com/articles/s41467-025-56739-4)
+- [Hao, T. et al. Edge AIBench: Towards Comprehensive End-to-end Edge Computing Benchmarking (arXiv:1908.01924)](https://arxiv.org/abs/1908.01924)
+- [Kudithipudi, D. et al. Neuromorphic computing at scale. Nature 637, 801–812 (2025)](https://www.nature.com/articles/s41586-024-08253-8)
+- [Muir, D. R. & Sheik, S. The road to commercial success for neuromorphic technologies. Nature Communications 16, 3586 (2025)](https://www.nature.com/articles/s41467-025-57352-1)
 
