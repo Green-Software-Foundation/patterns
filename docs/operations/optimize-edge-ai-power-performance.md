@@ -2,7 +2,7 @@
 version: 1.0
 submitted_by: Pratik Agrawal
 submitted_by_linkedin: https://www.linkedin.com/in/pratikagrawal98/
-published_date: TBD
+published_date: 20206-08-14
 category: Operations
 description: Edge AI inference workloads consume significant power on resource-constrained devices. Optimizing power-performance characteristics through dynamic workload scheduling, thermal-aware throttling, and battery-level policies reduces energy consumption and extends battery life while maintaining acceptable accuracy and latency.
 tags: 
