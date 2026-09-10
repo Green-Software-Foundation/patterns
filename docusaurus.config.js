@@ -226,15 +226,12 @@ const config = {
           // Cloud → Architecture: System Topology
           { from: "/catalog/cloud/choose-region-closest-to-users", to: "/architecture/system-topology/choose-region-closest-to-users" },
           { from: "/catalog/cloud/containerize-your-workload-where-applicable", to: "/architecture/system-topology/containerize-your-workload-where-applicable" },
-          { from: "/catalog/cloud/evaluate-using-a-service-mesh", to: "/architecture/system-topology/evaluate-using-a-service-mesh" },
           { from: "/catalog/cloud/implement-stateless-design", to: "/architecture/system-topology/implement-stateless-design" },
           { from: "/catalog/cloud/queue-non-urgent-requests", to: "/architecture/system-topology/queue-non-urgent-requests" },
-          { from: "/catalog/cloud/reduce-network-traversal-between-VMs", to: "/architecture/system-topology/reduce-network-traversal-between-VMs" },
           { from: "/catalog/cloud/scale-logical-components-independently", to: "/architecture/system-topology/scale-logical-components-independently" },
 
           // Cloud → Architecture: Technology Selection
           { from: "/catalog/cloud/evaluate-other-cpu-architectures", to: "/architecture/technology-selection/evaluate-other-cpu-architectures" },
-          { from: "/catalog/cloud/use-energy-efficient-hardware", to: "/architecture/technology-selection/use-energy-efficient-hardware" },
           { from: "/catalog/cloud/use-serverless", to: "/architecture/technology-selection/use-serverless" },
 
           // Cloud → Development: Data Handling
@@ -277,7 +274,6 @@ const config = {
           // Cloud → Requirements
           { from: "/catalog/cloud/encrypt-what-is-necessary", to: "/requirements/encrypt-what-is-necessary" },
           { from: "/catalog/cloud/match-slo", to: "/requirements/match-slo" },
-          { from: "/catalog/cloud/optimize-impact-on-customer-equipment", to: "/requirements/optimize-impact-on-customer-equipment" },
           { from: "/catalog/cloud/shed-lower-priority-traffic", to: "/requirements/shed-lower-priority-traffic" },
 
           // AI → Architecture (root)
@@ -289,8 +285,6 @@ const config = {
 
           // AI → Architecture: Technology Selection
           { from: "/catalog/ai/efficent-format-for-model-training", to: "/development/data-handling/optimize-data-storage-ai-training" },
-          { from: "/catalog/ai/energy-efficent-framework", to: "/architecture/technology-selection/energy-efficent-framework" },
-          { from: "/catalog/ai/energy-efficent-models", to: "/architecture/technology-selection/energy-efficent-models" },
           { from: "/catalog/ai/right-hardware-type", to: "/architecture/system-topology/efficient-hardware-ai-workloads" },
 
           // AI → Development (root)
@@ -312,7 +306,6 @@ const config = {
           { from: "/catalog/web/avoid-excessive-dom-size", to: "/development/web-performance/avoid-excessive-dom-size" },
           { from: "/catalog/web/enable-text-compression", to: "/development/web-performance/enable-text-compression" },
           { from: "/catalog/web/keep-request-counts-low", to: "/development/web-performance/keep-request-counts-low" },
-          { from: "/catalog/web/minify-web-assets", to: "/development/web-performance/minify-web-assets" },
           { from: "/catalog/web/minimize-main-thread-work", to: "/development/web-performance/minimize-main-thread-work" },
           { from: "/catalog/web/use-server-side-rendering", to: "/development/web-performance/use-server-side-rendering" },
 
