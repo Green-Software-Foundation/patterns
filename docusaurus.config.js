@@ -251,8 +251,10 @@ const config = {
           // Cloud → Operations: Capacity Management
           { from: "/catalog/cloud/match-utilization-requirements-of-vm", to: "/operations/capacity-management/match-utilization-requirements-of-vm" },
           { from: "/catalog/cloud/match-utilization-requirements-with-pre-configured-server", to: "/operations/capacity-management/match-utilization-requirements-with-pre-configured-server" },
-          { from: "/catalog/cloud/optimize-avg-cpu-utilization", to: "/operations/capacity-management/optimize-avg-cpu-utilization" },
-          { from: "/catalog/cloud/optimize-peak-cpu-utilization", to: "/operations/capacity-management/optimize-peak-cpu-utilization" },
+          { from: "/catalog/cloud/optimize-avg-cpu-utilization", to: "/operations/capacity-management/match-cpu-capacity-to-average-and-peak-utilization" },
+          { from: "/catalog/cloud/optimize-peak-cpu-utilization", to: "/operations/capacity-management/match-cpu-capacity-to-average-and-peak-utilization" },
+          { from: "/operations/capacity-management/optimize-avg-cpu-utilization", to: "/operations/capacity-management/match-cpu-capacity-to-average-and-peak-utilization" },
+          { from: "/operations/capacity-management/optimize-peak-cpu-utilization", to: "/operations/capacity-management/match-cpu-capacity-to-average-and-peak-utilization" },
           { from: "/catalog/cloud/scale-down-kubernetes-workloads", to: "/operations/capacity-management/scale-down-kubernetes-workloads" },
           { from: "/catalog/cloud/scale-down-unused-applications", to: "/operations/capacity-management/scale-down-unused-applications" },
           { from: "/catalog/cloud/scale-infrastructure-with-user-load", to: "/operations/capacity-management/scale-infrastructure-with-user-load" },
