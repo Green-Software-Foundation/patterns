@@ -260,10 +260,12 @@ const config = {
           { from: "/catalog/cloud/use-circuit-breaker", to: "/operations/capacity-management/use-circuit-breaker" },
 
           // Cloud → Operations: Resource Lifecycle
-          { from: "/catalog/cloud/delete-unused-storage-resources", to: "/operations/resource-lifecycle/delete-unused-storage-resources" },
+          { from: "/operations/resource-lifecycle/delete-unused-storage-resources", to: "/operations/resource-lifecycle/delete-or-auto-expire-unused-storage" },
+          { from: "/operations/resource-lifecycle/set-retention-policy-on-storage-resources", to: "/operations/resource-lifecycle/delete-or-auto-expire-unused-storage" },
+          { from: "/catalog/cloud/delete-unused-storage-resources", to: "/operations/resource-lifecycle/delete-or-auto-expire-unused-storage" },
           { from: "/catalog/cloud/optimise-storage-resource-utilisation", to: "/operations/resource-lifecycle/optimise-storage-resource-utilisation" },
           { from: "/catalog/cloud/remove-unused-assets", to: "/operations/resource-lifecycle/remove-unused-assets" },
-          { from: "/catalog/cloud/set-retention-policy-on-storage-resources", to: "/operations/resource-lifecycle/set-retention-policy-on-storage-resources" },
+          { from: "/catalog/cloud/set-retention-policy-on-storage-resources", to: "/operations/resource-lifecycle/delete-or-auto-expire-unused-storage" },
 
           // Cloud → Operations (root)
           { from: "/catalog/cloud/scan-for-vulnerabilities", to: "/operations/scan-for-vulnerabilities" },
