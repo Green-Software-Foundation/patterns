@@ -249,8 +249,10 @@ const config = {
           { from: "/catalog/cloud/use-async-instead-of-sync", to: "/development/use-async-instead-of-sync" },
 
           // Cloud → Operations: Capacity Management
-          { from: "/catalog/cloud/match-utilization-requirements-of-vm", to: "/operations/capacity-management/match-utilization-requirements-of-vm" },
-          { from: "/catalog/cloud/match-utilization-requirements-with-pre-configured-server", to: "/operations/capacity-management/match-utilization-requirements-with-pre-configured-server" },
+          { from: "/catalog/cloud/match-utilization-requirements-of-vm", to: "/operations/capacity-management/rightsize-compute-to-match-utilization" },
+          { from: "/catalog/cloud/match-utilization-requirements-with-pre-configured-server", to: "/operations/capacity-management/rightsize-compute-to-match-utilization" },
+          { from: "/operations/capacity-management/match-utilization-requirements-of-vm", to: "/operations/capacity-management/rightsize-compute-to-match-utilization" },
+          { from: "/operations/capacity-management/match-utilization-requirements-with-pre-configured-server", to: "/operations/capacity-management/rightsize-compute-to-match-utilization" },
           { from: "/catalog/cloud/optimize-avg-cpu-utilization", to: "/operations/capacity-management/optimize-avg-cpu-utilization" },
           { from: "/catalog/cloud/optimize-peak-cpu-utilization", to: "/operations/capacity-management/optimize-peak-cpu-utilization" },
           { from: "/catalog/cloud/scale-down-kubernetes-workloads", to: "/operations/capacity-management/scale-down-kubernetes-workloads" },
